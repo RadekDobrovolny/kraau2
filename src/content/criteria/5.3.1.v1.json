@@ -1,0 +1,34 @@
+{
+  "id": "ee8583d2-ec3d-5ef0-ad67-765ae97cdfce",
+  "criterionId": "c3a0ab60-1a79-5444-ab63-ef0b82916b0f",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Během výuky pracuji s odpověďmi žáků a žákyň tak, že na ně navazuji elaborovanou zpětnou vazbou či rozvíjející otázkou.",
+  "mindset": "Jsem přesvědčen/a, že kolegiální spolupráce napomáhá mému dalšímu profesnímu rozvoji, a to i v případě, kdy máme s provázejícím učitelem / provázející učitelkou odlišná pojetí výuky.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 26
+  },
+  "levels": [
+    {
+      "id": "a73b4108-10c6-51be-a08c-cb8cbf484c22",
+      "level": 0,
+      "text": "Na žákovské odpovědi často nereaguji, dál s nimi nepracuji."
+    },
+    {
+      "id": "958fa05b-326f-53f5-a250-bfd9b12be956",
+      "level": 1,
+      "text": "Na žákovské odpovědi reaguji zejména zpětnou vazbou, v níž hodnotím ne/správnost odpovědi."
+    },
+    {
+      "id": "ec2449ae-73c3-5016-a67d-410363e9ce38",
+      "level": 2,
+      "text": "Na žákovské odpovědi se snažím reagovat elaborovanou zpětnou vazbou či rozvíjející otázkou, ale ne vždy se mi to daří."
+    },
+    {
+      "id": "406074b0-3224-5085-a4c1-354a46bc9707",
+      "level": 3,
+      "text": "Elaborovanou zpětnou vazbu a navazující otázky používám jako běžný nástroj, kterým podporuji proces učení žáků a žákyň."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "9cbdbaa1-810d-5082-a0e6-c49df494be27",
+  "criterionId": "7b751729-ed15-5fdf-a20b-00d5ed4be239",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Přizpůsobuji fyzické prostředí třídy tak, abych zajistil/a bezpečí žáků a žákyň.",
+  "mindset": "Jsem přesvědčen/a, že bezpečné prostředí je nezbytným základem učení a je mou odpovědností ho chránit.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 17
+  },
+  "levels": [
+    {
+      "id": "3650ba2b-89de-526f-a5a8-5c080bc1942d",
+      "level": 0,
+      "text": "Fyzické prostředí třídy zatím cíleně nepromýšlím ani nepřizpůsobuji s ohledem na bezpečí žáků a žákyň."
+    },
+    {
+      "id": "691de77f-69e2-5c42-ad3b-5ef3f50eebc6",
+      "level": 1,
+      "text": "Bezpečnost fyzického prostředí řeším až v situacích, kdy dojde k ohrožení."
+    },
+    {
+      "id": "81fd1208-bf60-5a6a-a8b6-7d73ecf51013",
+      "level": 2,
+      "text": "Průběžně upravuji fyzické prostředí třídy s ohledem na bezpečnost žáků a žákyň."
+    },
+    {
+      "id": "f2d91150-0bd5-55f7-a116-2dae422f77e3",
+      "level": 3,
+      "text": "Systematicky promýšlím a předem zajišťuji bezpečné fyzické prostředí třídy. Se žáky a žákyněmi pravidelně diskutuji možná rizika, preventivní opatření i postupy v případě ohrožení."
+    }
+  ]
+}

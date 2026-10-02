@@ -1,0 +1,69 @@
+---
+import {
+  ArrowRight,
+  ArrowLeft,
+  Search,
+  Menu,
+  X,
+  BookOpen,
+  CalendarRange,
+  ShieldCheck,
+  MessagesSquare,
+  MessageCircle,
+  Sprout,
+  Compass,
+  ScanEye,
+  Route,
+  Link,
+  Check,
+  SlidersHorizontal,
+  FileText,
+  Quote,
+  NotebookPen,
+  ExternalLink,
+  ChevronRight,
+  ChevronDown,
+  Layers,
+  Users,
+  Lightbulb,
+  Printer,
+} from 'lucide-astro';
+const icons = {
+  'arrow-right': ArrowRight,
+  'arrow-left': ArrowLeft,
+  search: Search,
+  menu: Menu,
+  x: X,
+  'book-open': BookOpen,
+  'calendar-range': CalendarRange,
+  'shield-check': ShieldCheck,
+  'messages-square': MessagesSquare,
+  'message-circle': MessageCircle,
+  sprout: Sprout,
+  compass: Compass,
+  'scan-eye': ScanEye,
+  route: Route,
+  link: Link,
+  check: Check,
+  filters: SlidersHorizontal,
+  'file-text': FileText,
+  quote: Quote,
+  'notebook-pen': NotebookPen,
+  external: ExternalLink,
+  'chevron-right': ChevronRight,
+  'chevron-down': ChevronDown,
+  layers: Layers,
+  users: Users,
+  lightbulb: Lightbulb,
+  printer: Printer,
+};
+interface Props {
+  name: string;
+  size?: number;
+  class?: string;
+}
+const { name, size = 22, class: className } = Astro.props;
+const Component = icons[name as keyof typeof icons] ?? ArrowRight;
+---
+
+<Component size={size} class={className} aria-hidden="true" />

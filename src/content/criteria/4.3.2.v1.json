@@ -1,0 +1,34 @@
+{
+  "id": "5f0035f2-4a5d-5d5d-abca-a1847a2a8d50",
+  "criterionId": "d6f12f52-f83d-5b95-abe7-93b866183a26",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Ve výuce průběžně reaguji na to, jak se žákům a žákyním daří v procesu učení.",
+  "mindset": "Jsem přesvědčen/a, že žáci a žákyně se učí účinněji, pokud výuka reaguje na jejich aktuální porozumění.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 21
+  },
+  "levels": [
+    {
+      "id": "096a9d34-d687-5fc6-a86b-3f0e90f33e47",
+      "level": 0,
+      "text": "Výuka probíhá dle předem stanoveného plánu bez ohledu na to, jak se žákům a žákyním aktuálně daří v procesu učení."
+    },
+    {
+      "id": "9897fdaa-5ba2-5fc6-a2bc-693b7299efff",
+      "level": 1,
+      "text": "Ve výuce sleduji, jak se žákům a žákyním daří, a své postřehy pojmenovávám nebo sdílím, ale průběh výuky na jejich základě neupravuji."
+    },
+    {
+      "id": "05cbc157-c3cb-51f1-a6be-5b3ea2c28fcf",
+      "level": 2,
+      "text": "Ve výuce reaguji na to, jak se žákům a žákyním daří v procesu učení, ale má reakce jen částečně pomáhá žákům a žákyním v učení (vysvětlím znovu stejně, mírně úpravím aktivitu)."
+    },
+    {
+      "id": "7f9ed37c-3386-5d1e-a8e2-cee7618cad25",
+      "level": 3,
+      "text": "Výuku flexibilně přizpůsobuji tomu, jak se žákům a žákyním aktuálně daří v procesu učení, a volím různé způsoby reakce tak, aby zřetelně podporovaly jejich učení (např. upravím zadání, změním tempo, nabídnu alternativní postup)."
+    }
+  ]
+}

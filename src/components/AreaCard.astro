@@ -1,0 +1,29 @@
+---
+import { repository, areaSummaries, type Area } from '../lib/repository';
+import { areaUrl } from '../lib/urls';
+import { areaIcons } from '../data/editorial';
+import Icon from './Icon.astro';
+interface Props {
+  area: Area;
+}
+const { area } = Astro.props;
+const competencies = repository.listCompetencies(area.id);
+const count = competencies.reduce((sum, c) => sum + repository.listCriteria(c.id).length, 0);
+---
+
+<a class={`area-card ${area.accentKey}`} href={areaUrl(area.code)}>
+  <div class="area-card-top">
+    <span class="area-number">Oblast {area.code.padStart(2, '0')}</span>
+    <span class="area-icon">
+      <Icon name={areaIcons[area.order]} size={25} />
+    </span>
+  </div>
+  <h3>{area.title}</h3>
+  <p>{areaSummaries[area.order]}</p>
+  <div class="card-bottom">
+    <span>
+      {competencies.length} kompetence · {count} kritérií
+    </span>
+    <Icon name="arrow-right" size={19} />
+  </div>
+</a>

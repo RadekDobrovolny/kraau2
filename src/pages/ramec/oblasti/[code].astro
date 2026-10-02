@@ -1,0 +1,66 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CriterionRow from '../../../components/CriterionRow.astro';
+import Icon from '../../../components/Icon.astro';
+import { repository, areaSummaries, type Area } from '../../../lib/repository';
+import { withBase, competencyUrl } from '../../../lib/urls';
+export function getStaticPaths() {
+  return repository.listAreas().map((area) => ({ params: { code: area.code }, props: { area } }));
+}
+interface Props {
+  area: Area;
+}
+const { area } = Astro.props;
+const competencies = repository.listCompetencies(area.id);
+---
+
+<Layout title={area.title} current="ramec">
+  <div class="shell">
+    <Breadcrumbs
+      items={[{ label: 'Rámec', href: withBase('ramec/') }, { label: `Oblast ${area.code}` }]}
+    />
+    <header class="page-head">
+      <p class={`eyebrow ${area.accentKey}`}>
+        Oblast {area.code.padStart(2, '0')} · {competencies.length} kompetence
+      </p>
+      <h1>{area.title}</h1>
+      <p class="lead">{areaSummaries[area.order]}</p>
+    </header>
+    <div class="competencies-grid">
+      {competencies.map((competency) => (
+        <article class="competency-card">
+          <a href={competencyUrl(competency.code)}>
+            <span class="code">{competency.code}</span>
+            <h2>{competency.title}</h2>
+            <Icon name="arrow-right" size={20} />
+          </a>
+          <details id={`competency-${competency.code}`} data-persist-details>
+            <summary>Zobrazit kritéria ({repository.listCriteria(competency.id).length})</summary>
+            {repository.listCriteria(competency.id).map((criterion) => (
+              <CriterionRow criterion={criterion} />
+            ))}
+          </details>
+        </article>
+      ))}
+    </div>
+    <section class="content-section back-link">
+      <h2>Souvislosti této oblasti</h2>
+      <details class="prose">
+        <summary>Text oblasti ze zdrojového rámce</summary>
+        {area.intro.map((text) => (
+          <p>{text}</p>
+        ))}
+      </details>
+      <p class="small back-link">
+        Zdroj: pracovní rámec, strana {area.sourcePage}.{' '}
+        <a href={`${withBase('kompetencni-ramec-ss.pdf')}#page=${area.sourcePage}`}>
+          Otevřít v PDF
+        </a>
+      </p>
+      <a class="text-link" href={withBase('jak-pracovat/')}>
+        Jak s rámcem pracovat <Icon name="arrow-right" size={18} />
+      </a>
+    </section>
+  </div>
+</Layout>

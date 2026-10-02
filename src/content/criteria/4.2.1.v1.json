@@ -1,0 +1,34 @@
+{
+  "id": "3b8dfdec-01c5-5527-ae75-8a44def38e47",
+  "criterionId": "462d4cc9-6c61-5b3d-a587-f89249f01abc",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Formuluji srozumitelná zadání úkolů či výukových situací.",
+  "mindset": "Jsem přesvědčen/a, že jasné instrukce jsou předpokladem pro to, aby se mohl každý žák a každá žákyně úspěšně učit.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 19
+  },
+  "levels": [
+    {
+      "id": "7f012f96-7a71-5f08-a4b0-7037d8aa7886",
+      "level": 0,
+      "text": "Formuluji složitá či nejasná zadání úkolů či výukových situací. Některé informace chybí či jsou nevhodně řazeny, jsou nejednoznačné, nadbytečné či nevhodně načasované."
+    },
+    {
+      "id": "7c320cb5-d783-54c7-ac78-60c3de2abe59",
+      "level": 1,
+      "text": "Formuluji zadání, která jsou složitá nebo nejednoznačná, ale obsahují potřebné informace. Žáci a žákyně jsou schopni s dodatečným vysvětlením pracovat."
+    },
+    {
+      "id": "10b8b8fa-6d25-527c-ab26-b35a7218be73",
+      "level": 2,
+      "text": "Formuluji zadání, která obsahují všechny důležité informace a jsou pro většinu žáků a žákyň srozumitelná."
+    },
+    {
+      "id": "e7b54933-9efd-552a-a745-d3d5bf84309f",
+      "level": 3,
+      "text": "Formuluji zadání, která jsou srozumitelná. Využívám jazyk a způsob zadání, které žákům a žákyním umožňují pracovat bez nutnosti dovysvětlování."
+    }
+  ]
+}

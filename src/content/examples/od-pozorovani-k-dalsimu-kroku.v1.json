@@ -1,0 +1,71 @@
+{
+  "publicId": "od-pozorovani-k-dalsimu-kroku",
+  "title": "Od pozorování k jednomu dalšímu kroku",
+  "type": "reflexe",
+  "duration": "3 min čtení",
+  "summary": "Model reflexe po hodině rozlišuje pozorování, interpretaci a malou změnu pro příště.",
+  "context": {
+    "subject": "Napříč předměty",
+    "school": "Střední škola",
+    "age": "15–18 let",
+    "situation": "Studující a provázející učitel společně mluví o rozložení příležitostí odpovídat během hodiny."
+  },
+  "topics": [
+    "reflexe",
+    "rozvoj",
+    "spoluprace"
+  ],
+  "phases": [
+    "reflexe"
+  ],
+  "questions": [
+    "Které věty jsou popisem a které interpretací?",
+    "Jaký důkaz dovolí posoudit další krok?"
+  ],
+  "body": [
+    {
+      "heading": "Pozorování",
+      "text": "„Během prvních deseti minut odpověděli na sedm otázek čtyři stejní žáci. Ve dvojicích jsem slyšel odpovědi i od žáků, kteří v plénu nepromluvili.“"
+    },
+    {
+      "heading": "Interpretace a nejistota",
+      "text": "„Možná pomohl čas na přípravu odpovědi. Z tohoto pozorování ale nevím, proč ostatní v plénu mlčeli ani zda jejich odpovědi byly věcně správné.“"
+    },
+    {
+      "heading": "Další krok",
+      "text": "„Příště zařadím před první společnou otázkou krátkou individuální přípravu a sdílení ve dvojici. Provázející učitel si všimne, kdo potom dostane a využije příležitost promluvit.“"
+    },
+    {
+      "heading": "Návrat k důkazům",
+      "text": "Po další hodině společně porovnají konkrétní pozorování. Pokud se nic nezmění, prozkoumají jinou možnou příčinu mlčení a zvolí další pokus."
+    }
+  ],
+  "limitations": "Model nezachycuje skutečný reflektivní rozhovor. Jeden výřez ani jeden pokus neprokazuje trvalou změnu profesního jednání.",
+  "links": [
+    {
+      "criterionCode": "6.2.3",
+      "level": 2,
+      "evidence": "Oddíly Pozorování a Interpretace a nejistota.",
+      "commentary": "Reflexe se opírá o konkrétní popis a rozlišuje důkazy od možné interpretace.",
+      "id": "0703c98d-120d-5d6a-af8a-2435ee169094",
+      "criterionRevisionId": "2010dfb7-3ff1-56b4-ad4a-749afcb345ca"
+    },
+    {
+      "criterionCode": "6.2.2",
+      "level": 2,
+      "evidence": "Oddíly Další krok a Návrat k důkazům.",
+      "commentary": "Model spojuje malý rozvojový krok s plánem jeho vyhodnocení. Vazba vyžaduje metodické ověření.",
+      "id": "e51a53d2-fee8-5ce1-a211-22c5a11898d8",
+      "criterionRevisionId": "65e992f1-ed57-5345-af6f-fa47bd7b790e"
+    }
+  ],
+  "id": "f1c9a432-2dea-5315-abbd-a09893ca9429",
+  "revisionId": "4b457416-40ee-570b-ab08-0bd3056aae38",
+  "status": "demo",
+  "author": "Autorský model pro digitální prototyp KRAAU",
+  "rights": {
+    "permissionStatus": "original-demo",
+    "scope": "Modelový text vytvořený pro prototyp; neobsahuje skutečné osobní údaje."
+  },
+  "reviewedAt": null
+}

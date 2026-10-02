@@ -1,0 +1,34 @@
+{
+  "id": "618e4e3d-c0be-5718-a028-876ec30695f2",
+  "criterionId": "02e2f11c-8183-59f9-afdf-01ace299d676",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Vedu tandemovou výuku společně se spolužáky a spolužačkami či provázejícími učiteli a učitelkami, je-li to možné.",
+  "mindset": "Jsem přesvědčen/a, že tandemová výuka a sdílená reflexe podporují můj profesní rozvoj i kvalitu učení žáků a žákyň.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 28
+  },
+  "levels": [
+    {
+      "id": "d1753870-c8d5-5f9a-a361-4a3deb3b0007",
+      "level": 0,
+      "text": "Tandemovou výuku nerealizuji."
+    },
+    {
+      "id": "67e0446d-fc5d-5d1e-ab4f-de5dafa85348",
+      "level": 1,
+      "text": "Realizuji tandemovou výuku, kterou plánujeme a reflektujeme jen částečně. Výuka má převážně podobu dvou samostatných částí, v nichž se střídáme."
+    },
+    {
+      "id": "25a3d7eb-a684-52d6-a848-34255dff0722",
+      "level": 2,
+      "text": "Realizuji tandemovou výuku, kterou společně plánujeme a reflektujeme. V průběhu výuky vědomě využíváme přítomnosti druhého a uplatňujeme různé formy tandemové výuky."
+    },
+    {
+      "id": "6e631e6e-46b4-5def-ad33-f7036397d254",
+      "level": 3,
+      "text": "Realizuji tandemovou výuku, kterou společně plánujeme a reflektujeme, a cíleně volíme takovou formu tandemové výuky, která nejlépe odpovídá potřebám žáků a žákyň ve třídě."
+    }
+  ]
+}

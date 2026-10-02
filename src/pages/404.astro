@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SearchBox from '../components/SearchBox.astro';
+import Icon from '../components/Icon.astro';
+import { withBase } from '../lib/urls';
+---
+
+<Layout title="Stránka nebyla nalezena" noindex>
+  <div class="shell">
+    <header class="page-head" style="padding-top:64px">
+      <p class="eyebrow">404</p>
+      <h1>Tuto stránku jsme nenašli</h1>
+      <p class="lead">
+        Odkaz mohl být neúplný nebo se obsah přesunul. Zkuste najít téma či kód kritéria.
+      </p>
+    </header>
+    <SearchBox id="not-found-search" />
+    <a class="text-link back-link" href={withBase('ramec/')}>
+      Prozkoumat rámec <Icon name="arrow-right" size={18} />
+    </a>
+  </div>
+</Layout>

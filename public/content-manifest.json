@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "contentReleaseId": "kraau-prototype-2-2026-10-02",
+  "frameworkEditionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Kompetenční rámec studentů a studentek učitelství pro střední školy",
+  "versionLabel": "Pracovní verze, 1. 10. 2026",
+  "importedAt": "2026-10-02",
+  "methodologicalApproval": null,
+  "sourceDocument": {
+    "id": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "title": "Kompetenční rámec studentů a studentek učitelství pro střední školy",
+    "file": "kompetencni-ramec-ss.pdf",
+    "edition": "Dodaný pracovní dokument",
+    "fileHash": "d2763f675cb90b87d7240539cf55247b5b9f902a8d94f8dd7dbe150074d38b78",
+    "licenseInfo": "Oprávnění k veřejné distribuci musí potvrdit obsahový garant."
+  },
+  "prototypeNotice": "Import pracovního rámce; redakční doprovodný obsah čeká na metodické ověření.",
+  "counts": {
+    "areas": 6,
+    "competencies": 19,
+    "criteria": 61,
+    "descriptors": 244,
+    "examples": 6,
+    "situations": 22,
+    "transitions": 9,
+    "related": 13,
+    "legacyRoutes": 86
+  }
+}

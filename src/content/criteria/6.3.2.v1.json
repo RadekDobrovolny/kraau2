@@ -1,0 +1,34 @@
+{
+  "id": "bba1b528-ae6f-5347-afca-ab8711f2af24",
+  "criterionId": "928933b7-dea5-579b-a5d6-d9c37a8ec286",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Znám a vědomě používám strategie, které mi pomáhají vyrovnat se se stresem.",
+  "mindset": "Jsem přesvědčen/a, že zvládání vlastního stresu je nezbytným předpokladem pro zajištění psychického a fyzického bezpečí ve třídě.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 30
+  },
+  "levels": [
+    {
+      "id": "fd979614-ff26-5536-ab2c-b466f4d13d09",
+      "level": 0,
+      "text": "Se stresem nijak nepracuji."
+    },
+    {
+      "id": "e2e78e30-26c4-563a-affa-802c8cd1318b",
+      "level": 1,
+      "text": "Na stres reaguji spíše nahodile. Využívám některé strategie zvádání stresu, aniž bych si je plně uvědomoval/a."
+    },
+    {
+      "id": "6fb997ea-13cc-5631-ac93-861aabf8c1d7",
+      "level": 2,
+      "text": "Vědomě zkouším využívat některé ze strategií zvládání stresu, ale nevyužívám je vždy včas či důsledně."
+    },
+    {
+      "id": "72ee88f4-5e07-554b-ad9c-b99592eb6ae3",
+      "level": 3,
+      "text": "Na zátěž reaguji včas. Vědomě využívám strategie zvládání stresu, které jsou pro mě účinné."
+    }
+  ]
+}

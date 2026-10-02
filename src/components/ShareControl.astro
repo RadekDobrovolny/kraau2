@@ -1,0 +1,41 @@
+---
+import Icon from './Icon.astro';
+interface Props {
+  label?: string;
+  canonical?: boolean;
+}
+const { label = 'Kopírovat odkaz', canonical = false } = Astro.props;
+---
+
+<div class="share-control" data-share data-js-only data-canonical={canonical ? 'true' : 'false'}>
+  <button type="button" class="icon-button" title={label} aria-label={label}>
+    <Icon name="link" size={21} />
+  </button>
+  <span class="small" aria-live="polite" data-share-status></span>
+  <input hidden readonly aria-label="Odkaz ke zkopírování" data-share-fallback />
+</div>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-share]').forEach((control) => {
+    control.querySelector('button')?.addEventListener('click', async () => {
+      const url = new URL(location.href);
+      url.searchParams.delete('role');
+      if (control.dataset.canonical === 'true') {
+        url.search = '';
+        url.hash = '';
+      }
+      const status = control.querySelector<HTMLElement>('[data-share-status]')!;
+      const fallback = control.querySelector<HTMLInputElement>('[data-share-fallback]')!;
+      try {
+        await navigator.clipboard.writeText(url.href);
+        status.textContent = 'Odkaz zkopírován';
+        fallback.hidden = true;
+      } catch {
+        fallback.hidden = false;
+        fallback.value = url.href;
+        fallback.focus();
+        fallback.select();
+        status.textContent = 'Označený odkaz můžete zkopírovat.';
+      }
+    });
+  });
+</script>

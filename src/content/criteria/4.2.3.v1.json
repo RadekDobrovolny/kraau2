@@ -1,0 +1,34 @@
+{
+  "id": "37bc9f01-dd64-54f5-a657-10e78716e982",
+  "criterionId": "3ae5b021-8874-56b9-a047-1a779c5f548f",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Vytvářím příležitosti pro produktivní zapojení žáků a žákyň.",
+  "mindset": "Jsem přesvědčen/a, že aktivní zapojení všech žáků a žákyň do výuky podporuje jejich učení",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 20
+  },
+  "levels": [
+    {
+      "id": "cce1b3b5-3e27-51fb-ab68-4b7f6dbcfe29",
+      "level": 0,
+      "text": "Během výukové komunikace zapojuji žáky a žákyně zejména krátkými odpověďmi, jimiž ověřuji, zda si pamatují požadované učivo."
+    },
+    {
+      "id": "2151cf7a-4b3d-5c74-add6-11a534386397",
+      "level": 1,
+      "text": "Během výukové komunikace zapojuji žáky a žákyně zejména odpověďmi, jimiž ověřuji, zda si pamatují požadované učivo. Zařazuji však i otázky, které vedou k delším odpovědím."
+    },
+    {
+      "id": "112bac1c-56f2-598b-a1d9-6d570677903d",
+      "level": 2,
+      "text": "Do výukové komunikace zapojuji žáky a žákyně zejména (mnohdy delšími) odpověďmi vyšší myšlenkové náročnosti."
+    },
+    {
+      "id": "28c2bda2-5858-5689-a23f-04e62cc6a49f",
+      "level": 3,
+      "text": "Do výukové komunikace zapojuji žáky a žákyně delšími odpověďmi vyšší myšlenkové náročnosti. Vytvářím příležitosti pro to, aby na sebe žáci a žákyně reagovali navzájem."
+    }
+  ]
+}

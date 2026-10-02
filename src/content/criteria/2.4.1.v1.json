@@ -1,0 +1,34 @@
+{
+  "id": "b97381ae-ef6e-5273-abba-3fc070c2c2d8",
+  "criterionId": "76ec48a7-2bbc-55c9-a453-a8781da17caf",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Plánuji rozvržení času tak, aby výuka byla pro mě i pro žáky a žákyně časově účelná a efektivní.",
+  "mindset": "Jsem přesvědčen/a, že efektivní výuka vyžaduje vědomou práci s časem tak, aby odpovídal významu jednotlivých aktivit pro učení žáků a žákyň.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 13
+  },
+  "levels": [
+    {
+      "id": "292ccebd-fbe5-5700-ab45-9ac4c995867f",
+      "level": 0,
+      "text": "Časový plán výuky není realizovatelný, plánované aktivity nelze ve vyučovací hodině stihnout, případně jimi nelze naplnit celou hodinu. Nepočítám s možným odchýlením od časového plánu."
+    },
+    {
+      "id": "84816f5c-6637-54bc-af13-3001e596aadc",
+      "level": 1,
+      "text": "Časový plán jako celek odpovídá délce vyučovací hodiny, ale časové rozložení jednotlivých aktivit neodráží jejich význam ve vztahu k učení žáků a žákyň. Nepočítám s možným odchýlením od časového plánu."
+    },
+    {
+      "id": "7d244fe6-d252-5298-a84a-773c7809de48",
+      "level": 2,
+      "text": "Časový plán jako celek odpovídá délce vyučovací hodiny, časové rozložení většiny aktivit odráží jejich význam ve vztahu k učení žáků a žákyň. Plán nabízí prostor pro flexibilitu."
+    },
+    {
+      "id": "ccb4473a-9cd6-5a1d-a3a3-457d467ba9e1",
+      "level": 3,
+      "text": "Časový plán jako celek odpovídá délce vyučovací hodiny a časové rozložení jednotlivých aktivit odráží jejich význam ve vztahu k učení žáků a žákyň. Plán nabízí prostor pro flexibilitu."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Icon from '../../components/Icon.astro';
+import { manifest } from '../../lib/repository';
+import { withBase } from '../../lib/urls';
+---
+
+<Layout title="Zdrojové dokumenty">
+  <div class="shell">
+    <Breadcrumbs items={[{ label: 'Zdrojové dokumenty' }]} />
+    <header class="page-head">
+      <p class="eyebrow">Texty rámce a jejich původ</p>
+      <h1>Zdrojové dokumenty</h1>
+      <p class="lead">
+        Zdrojový dokument zůstává dostupný vedle digitální verze. U každého kritéria najdete odkaz
+        na konkrétní stránku.
+      </p>
+    </header>
+    <section class="source-document">
+      <img
+        src={withBase('ramec-titulni-strana.png')}
+        width="160"
+        height="226"
+        alt="Titulní strana Kompetenčního rámce studentů a studentek učitelství pro střední školy"
+      />
+      <div>
+        <p class="eyebrow">Dodaný pracovní dokument</p>
+        <h2>{manifest.title}</h2>
+        <p class="small">{manifest.versionLabel} · převzato 2. října 2026</p>
+        <p class="prose">
+          Podklad pro všech šest oblastí, devatenáct kompetencí, 61 kritérií, jejich deskriptory a
+          mindsety. Definitivní vydání a oprávnění k veřejné distribuci musí potvrdit obsahový
+          garant.
+        </p>
+        <a class="button secondary" href={withBase('kompetencni-ramec-ss.pdf')}>
+          <Icon name="file-text" size={18} />
+          Otevřít zdrojové PDF
+        </a>
+      </div>
+    </section>
+    <section class="content-section back-link prose">
+      <h2>Vztah k národnímu rámci</h2>
+      <p>
+        Dodaný dokument navazuje na národní Kompetenční rámec absolventa a absolventky učitelství a
+        rozpracovává jej pro studující učitelství pro střední školy. Podrobnosti jsou ve zdrojovém
+        PDF na stranách 2 a 3.
+      </p>
+      <h2>Redakční doprovod</h2>
+      <p>
+        Modelové situace a reflexní průvodci vznikly pro tento digitální prototyp. Jsou označené a
+        mají vlastní stav metodického ověření.
+      </p>
+    </section>
+  </div>
+</Layout>

@@ -1,0 +1,34 @@
+{
+  "id": "dfd63057-d2f5-5b0d-a31b-adbff75825d3",
+  "criterionId": "5f8b6bb1-31ba-5afd-a87d-9be2a1e56863",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Vedu žáky a žákyně k budování pozitivních vrstevnických vztahů: reflektuji s žáky a žákyněmi komunikační normy, podporuji interakci napříč třídou, oceňuji prosociální chování; s prvky konkurence a soutěživosti při výuce nakládám tak, aby nebyla narušena spolupráce a vzájemná podpora ve třídě.",
+  "mindset": "Jsem přesvědčen/a, že pozitivní vztahy mezi žáky a žákyněmi podporují jejich učení, a proto je při výuce cíleně podporuji.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 15
+  },
+  "levels": [
+    {
+      "id": "58824ce1-1e76-51d1-a6dd-9dda4c9755e2",
+      "level": 0,
+      "text": "Zatím se mi nedaří vhodně uplatňovat postupy k budování pozitivních vztahů mezi žáky a žákyněmi."
+    },
+    {
+      "id": "5da44bdb-fb40-5998-ab83-023f2289e2d6",
+      "level": 1,
+      "text": "Zatím vhodně uplatňuji pouze některé z postupů k budování pozitivních vztahů mezi žáky a žákyněmi."
+    },
+    {
+      "id": "028d8038-ae3e-5b1a-a3f8-fcf374d27202",
+      "level": 2,
+      "text": "Vhodně uplatňuji širší repertoár postupů, jimiž podporuji pozitivní vrstevnické vztahy mezi žáky a žákyněmi."
+    },
+    {
+      "id": "38d751ce-7421-57f1-a764-9b599020f871",
+      "level": 3,
+      "text": "Systematicky a promyšleně uplatňuji postupy, díky nimž mezi žáky a žákyněmi vznikají a udržují se pozitivní vrstevnické vztahy."
+    }
+  ]
+}

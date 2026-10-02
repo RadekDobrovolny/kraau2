@@ -1,0 +1,40 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+---
+
+<Layout title="Přístupnost a soukromí">
+  <div class="shell">
+    <Breadcrumbs items={[{ label: 'Přístupnost a soukromí' }]} />
+    <header class="page-head">
+      <h1>Přístupnost a soukromí</h1>
+    </header>
+    <div class="prose">
+      <h2>Veřejný obsah bez účtu</h2>
+      <p>
+        Pro prohlížení rámce není potřeba přihlášení. Web neukládá osobní poznámky, sebehodnocení
+        ani údaje o žácích. Neobsahuje analytické ani reklamní nástroje.
+      </p>
+      <h2>Co zůstává v prohlížeči</h2>
+      <p>
+        Volitelná role se ukládá pouze v tomto prohlížeči. Volbou „Bez výběru role“ ji vymažete.
+        Rozbalení přehledu se pamatuje po dobu návštěvy. Pokud ukládání není dostupné, základní
+        obsah funguje dál.
+      </p>
+      <p>
+        Dotaz a potvrzené filtry jsou součástí adresy hledání. Mohou se objevit v historii
+        prohlížeče a provozních záznamech hostingu. Do hledání proto zadávejte témata a situace bez
+        jmen či jiných osobních údajů.
+      </p>
+      <h2>Přístupnost</h2>
+      <p>
+        Obsah rámce lze číst bez JavaScriptu. Interaktivní hledání, porovnávání a volba role ho
+        potřebují. V takovém případě zůstává dostupný úplný přehled a všechny čtyři deskriptory.
+      </p>
+      <p>
+        Web umožňuje ovládání klávesnicí, nabízí odkaz pro přeskočení navigace a respektuje omezení
+        animací. Podoba pracovního prototypu se dále ověřuje; nejde o prohlášení plné shody s WCAG.
+      </p>
+    </div>
+  </div>
+</Layout>

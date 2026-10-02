@@ -1,0 +1,23 @@
+{
+  "id": "aa561d99-f508-57b7-aafb-1e935ec474fc",
+  "criterionRevisionId": "e1c5465c-bdfe-5519-a9d7-322f758a7447",
+  "fromLevel": 0,
+  "toLevel": 1,
+  "status": "demo",
+  "summaryPoints": [
+    "U některých nastavených cílů už lze zjistit, zda jich žáci dosahují."
+  ],
+  "observationQuestion": "U kterého cíle lze popsat pozorovatelný důkaz jeho dosažení?",
+  "highlights": [
+    {
+      "descriptorId": "8afa6044-c299-5a9c-aed9-3395ded82d8f",
+      "phrase": "není možné ověřit",
+      "occurrence": 0
+    },
+    {
+      "descriptorId": "3993f196-b43d-5a88-aad8-bf9c10a7a34f",
+      "phrase": "u některých lze ověřit",
+      "occurrence": 0
+    }
+  ]
+}

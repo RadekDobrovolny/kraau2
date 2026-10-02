@@ -1,0 +1,34 @@
+{
+  "id": "e6e7e54f-9b49-5ade-abc5-556688fbc56e",
+  "criterionId": "c34da8cd-3bf9-5070-ae47-baed6f809f85",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Formativně pracuji s chybou a vedu k tomu také žáky a žákyně.",
+  "mindset": "Jsem přesvědčen/a, že chyba je přirozenou a užitečnou součástí procesu učení.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 26
+  },
+  "levels": [
+    {
+      "id": "01a3911b-39d6-5738-aad1-ee77c2b4185d",
+      "level": 0,
+      "text": "Chybné odpovědi často přecházím."
+    },
+    {
+      "id": "890356f0-ddea-599d-a4f5-1e0c35f605d4",
+      "level": 1,
+      "text": "Chyby sám/sama opravuji, žáky a žákyně do práce s chybou nezapojuji."
+    },
+    {
+      "id": "8fd2239e-b10d-5293-a0d9-24f19a59ac23",
+      "level": 2,
+      "text": "Na chyby upozorňuji a poskytuji žákům a žákyním příležitost, aby je sami opravili. S chybou pracuji jako s užitečnou součástí procesu učení."
+    },
+    {
+      "id": "b4af9ba7-f969-507c-a65f-15b61ed087c3",
+      "level": 3,
+      "text": "V případě chyby vedu žáky a žákyně k tomu, aby je sami identifikovali, opravili a využili jako příležitost k učení."
+    }
+  ]
+}

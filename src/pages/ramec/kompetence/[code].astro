@@ -1,0 +1,86 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CriterionRow from '../../../components/CriterionRow.astro';
+import ExampleCard from '../../../components/ExampleCard.astro';
+import Icon from '../../../components/Icon.astro';
+import { repository, type Competency } from '../../../lib/repository';
+import { withBase, areaUrl, competencyUrl } from '../../../lib/urls';
+export function getStaticPaths() {
+  return repository
+    .listCompetencies()
+    .map((competency) => ({ params: { code: competency.code }, props: { competency } }));
+}
+interface Props {
+  competency: Competency;
+}
+const { competency } = Astro.props;
+const area = repository.listAreas().find((a) => a.id === competency.areaId)!;
+const criteria = repository.listCriteria(competency.id);
+const examples = repository
+  .listExamples()
+  .filter((e) => e.links.some((l) => criteria.some((c) => c.publicCode === l.criterionCode)));
+const all = repository.listCompetencies();
+const position = all.findIndex((c) => c.id === competency.id);
+---
+
+<Layout title={`${competency.code} ${competency.title}`} current="ramec">
+  <div class="shell">
+    <Breadcrumbs
+      items={[
+        { label: 'Rámec', href: withBase('ramec/') },
+        { label: area.title, href: areaUrl(area.code) },
+        { label: `Kompetence ${competency.code}` },
+      ]}
+    />
+    <header class="page-head">
+      <p class="eyebrow">
+        Kompetence {competency.code} · {area.title}
+      </p>
+      <h1>{competency.title}</h1>
+      <p class="lead">
+        {criteria.length} kritérií profesního jednání. Vyberte to, ke kterému se chcete vrátit ve
+        své praxi.
+      </p>
+    </header>
+    <div class="criterion-list">
+      {criteria.map((criterion) => (
+        <CriterionRow criterion={criterion} />
+      ))}
+    </div>
+    {examples.length > 0 && (
+      <section class="content-section back-link">
+        <h2>Ukázky k této kompetenci</h2>
+        <div class="examples-grid">
+          {examples.map((example) => (
+            <ExampleCard example={example} />
+          ))}
+        </div>
+      </section>
+    )}
+    <nav class="criterion-nav" aria-label="Další kompetence">
+      <div>
+        {all[position - 1] && (
+          <a href={competencyUrl(all[position - 1].code)}>
+            <Icon name="arrow-left" size={20} />
+            <div>
+              <small>Předchozí kompetence</small>
+              {all[position - 1].code} · {all[position - 1].title}
+            </div>
+          </a>
+        )}
+      </div>
+      <div>
+        {all[position + 1] && (
+          <a href={competencyUrl(all[position + 1].code)}>
+            <div>
+              <small>Další kompetence</small>
+              {all[position + 1].code} · {all[position + 1].title}
+            </div>
+            <Icon name="arrow-right" size={20} />
+          </a>
+        )}
+      </div>
+    </nav>
+  </div>
+</Layout>

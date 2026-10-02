@@ -1,0 +1,34 @@
+{
+  "id": "0bc19775-42ab-5bda-aea2-4ee0b4bfb5b5",
+  "criterionId": "7de5be45-0e09-541f-a4f2-d385442a69b0",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Individualizuji plán výuky tak, aby můj plán zohledňoval různorodé individuální potřeby žáků a žákyň.",
+  "mindset": "Jsem přesvědčen/a, že promyšlená individualizace výuky může přispět ke snižování vzdělávacích nerovností a k vytváření rovných příležitostí pro učení všech žáků a žákyň.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 13
+  },
+  "levels": [
+    {
+      "id": "28814b12-8fc0-566d-aeb1-edfb8b1ba107",
+      "level": 0,
+      "text": "Plánování výuky končím přípravou jednotného plánu pro celou třídu."
+    },
+    {
+      "id": "1d72eb62-7b15-57c3-a31a-ef1b73d0cd5c",
+      "level": 1,
+      "text": "Po naplánování vyučovací hodiny plán upravuji pro žáky a žákyně se SVP podle doporučení, ale ne vždy funkčně."
+    },
+    {
+      "id": "4c0d08dc-4d19-5c93-ab1a-2b57f5427135",
+      "level": 2,
+      "text": "Po naplánování vyučovací hodiny plán funkčně upravuji pro žáky a žákyně se SVP podle doporučení."
+    },
+    {
+      "id": "dc5515d8-e8b7-5c31-a456-31ac1c69a0e8",
+      "level": 3,
+      "text": "Po naplánování vyučovací hodiny plán funkčně upravuji nejen dle potřeb žáků a žákyň se SVP, ale i podle potřeb a zájmů dalších žáků ve třídě."
+    }
+  ]
+}

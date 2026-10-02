@@ -1,0 +1,34 @@
+{
+  "id": "f3baa1b9-ca01-5bbf-a64b-c28619d51e58",
+  "criterionId": "056ae8f4-4915-54be-aae9-da93a37cb0e6",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Reaguji na fyzické či psychické znaky či projevy u žáků a žákyň, které mohou naznačovat, že u nich dochází k ohrožení jejich zdravého vývoje.",
+  "mindset": "Jsem si vědom/a, že součástí mé role je všímat si psychického i fyzického stavu žáků a žákyň a v případě potřeby vyhledat odbornou podporu.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 16
+  },
+  "levels": [
+    {
+      "id": "050673ec-a6dc-572d-aa1c-ad0a5e390bdb",
+      "level": 0,
+      "text": "Nevšímám si znaků či projevů, které mohou naznačovat ohrožení zdravého vývoje žáků a žákyň."
+    },
+    {
+      "id": "5f1d34f8-d38d-52ac-a3b9-48ef01561830",
+      "level": 1,
+      "text": "Registruji znaky či projevy možného ohrožení zdravého vývoje žáků a žákyň, ale na situaci nereaguji nebo ji řeším pouze minimálně. Podporu ze strany kolegů či školního poradenského pracoviště ve většině případů nevyhledávám."
+    },
+    {
+      "id": "ac0c3bc6-fa40-5d18-aaa2-4bcf0c573a9c",
+      "level": 2,
+      "text": "Registruji znaky či projevy možného ohrožení zdravého vývoje žáků a žákyň a snažím se na ně reagovat. Moje reakce je spíše intuitivní a ne vždy plně odpovídá mým profesním kompetencím. Ve většině případů již vyhledávám podporu ze strany kolegů či školního poradenského pracoviště."
+    },
+    {
+      "id": "de6f9bf3-fa65-5667-ac1e-8b047f538594",
+      "level": 3,
+      "text": "Registruji znaky či projevy možného ohrožení zdravého vývoje žáků a žákyň, situaci vyhodnocuji v kontextu své role a reaguji na ni přiměřeně svým profesním kompetencím. Aktivně a včas zapojuji relevantní podporu (provázející učitel, třídní učitel, školní poradenské pracoviště) a jednám s ohledem na bezpečí a nejlepší zájem žáka či žákyně."
+    }
+  ]
+}

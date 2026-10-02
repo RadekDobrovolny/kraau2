@@ -1,0 +1,43 @@
+{
+  "name": "kraau-practice-framework",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "check": "astro check",
+    "validate": "node --import tsx scripts/validate-content.ts",
+    "build": "npm run validate && astro check && astro build && node --import tsx scripts/verify-build.ts",
+    "preview": "astro preview --host 127.0.0.1",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "import:framework": "node scripts/import-framework.mjs",
+    "source:check": "python3 scripts/extract-source.py --check",
+    "release:check": "node --import tsx scripts/check-release.ts"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.4.0",
+    "@fontsource-variable/source-sans-3": "^5.3.0",
+    "@fontsource-variable/source-serif-4": "^5.3.0",
+    "astro": "5.18.2",
+    "lucide-astro": "^0.468.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.0",
+    "zod-to-json-schema": "^3.24.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.4",
+    "@axe-core/playwright": "^4.10.0",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "parse5": "^7.3.0",
+    "prettier": "^3.9.9",
+    "prettier-plugin-astro": "^1.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "4e5367db-ce47-5543-a348-6ffb8f10fb99",
+  "criterionId": "5b1372e6-0de2-5bd1-a793-07dbc20a8628",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Vytvářím příležitosti pro to, aby se žáci a žákyně zapojovali do výukové komunikace.",
+  "mindset": "Jsem přesvědčen/a, že každý žák a každá žákyně se mohou učit účinněji, pokud mají příležitost aktivně se zapojit do výukové komunikace.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 19
+  },
+  "levels": [
+    {
+      "id": "07aa9165-f3a0-5d00-a8de-b5edc02a73f9",
+      "level": 0,
+      "text": "Během výuky komunikuji dominantně já, žáci a žákyně mají jen ojediněle příležitost participovat, jinak spíše naslouchají."
+    },
+    {
+      "id": "1382ea3f-d716-5143-a403-05070c60a7e0",
+      "level": 1,
+      "text": "Do výukové komunikace zapojuji jen některé z žáků a žákyň, typicky ty, kterým se v předmětu daří, nebo ty, kteří nedávají pozor."
+    },
+    {
+      "id": "17477d88-a49b-5f07-a0b7-30cc3b4c7ff5",
+      "level": 2,
+      "text": "Do výukové komunikace zapojuji značnou část žáků a žákyň."
+    },
+    {
+      "id": "c59c1059-6ebf-598c-a211-12ead71d330a",
+      "level": 3,
+      "text": "Do výukové komunikace zapojuji zančnou část žáků a žákyň. Všímám si tzv. tichých žáků a žákyň a snažím se najít způsob, jak je zapojit."
+    }
+  ]
+}

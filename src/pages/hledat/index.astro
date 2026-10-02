@@ -1,0 +1,35 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import SearchApp from '../../components/SearchApp';
+import { situations } from '../../lib/repository';
+import { searchOptions } from '../../lib/search-options';
+import { withBase, searchUrl } from '../../lib/urls';
+---
+
+<Layout title="Hledat v rámci" current="hledat" noindex>
+  <div class="shell">
+    <Breadcrumbs items={[{ label: 'Hledat' }]} />
+    <header class="page-head">
+      <p class="eyebrow">Situace, téma nebo kód kritéria</p>
+      <h1>Najděte oporu pro svou výuku</h1>
+    </header>
+    <div data-js-only>
+      <SearchApp
+        client:load
+        indexUrl={withBase('search-index.json')}
+        frameworkUrl={withBase('ramec/')}
+        options={searchOptions()}
+        suggestions={situations
+          .slice(0, 12)
+          .map((s) => ({ title: s.title, url: searchUrl(s.title) }))}
+      />
+    </div>
+    <div class="notice" data-nojs>
+      <p>
+        Hledání vyžaduje JavaScript. Všechny texty jsou dostupné v{' '}
+        <a href={`${withBase('ramec/')}#uplny-prehled`}>úplném přehledu rámce</a>.
+      </p>
+    </div>
+  </div>
+</Layout>

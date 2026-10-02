@@ -1,0 +1,9 @@
+PRD.md
+src/data/imported/
+src/content/
+node_modules/
+dist/
+.astro/
+public/
+test-results/
+playwright-report/

@@ -1,0 +1,71 @@
+{
+  "publicId": "zpetna-vazba-k-argumentu",
+  "title": "Zpětná vazba, se kterou lze pracovat",
+  "type": "artefakt",
+  "duration": "3 min čtení",
+  "summary": "Dvě podoby komentáře k modelovému žákovskému textu a otázka, co s nimi může žák udělat.",
+  "context": {
+    "subject": "Český jazyk",
+    "school": "Střední škola",
+    "age": "15–18 let",
+    "situation": "Žák napsal krátký argumentační odstavec. Kritériem je podpořit tvrzení konkrétním důkazem a vysvětlit jeho souvislost."
+  },
+  "topics": [
+    "zpetna-vazba",
+    "hodnoceni"
+  ],
+  "phases": [
+    "realizace",
+    "reflexe"
+  ],
+  "questions": [
+    "Které části výkonu komentář pojmenovává?",
+    "Je další krok pro žáka srozumitelný?"
+  ],
+  "body": [
+    {
+      "heading": "Modelový žákovský odstavec",
+      "text": "„Škola by měla začínat později, protože by to bylo lepší. Řada spolužáků ráno nestíhá. Pozdější začátek by proto mohl pomoci.“"
+    },
+    {
+      "heading": "Obecný komentář",
+      "text": "„Dobrý začátek. Argumentaci ještě trochu vylepši.“"
+    },
+    {
+      "heading": "Popisný komentář",
+      "text": "„Tvoje stanovisko je v první větě jasné. Ve druhé větě uvádíš zkušenost spolužáků, ale zatím nevysvětluješ, jak souvisí s učením. Doplň konkrétní doklad a větu, která vysvětlí, proč tvé tvrzení podporuje.“"
+    },
+    {
+      "heading": "Navazující činnost",
+      "text": "Žák vybere jednu změnu, kterou v textu provede. Poté porovná obě verze a označí, kde se jeho argument stal konkrétnějším."
+    }
+  ],
+  "limitations": "Komentář sám nedokládá, že mu žák porozuměl nebo jej využil. Ukázka neobsahuje skutečnou žákovskou práci.",
+  "links": [
+    {
+      "criterionCode": "5.1.1",
+      "level": 3,
+      "evidence": "Oddíl Popisný komentář: pojmenování části výkonu a dalšího kroku.",
+      "commentary": "Komentář se vztahuje ke konkrétním částem práce a nabízí možnost jejího dalšího posunu.",
+      "id": "01792ae6-ddf3-5665-a869-15d05e7655e6",
+      "criterionRevisionId": "f35df396-4f32-5a79-ae1b-ef9f8e76f51d"
+    },
+    {
+      "criterionCode": "5.1.2",
+      "level": 2,
+      "evidence": "Kontext a oddíl Popisný komentář.",
+      "commentary": "Zpětná vazba je vztažena ke kritériu důkazu a jeho souvislosti s tvrzením. Výřez neumožňuje posoudit pravidelnost této praxe.",
+      "id": "f45570a7-2e38-5157-a240-42149ba5d30d",
+      "criterionRevisionId": "a7f4557e-4292-5f63-a058-e5da87a65b50"
+    }
+  ],
+  "id": "69d05a55-a54c-5af4-a4ae-38847fa1be9e",
+  "revisionId": "42e475f7-a742-53df-aa32-b7e4dc917e75",
+  "status": "demo",
+  "author": "Autorský model pro digitální prototyp KRAAU",
+  "rights": {
+    "permissionStatus": "original-demo",
+    "scope": "Modelový text vytvořený pro prototyp; neobsahuje skutečné osobní údaje."
+  },
+  "reviewedAt": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ac3e35b1-d325-5a3d-ae03-b73a0e2a4efa",
+  "criterionRevisionId": "f35df396-4f32-5a79-ae1b-ef9f8e76f51d",
+  "fromLevel": 1,
+  "toLevel": 2,
+  "status": "demo",
+  "summaryPoints": [
+    "Popisná zpětná vazba se objevuje pravidelně.",
+    "Komentář pojmenovává konkrétní části výkonu a to, co se daří nebo nedaří."
+  ],
+  "observationQuestion": "Který konkrétní důkaz z práce žáka je v komentáři pojmenován?",
+  "highlights": [
+    {
+      "descriptorId": "3336ddfb-a6dc-5897-ac95-53fe851305d3",
+      "phrase": "jen příležitostně",
+      "occurrence": 0
+    },
+    {
+      "descriptorId": "e8e11996-a10c-51dd-a1e6-613a98ea4ed3",
+      "phrase": "pravidelně",
+      "occurrence": 0
+    }
+  ]
+}

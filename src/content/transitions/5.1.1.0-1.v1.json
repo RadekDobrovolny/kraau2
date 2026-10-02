@@ -1,0 +1,24 @@
+{
+  "id": "0135c182-057a-592f-ad3d-5242ca369f08",
+  "criterionRevisionId": "f35df396-4f32-5a79-ae1b-ef9f8e76f51d",
+  "fromLevel": 0,
+  "toLevel": 1,
+  "status": "demo",
+  "summaryPoints": [
+    "Obecné hodnocení začíná doplňovat popis konkrétních aspektů práce.",
+    "V popisu úrovně 1 je tato praxe zatím příležitostná."
+  ],
+  "observationQuestion": "Co se žák z komentáře dozví o své práci?",
+  "highlights": [
+    {
+      "descriptorId": "2c374f71-26cb-5f99-a2e5-a9f4ab3d370e",
+      "phrase": "obecné hodnocení",
+      "occurrence": 0
+    },
+    {
+      "descriptorId": "3336ddfb-a6dc-5897-ac95-53fe851305d3",
+      "phrase": "konkrétním aspektům práce",
+      "occurrence": 0
+    }
+  ]
+}

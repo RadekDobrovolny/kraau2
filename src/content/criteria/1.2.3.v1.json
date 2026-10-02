@@ -1,0 +1,34 @@
+{
+  "id": "e4772150-62f2-5e1f-a95b-1639214b0e79",
+  "criterionId": "942a588c-13bc-5545-a3bf-2eb36fbd7b35",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "OBSAH VYUČOVANÉHO OBORU ZPROSTŘEDKOVÁVÁM S OHLEDEM NA TO, CO JIŽ ŽÁCI A ŽÁKYNĚ O DANÉM UČIVU VĚDÍ A S JAKOU ZKUŠENOSTÍ PŘICHÁZEJÍ.",
+  "mindset": "Jsem přesvědčen/a, že to, s čím žáci a žákyně o učivu do výuky přicházejí – jak o něm přemýšlejí a jak mu rozumějí – ovlivňuje jejich další učení, a proto s tím ve výuce pracuji.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 8
+  },
+  "levels": [
+    {
+      "id": "d7de3871-2e84-5d0e-a959-96c67a0852b2",
+      "level": 0,
+      "text": "Při uvedení tématu nezjišťuji, co žáci a žákyně o učivu vědí a s jakou zkušeností přicházejí."
+    },
+    {
+      "id": "6d9992ff-1055-5ce8-a7a1-9e88092e57e1",
+      "level": 1,
+      "text": "Při uvedení tématu zjišťuji, co žáci a žákyně o učivu vědí a s jakou zkušeností přicházejí, ale ve výuce s tím dále nepracuji."
+    },
+    {
+      "id": "d017bec6-ebe0-560a-acc2-cc6bfe149a5e",
+      "level": 2,
+      "text": "Při uvedení tématu zjišťuji, co žáci a žákyně o učivu vědí a s jakou zkušeností přicházejí, a na některé podněty poté odkazuji."
+    },
+    {
+      "id": "5aab81cf-7ca6-578c-abf1-a0c18d652096",
+      "level": 3,
+      "text": "Při uvedení tématu zjišťuji, co žáci a žákyně o učivu vědí a s jakou zkušeností přicházejí, a ve výuce s těmito podněty průběžně pracuji."
+    }
+  ]
+}

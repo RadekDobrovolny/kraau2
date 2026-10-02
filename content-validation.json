@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "release": "kraau-prototype-2-2026-10-02",
+  "counts": {
+    "areas": 6,
+    "competencies": 19,
+    "criteria": 61,
+    "descriptors": 244,
+    "examples": 6,
+    "situations": 22,
+    "transitions": 9,
+    "related": 13,
+    "legacyRoutes": 86
+  },
+  "sourceHash": "d2763f675cb90b87d7240539cf55247b5b9f902a8d94f8dd7dbe150074d38b78",
+  "validation": "passed",
+  "methodologicalApproval": null,
+  "limitations": [
+    "61 imported criterion revisions need methodological approval.",
+    "6 synthetic examples and their links need methodological review.",
+    "22 situation mappings and 13 related links are editorial demonstrations.",
+    "Only 9 of 183 adjacent transition comments are demonstrated; none are approved.",
+    "GitHub Pages supports HTML redirects, not configurable HTTP 301/410 responses."
+  ]
+}

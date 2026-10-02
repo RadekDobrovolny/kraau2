@@ -1,0 +1,34 @@
+{
+  "id": "c26f2868-3b45-53f3-a3a5-95fef1b82c40",
+  "criterionId": "9c39ffd5-b44c-5476-a0db-867714bc7cf5",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Metody výuky plánuji tak, aby žáci a žákyně při výuce sami bádali, experimentovali, nacházeli souvislosti.",
+  "mindset": "Jsem přesvědčen/a, že žáci a žákyně mohou k porozumění mnoha poznatkům dospět vlastní aktivní prací a že tyto procesy jsou významnou součástí učení.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 11
+  },
+  "levels": [
+    {
+      "id": "a053e1da-631f-5cbf-aa11-854a362d5ab7",
+      "level": 0,
+      "text": "Do plánu výuky prozatím nezahrnuji aktivity, v jejichž rámci žáci a žákyně při výuce sami bádají, experimentují, nacházejí souvislosti."
+    },
+    {
+      "id": "b0762c19-de91-52dc-a630-bb8bea9e46e9",
+      "level": 1,
+      "text": "Plán výuky doplňuji jednoduchými aktivitami, v jejichž rámci žáci a žákyně mohou využít příležitost samostatně bádat, experimentovat a nacházet souvislosti."
+    },
+    {
+      "id": "25430418-6f45-562a-a82a-aa676026c72f",
+      "level": 2,
+      "text": "Do plánu výuky zahrnuji aktivity vedoucí žáky a žákyně k tomu, aby bádali, experimentovali a nacházeli souvislosti."
+    },
+    {
+      "id": "378747d2-cfcf-59de-aea3-6991c7f551d6",
+      "level": 3,
+      "text": "Do plánu výuky zahrnuji funkčně navržené aktivity vedoucí žáky a žákyně k tomu, aby prostřednictvím bádání, experimentování a hledání souvislostí řešili smysluplné otázky nebo problémy a učili se z nich vyvozovat závěry."
+    }
+  ]
+}

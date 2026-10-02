@@ -1,0 +1,34 @@
+{
+  "id": "3273f1de-7d00-5563-ac7b-ac8be12c2910",
+  "criterionId": "37d197ce-4cdf-53e7-a277-05b0636a6f48",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "OBSAH VYUČOVANÉHO OBORU ZPROSTŘEDKOVÁVÁM SPOLEČNĚ S VÝSTUPY PRŮŘEZOVÝCH TÉMAT, KLÍČOVÝCH KOMPETENCÍ ČI GRAMOTNOSTÍ, JE-LI TO V SOULADU S VYUČOVANÝM OBSAHEM.",
+  "mindset": "Jsem přesvědčen/a, že mým úkolem je (v souladu s aktuálním pojetím vzdělávání) rozvíjet u žáků a žákyň krom znalostí také dovednosti a postoje.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 8
+  },
+  "levels": [
+    {
+      "id": "5f2c4c4a-ced6-513c-af7f-8e69fa0dee09",
+      "level": 0,
+      "text": "Obsah vyučovaného oboru zprostředkovávám, aniž bych vedl/a žáky a žákyně k rozvoji klíčových kompetencí či gramotností, případně bez směřování k výstupům klíčových kompetencí."
+    },
+    {
+      "id": "26b8ea2e-2090-566a-ae08-05cfcd5aaf3f",
+      "level": 1,
+      "text": "Prostřednictvím obsahu vyučovaného oboru vedu žáky a žákyně také k rozvoji gramotností, klíčových kompetencí či k naplnění výstupů průřezových témat, ale žáci si těchto cílů nejsou vědomi."
+    },
+    {
+      "id": "2d7473d9-62ee-5328-a053-6b2e846349c9",
+      "level": 2,
+      "text": "Prostřednictvím obsahu vyučovaného oboru vedu žáky a žákyně vědomě také k rozvoji gramotností, klíčových kompetencí či naplnění výstupů průřezových témat, a to vždy jednorázově."
+    },
+    {
+      "id": "e1df927c-4292-5ce2-a449-cb3c854d64e6",
+      "level": 3,
+      "text": "Prostřednictvím obsahu vyučovaného oboru vedu žáky a žákyně také k rozvoji gramotností, klíčových kompetencí či k naplnění výstupů průřezových témat, a to systematicky a explicitně."
+    }
+  ]
+}

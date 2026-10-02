@@ -1,0 +1,40 @@
+---
+import type { Example } from '../lib/schema';
+import { exampleUrl } from '../lib/urls';
+import { typeLabels } from '../data/editorial';
+import Icon from './Icon.astro';
+interface Props {
+  example: Example;
+  context?: string;
+}
+const { example, context } = Astro.props;
+const icon =
+  example.type === 'transkript'
+    ? 'quote'
+    : example.type === 'reflexe'
+      ? 'notebook-pen'
+      : 'file-text';
+---
+
+<article class={`example-card example-${example.type}`}>
+  <a class="example-card-link" href={exampleUrl(example.publicId)}>
+    <div class="example-card-top">
+      <span class="type-icon">
+        <Icon name={icon} size={26} />
+      </span>
+      <span class="eyebrow">
+        {typeLabels[example.type]} · {example.duration}
+      </span>
+    </div>
+    <h3>{example.title}</h3>
+    <p>{example.summary}</p>
+    <p class="small">
+      {example.context.subject} · {example.context.school}
+    </p>
+    {context && <p class="example-evidence">{context}</p>}
+    <div class="card-bottom">
+      <span>{example.status === 'demo' ? 'Autorský model' : 'Ukázka z praxe'}</span>
+      <Icon name="arrow-right" size={19} />
+    </div>
+  </a>
+</article>

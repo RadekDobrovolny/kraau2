@@ -1,0 +1,24 @@
+{
+  "id": "30a3dc8e-9b44-573d-aeb7-113a834fc083",
+  "criterionRevisionId": "4e5367db-ce47-5543-a348-6ffb8f10fb99",
+  "fromLevel": 0,
+  "toLevel": 1,
+  "status": "demo",
+  "summaryPoints": [
+    "Mění se rozložení mluvení: prostor začínají dostávat někteří žáci.",
+    "Důležité je všímat si, koho vyučující oslovuje a z jakého důvodu."
+  ],
+  "observationQuestion": "Kdo v této situaci dostal příležitost promluvit?",
+  "highlights": [
+    {
+      "descriptorId": "07aa9165-f3a0-5d00-a8de-b5edc02a73f9",
+      "phrase": "komunikuji dominantně já",
+      "occurrence": 0
+    },
+    {
+      "descriptorId": "1382ea3f-d716-5143-a403-05070c60a7e0",
+      "phrase": "jen některé",
+      "occurrence": 0
+    }
+  ]
+}

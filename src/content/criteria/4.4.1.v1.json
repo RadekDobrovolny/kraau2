@@ -1,0 +1,34 @@
+{
+  "id": "48ec786e-3a37-5830-aefc-5a042aa7361e",
+  "criterionId": "fab78ee0-8077-51e7-a77a-2025b6666df9",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Podporuji žáky a žákyně v uvědomování si a řízení vlastního učení.",
+  "mindset": "Jsem přesvědčen/a, že součástí učení je i schopnost přemýšlet o vlastním procesu učení.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 22
+  },
+  "levels": [
+    {
+      "id": "62ad987f-1373-5b8f-a921-9c7787aa8a69",
+      "level": 0,
+      "text": "V mojí výuce není prostor pro to, aby žáci a žákyně přemýšleli nad tím, jak se učí (nad svým procesem učení)."
+    },
+    {
+      "id": "f0a012fd-7b46-5e35-a503-b96526058434",
+      "level": 1,
+      "text": "Ve výuce příležitostně vedu žáky a žákyně k tomu, aby si uvědomovali, jakým způsobem se učí."
+    },
+    {
+      "id": "330fc740-43cc-536f-a7ec-26bfceaadde9",
+      "level": 2,
+      "text": "Vedu žáky a žákyně k tomu, aby zkoušeli strategie, které je možné používat v procesu učení."
+    },
+    {
+      "id": "aac4413f-4c5c-5538-ae07-3c2b45f42615",
+      "level": 3,
+      "text": "Vedu žáky a žákyně k tomu, aby vědomě volili vhodné strategie učení a zlepšovali je."
+    }
+  ]
+}

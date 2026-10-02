@@ -1,0 +1,34 @@
+{
+  "id": "5ce77069-e084-57ec-af89-124fc26b3160",
+  "criterionId": "2401f364-c57f-565b-aae6-4c22917a41da",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Postupnými kroky předem strukturuji výuku tak, aby všichni žáci a žákyně mohli dosáhnout nastavených cílů.",
+  "mindset": "Jsem přesvědčen/a o potenciálu každého žáka a každé žákyně postupně dosáhnout stanovených cílů.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 20
+  },
+  "levels": [
+    {
+      "id": "9a0c971e-419d-598b-ae88-b3670c65aa23",
+      "level": 0,
+      "text": "Výuku strukturuji do jednotlivých kroků podle učiva, potřeby žáků a žákyň nezohledňuji."
+    },
+    {
+      "id": "689915f6-04ad-5fab-a1da-49325c9fa299",
+      "level": 1,
+      "text": "Výuku strukturuji do jednotlivých kroků s ohledem na žáky a žákyně, přičemž všichni pracují stejným způsobem a stejným tempem."
+    },
+    {
+      "id": "14ef645c-43f9-5d02-afc9-300003805a29",
+      "level": 2,
+      "text": "Výuku strukturuji do přiměřených jednotlivých kroků a v jejím průběhu reaguji na žáky a žákyně, kteří potřebují doplňující vysvětlení, úpravy tempa nebo další podpůrné kroky, aby mohli dosáhnout stanovených cílů."
+    },
+    {
+      "id": "d6b568be-cb81-567a-ad28-9cd59d7f165d",
+      "level": 3,
+      "text": "Výuku systematicky strukturuji do jednotlivých kroků tak, aby její součástí byla podpora dostupná všem žákům a žákyním, kteří ji potřebují. Průběžně sleduji jejich učení a cíleně přizpůsobuji míru a podobu podpory tak, aby žáci a žákyně mohli dosáhnout stanovených cílů."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+---
+import type { Criterion } from '../lib/repository';
+import { criterionUrl, displayTitle } from '../lib/urls';
+import Icon from './Icon.astro';
+interface Props {
+  criterion: Criterion;
+  explanation?: string;
+}
+const { criterion, explanation } = Astro.props;
+---
+
+<a class="criterion-row" href={criterionUrl(criterion.publicCode)}>
+  <span class="code">{criterion.publicCode}</span>
+  <div>
+    <h3>{displayTitle(criterion.title)}</h3>
+    {explanation && <p>{explanation}</p>}
+  </div>
+  <Icon name="arrow-right" size={21} />
+</a>

@@ -1,0 +1,24 @@
+{
+  "id": "067e4d92-d09f-5a51-ad7c-59f7ec8e1f31",
+  "criterionRevisionId": "4e5367db-ce47-5543-a348-6ffb8f10fb99",
+  "fromLevel": 2,
+  "toLevel": 3,
+  "status": "demo",
+  "summaryPoints": [
+    "K zapojení značné části třídy přibývá pozornost k tichým žákům.",
+    "Popis zmiňuje aktivní hledání způsobu, jak jejich zapojení umožnit."
+  ],
+  "observationQuestion": "Jaké různé cesty k účasti mohli využít žáci, kteří obvykle mlčí?",
+  "highlights": [
+    {
+      "descriptorId": "17477d88-a49b-5f07-a0b7-30cc3b4c7ff5",
+      "phrase": "značnou část",
+      "occurrence": 0
+    },
+    {
+      "descriptorId": "c59c1059-6ebf-598c-a211-12ead71d330a",
+      "phrase": "Všímám si tzv. tichých žáků",
+      "occurrence": 0
+    }
+  ]
+}

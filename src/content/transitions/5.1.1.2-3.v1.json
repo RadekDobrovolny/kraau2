@@ -1,0 +1,24 @@
+{
+  "id": "89d94c7d-4357-5173-a1ed-a09ca27dcc10",
+  "criterionRevisionId": "f35df396-4f32-5a79-ae1b-ef9f8e76f51d",
+  "fromLevel": 2,
+  "toLevel": 3,
+  "status": "demo",
+  "summaryPoints": [
+    "K popisu výkonu přibývá pojmenování pokroku a možnost dalšího posunu.",
+    "Pozorování by mělo sledovat i to, jak žák s komentářem naloží."
+  ],
+  "observationQuestion": "Dokáže žák na základě komentáře zvolit konkrétní úpravu své práce?",
+  "highlights": [
+    {
+      "descriptorId": "e8e11996-a10c-51dd-a1e6-613a98ea4ed3",
+      "phrase": "konkrétní části výkonu",
+      "occurrence": 0
+    },
+    {
+      "descriptorId": "d8efd8ed-1174-5096-a261-42b4d7e04371",
+      "phrase": "jak mohou svůj výkon dále posunout",
+      "occurrence": 0
+    }
+  ]
+}

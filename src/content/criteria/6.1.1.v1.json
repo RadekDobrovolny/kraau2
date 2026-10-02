@@ -1,0 +1,34 @@
+{
+  "id": "6d4ef713-89d6-56a9-abb4-bbe2cfe3e856",
+  "criterionId": "cd61b1e1-f3b6-58f3-a5b3-d5220c0d2b27",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Spolupracuji s provázejícím učitelem / provázející učitelkou.",
+  "mindset": "Jsem přesvědčen/a, že kolegiální spolupráce napomáhá mému dalšímu profesnímu rozvoji, a to i v případě, kdy máme s provázejícím učitelem / provázející učitelkou odlišná pojetí výuky.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 28
+  },
+  "levels": [
+    {
+      "id": "0c521a82-98b5-568b-a0d6-add094cfa8a1",
+      "level": 0,
+      "text": "S provázejícím učitelem / provázející učitelkou nespolupracuji."
+    },
+    {
+      "id": "bda13a27-edde-5ad0-adc3-9687681fdd15",
+      "level": 1,
+      "text": "S provázejícím učitelem / provázející učitelkou spolupracuji především na úrovni organizačních otázek, moji výuku řešíme zejména prostřednictvím rychlé zpětné vazby."
+    },
+    {
+      "id": "26b777b7-19ca-572f-a474-e886ba00c5c4",
+      "level": 2,
+      "text": "S provázejícím učitelem / provázející učitelkou pravidelně konzultuji svoji přípravu i průběh mé výuky. Společně řešíme vybrané části plánů, moji výuku reflektujeme."
+    },
+    {
+      "id": "288ce26a-765e-5aec-a1a2-27cdd1aaeab0",
+      "level": 3,
+      "text": "S provázejícím učitelem / provázející učitelkou pravidelně konzultuji svoji přípravu i průběh mé výuky. Společně řešíme vybrané části plánů, moji výuku reflektujeme. Hledám další příležitosti pro vzájemně obohacující spolupráci."
+    }
+  ]
+}

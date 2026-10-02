@@ -1,0 +1,61 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Icon from '../../components/Icon.astro';
+import { withBase, criterionUrl } from '../../lib/urls';
+---
+
+<Layout title="Jak rozumět úrovním">
+  <div class="shell">
+    <Breadcrumbs items={[{ label: 'Jak rozumět úrovním' }]} />
+    <header class="page-head">
+      <p class="eyebrow">Čtyři popisy profesního jednání</p>
+      <h1>Jak rozumět úrovním</h1>
+      <p class="lead">
+        Úrovně 0–3 popisují různé podoby jednání v konkrétním kritériu. Čtěte je společně a v
+        kontextu situace, kterou reflektujete.
+      </p>
+    </header>
+    <div class="prose">
+      <h2>Popis jako opora pro rozhovor</h2>
+      <p>
+        Zdrojový rámec chápe úrovně jako oporu pro formativní práci, profesní růst a reflexi.
+        Zaměřuje se na to, co lze pozorovat v profesním jednání.
+      </p>
+      <p>
+        Jedna situace dovolí vidět jen část práce vyučujícího. Než přiřadíte pozorování k popisu,
+        ptejte se na záměr hodiny, potřeby žáků a okolnosti, které nemusely být ve výřezu patrné.
+      </p>
+      <div class="info-note">
+        Popisy vztahujte ke konkrétní situaci, ne k hodnocení člověka. Čísla sama nenahrazují
+        porozumění profesnímu jednání.
+      </div>
+      <h2>Porovnávejte konkrétní formulace</h2>
+      <p>
+        V jednom kritériu může rozdíl spočívat v četnosti jednání, v jiném v míře opory nebo v
+        zapojení žáků. Význam každé úrovně proto vyplývá z jejího plného textu.
+      </p>
+      <a class="button secondary" href={`${criterionUrl('4.2.2')}?porovnat=1,2#urovne`}>
+        Porovnat zapojování žáků <Icon name="arrow-right" size={18} />
+      </a>
+      <h2>Mindset: přesvědčení za jednáním</h2>
+      <p>
+        Deskriptory popisují jednání. Mindset pojmenovává profesní přesvědčení, které za ním stojí.
+        Pomáhá otevřít otázku, proč vyučující volí určitý postup a jak uvažuje o učení žáků.
+      </p>
+      <h2>Od porovnání k vlastnímu kroku</h2>
+      <p>
+        Zvolte jednání, které by ve vaší situaci mohlo být užitečné. Ujasněte si, co vyzkoušíte a
+        čeho si budete všímat. Rámec neposkytuje automatické doporučení ani souhrnné skóre.
+      </p>
+      <a class="text-link" href={withBase('jak-pracovat/dalsi-krok/')}>
+        Promyslet další krok <Icon name="arrow-right" size={18} />
+      </a>
+      <p class="source-reference">
+        Východisko: dodaný pracovní rámec, strana 3.{' '}
+        <a href={`${withBase('kompetencni-ramec-ss.pdf')}#page=3`}>Otevřít metodiku v PDF</a>.
+        Redakční vysvětlení pro prototyp čeká na metodické ověření.
+      </p>
+    </div>
+  </div>
+</Layout>

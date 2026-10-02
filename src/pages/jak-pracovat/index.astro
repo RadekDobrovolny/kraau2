@@ -1,0 +1,50 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Icon from '../../components/Icon.astro';
+import { guides } from '../../data/guides';
+import { withBase } from '../../lib/urls';
+---
+
+<Layout title="Jak s rámcem pracovat" current="jak-pracovat">
+  <div class="shell">
+    <Breadcrumbs items={[{ label: 'Jak s rámcem pracovat' }]} />
+    <header class="page-head">
+      <p class="eyebrow">Společný jazyk pro reflexi výuky</p>
+      <h1>Jak s rámcem pracovat</h1>
+      <p class="lead">
+        Začněte konkrétní situací. Rámec nabízí popisy jednání, o které se můžete opřít při
+        samostatné reflexi i společném rozhovoru.
+      </p>
+    </header>
+    <div class="needs-grid">
+      {guides.map((g) => (
+        <a href={withBase(`jak-pracovat/${g.slug}/`)} class="need-card">
+          <Icon name={g.icon} />
+          <div>
+            <h3>{g.title}</h3>
+            <p>{g.summary}</p>
+          </div>
+          <Icon name="arrow-right" size={18} />
+        </a>
+      ))}
+    </div>
+    <section class="content-section back-link prose">
+      <h2>Situace → pozorování → další krok</h2>
+      <p>
+        Popisy čtěte v souvislosti s konkrétní hodinou, cílem a potřebami žáků. Jeden výřez ukazuje
+        jen část profesního jednání. To, co nebylo vidět, může být tématem otázky.
+      </p>
+      <p>
+        Vyberte relevantní kritérium a porovnejte popisy. Hledejte jednání, které vám pomáhá situaci
+        pojmenovat, a důkazy, o které svou interpretaci opíráte.
+      </p>
+      <a class="text-link" href={withBase('urovne/')}>
+        Jak rozumět čtyřem úrovním <Icon name="arrow-right" size={18} />
+      </a>
+      <p class="editorial-label back-link">
+        Redakční průvodci pro prototyp · čekají na metodické ověření
+      </p>
+    </section>
+  </div>
+</Layout>

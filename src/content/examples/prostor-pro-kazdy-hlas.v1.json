@@ -1,0 +1,71 @@
+{
+  "publicId": "prostor-pro-kazdy-hlas",
+  "title": "Prostor pro každý hlas",
+  "type": "transkript",
+  "duration": "4 min čtení",
+  "summary": "Krátká diskuse nad historickým pramenem, ve které dostanou prostor i žáci, kteří se běžně nehlásí.",
+  "context": {
+    "subject": "Dějepis",
+    "school": "Střední škola",
+    "age": "15–18 let",
+    "situation": "Třída porovnává dva popisy stejné historické události. Na první otázku odpoví dva žáci."
+  },
+  "topics": [
+    "zapojeni",
+    "komunikace"
+  ],
+  "phases": [
+    "realizace"
+  ],
+  "questions": [
+    "Kdo dostal příležitost připravit si odpověď?",
+    "Jak vyučující navazuje na odpovědi?",
+    "Co se dozvídáme o žácích, kteří zatím nemluví?"
+  ],
+  "body": [
+    {
+      "heading": "1 · První otázka",
+      "text": "Vyučující: „V čem se tyto dva popisy události liší?“ Dva žáci se přihlásí. Jeden odpoví, že se liší v tom, komu připisují odpovědnost."
+    },
+    {
+      "heading": "2 · Čas na přemýšlení",
+      "text": "Vyučující: „Než budeme pokračovat, každý si poznamenejte jeden rozdíl a větu z pramene, která ho dokládá. Pak svůj výběr vysvětlete spolužákovi ve dvojici.“ Třída dvě minuty pracuje."
+    },
+    {
+      "heading": "3 · Další hlasy",
+      "text": "Vyučující nabídne, že odpověď může přednést dvojice společně, nebo ji může přečíst z poznámek. Osloví i dvojici, která se předtím nehlásila. Žáci zvolí společnou odpověď."
+    },
+    {
+      "heading": "4 · Propojení odpovědí",
+      "text": "Vyučující: „Jak vaše vysvětlení navazuje na to první? V čem se shodujete a v čem ne?“ Další žákyně odkazuje na konkrétní formulaci v pramenu a nabídne jinou interpretaci."
+    }
+  ],
+  "limitations": "Výřez neukazuje celou hodinu ani to, zda se zapojili všichni. Z četnosti odpovědí nelze vyvodit, kolik se jednotliví žáci naučili.",
+  "links": [
+    {
+      "criterionCode": "4.2.2",
+      "level": 3,
+      "evidence": "Oddíly 2 a 3: individuální příprava, sdílení ve dvojici a nabídka společné odpovědi.",
+      "commentary": "Model ilustruje hledání různých cest k zapojení žáků, kteří původně nepromluvili. Nejde o hodnocení vyučujícího.",
+      "id": "a299a624-3b91-5fe3-a46f-3aa182fcd8f2",
+      "criterionRevisionId": "4e5367db-ce47-5543-a348-6ffb8f10fb99"
+    },
+    {
+      "criterionCode": "4.2.3",
+      "level": 3,
+      "evidence": "Oddíl 4: otázka k návaznosti a rozdílům mezi odpověďmi.",
+      "commentary": "Žáci mají příležitost porovnat a zdůvodnit interpretace a reagovat na sebe navzájem.",
+      "id": "61e7b328-86f8-57d8-a365-ad04d3e5234b",
+      "criterionRevisionId": "37bc9f01-dd64-54f5-a657-10e78716e982"
+    }
+  ],
+  "id": "512a7481-cf66-5697-a0ac-130492400d41",
+  "revisionId": "9f2b9ef9-f4d5-5db9-abc2-9c8ce648d44d",
+  "status": "demo",
+  "author": "Autorský model pro digitální prototyp KRAAU",
+  "rights": {
+    "permissionStatus": "original-demo",
+    "scope": "Modelový text vytvořený pro prototyp; neobsahuje skutečné osobní údaje."
+  },
+  "reviewedAt": null
+}

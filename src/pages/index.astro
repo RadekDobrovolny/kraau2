@@ -1,0 +1,124 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SearchBox from '../components/SearchBox.astro';
+import AreaCard from '../components/AreaCard.astro';
+import ExampleCard from '../components/ExampleCard.astro';
+import Icon from '../components/Icon.astro';
+import { repository } from '../lib/repository';
+import { needs } from '../data/guides';
+import { withBase, searchUrl } from '../lib/urls';
+const areas = repository.listAreas();
+---
+
+<Layout>
+  <section class="hero">
+    <div class="shell">
+      <p class="eyebrow">KRAAU · Učitelství v souvislostech</p>
+      <h1>
+        Rámec pro porozumění
+        <br />
+        vlastní výuce
+      </h1>
+      <p class="lead">
+        Najděte téma ze své praxe, porovnejte popisy profesního jednání a promyslete další krok.
+      </p>
+      <SearchBox />
+      <div class="suggestions">
+        <span>Zkuste třeba:</span>
+        <a href={searchUrl('Žáci se nezapojují')}>Žáci se nezapojují</a>
+        <a href={searchUrl('zpětná vazba')}>Zpětná vazba</a>
+        <a href={searchUrl('bezpečí')}>Bezpečí ve třídě</a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="shell">
+      <div class="section-head">
+        <h2>S čím dnes potřebujete pracovat?</h2>
+        <span class="count-note">Začněte tam, kde jste právě teď.</span>
+      </div>
+      <div class="needs-grid">
+        {needs.map((n) => (
+          <a href={withBase(n.path)} class="need-card">
+            <Icon name={n.icon} size={24} />
+            <div>
+              <h3>{n.title}</h3>
+              <p>{n.summary}</p>
+            </div>
+            <Icon name="arrow-right" size={18} class="need-arrow" />
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="shell">
+      <div class="section-head">
+        <h2>{areas.length} oblastí učitelské praxe</h2>
+        <a class="text-link" href={withBase('ramec/')}>
+          Prozkoumat celý rámec <Icon name="arrow-right" size={18} />
+        </a>
+      </div>
+      <p class="section-subtitle">
+        Od porozumění oboru přes práci ve třídě až k vlastnímu profesnímu rozvoji.
+      </p>
+      <div class="areas-grid">
+        {areas.map((area) => (
+          <AreaCard area={area} />
+        ))}
+      </div>
+    </div>
+  </section>
+  <section class="section reading-band">
+    <div class="shell">
+      <div class="section-head">
+        <h2>Od situace k dalšímu kroku</h2>
+        <a class="text-link" href={withBase('urovne/')}>
+          Jak číst úrovně <Icon name="arrow-right" size={18} />
+        </a>
+      </div>
+      <div class="reading-grid">
+        <div class="reading-step">
+          <span class="step-number">01</span>
+          <div>
+            <h3>Vraťte se k situaci</h3>
+            <p>Co se v hodině odehrálo? Začněte konkrétním pozorováním.</p>
+          </div>
+        </div>
+        <div class="reading-step">
+          <span class="step-number">02</span>
+          <div>
+            <h3>Prozkoumejte jednání</h3>
+            <p>Které popisy situaci pomáhají pochopit? Porovnejte je v kontextu.</p>
+          </div>
+        </div>
+        <div class="reading-step">
+          <span class="step-number">03</span>
+          <div>
+            <h3>Promyslete, co dál</h3>
+            <p>Co příště zkusíte a podle čeho si všimnete změny?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="shell">
+      <div class="section-head">
+        <h2>Ukázky z praxe</h2>
+        <a class="text-link" href={withBase('ukazky/')}>
+          Všechny ukázky <Icon name="arrow-right" size={18} />
+        </a>
+      </div>
+      <p class="section-subtitle">Autorské modelové situace k metodickému ověření.</p>
+      <div class="examples-grid">
+        {repository
+          .listExamples()
+          .slice(0, 3)
+          .map((example) => (
+            <ExampleCard example={example} />
+          ))}
+      </div>
+    </div>
+  </section>
+</Layout>

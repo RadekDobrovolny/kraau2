@@ -1,0 +1,34 @@
+{
+  "id": "fab975e3-9a7b-5448-a561-0c32c6e2bfb5",
+  "criterionId": "ec7140a5-17de-5388-a57c-f7d4c1f069bd",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Cíle výuky nastavuji tak, aby se vztahovaly ke klíčovým znalostem a dovednostem a vedly k naplnění očekávaných výstupů učení.",
+  "mindset": "Jsem přesvědčen/a, že cíle výuky mají vycházet z pečlivě vybraných vzdělávacích obsahů a že je důležité upřednostňovat hloubku porozumění a aplikaci před povrchním osvojováním informací.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 10
+  },
+  "levels": [
+    {
+      "id": "29b11ef0-ede4-57c7-aa73-d68e13d36977",
+      "level": 0,
+      "text": "Cíle výuky zaměňuji za téma či obsah výuky."
+    },
+    {
+      "id": "5eb631e1-9258-5c01-a9f4-ce78760d04f1",
+      "level": 1,
+      "text": "Nastavuji cíle výuky, ale nepostihuji jimi klíčové znalosti a dovednosti, kterých mají žáci a žákyně dosáhnout."
+    },
+    {
+      "id": "c5cd34a2-4d03-5cdb-ab2e-2124ede3b8ab",
+      "level": 2,
+      "text": "Nastavuji cíle, ale postihuji jimi jen některé klíčové znalosti a dovednosti, kterých mají žáci a žákyně dosáhnout."
+    },
+    {
+      "id": "e3cfa651-d97e-5d7b-ab58-e4b7f98fd4cd",
+      "level": 3,
+      "text": "Nastavuji cíle výuky tak, aby postihovaly všechny klíčové znalosti a dovednosti a vedly k naplnění očekávaných výstupů učení."
+    }
+  ]
+}

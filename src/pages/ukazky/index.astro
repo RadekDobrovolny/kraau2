@@ -1,0 +1,45 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import SearchApp from '../../components/SearchApp';
+import ExampleCard from '../../components/ExampleCard.astro';
+import { repository } from '../../lib/repository';
+import { searchOptions } from '../../lib/search-options';
+import { withBase } from '../../lib/urls';
+---
+
+<Layout title="Ukázky z praxe" current="ukazky" noindex>
+  <div class="shell">
+    <Breadcrumbs items={[{ label: 'Ukázky z praxe' }]} />
+    <header class="page-head">
+      <p class="eyebrow">Od popisu ke konkrétní situaci</p>
+      <h1>Ukázky z praxe</h1>
+      <p class="lead">
+        Přípravy, rozhovory a další výřezy pomáhají všimnout si konkrétního jednání. Každou ukázku
+        čtěte spolu s jejím kontextem a limity.
+      </p>
+    </header>
+    <p class="notice catalog-intro">
+      V prototypu najdete {repository.listExamples().length} autorských modelových ukázek. Nejde o
+      záznamy skutečné výuky. Jejich vazby na kritéria čekají na metodické ověření.
+    </p>
+    <div data-js-only>
+      <SearchApp
+        client:load
+        catalog
+        indexUrl={withBase('search-index.json')}
+        frameworkUrl={withBase('ramec/')}
+        options={searchOptions()}
+        suggestions={[]}
+      />
+    </div>
+    <div data-nojs>
+      <p class="notice">Filtrování vyžaduje JavaScript. Všechny modelové ukázky:</p>
+      <div class="examples-grid">
+        {repository.listExamples().map((example) => (
+          <ExampleCard example={example} />
+        ))}
+      </div>
+    </div>
+  </div>
+</Layout>

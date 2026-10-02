@@ -1,0 +1,388 @@
+{
+  "$ref": "#/definitions/KraauContent",
+  "definitions": {
+    "KraauContent": {
+      "type": "object",
+      "properties": {
+        "criterion": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "criterionId": {
+              "$ref": "#/definitions/KraauContent/properties/criterion/properties/id"
+            },
+            "editionId": {
+              "$ref": "#/definitions/KraauContent/properties/criterion/properties/id"
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "mindset": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "draft",
+                "methodological_review",
+                "approved",
+                "published",
+                "retired",
+                "imported",
+                "demo"
+              ]
+            },
+            "sourceLocator": {
+              "type": "object",
+              "properties": {
+                "documentId": {
+                  "$ref": "#/definitions/KraauContent/properties/criterion/properties/id"
+                },
+                "page": {
+                  "type": "integer",
+                  "exclusiveMinimum": 0
+                }
+              },
+              "required": [
+                "documentId",
+                "page"
+              ],
+              "additionalProperties": false
+            },
+            "levels": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "$ref": "#/definitions/KraauContent/properties/criterion/properties/id"
+                  },
+                  "level": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 3
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "id",
+                  "level",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 4,
+              "maxItems": 4
+            }
+          },
+          "required": [
+            "id",
+            "criterionId",
+            "editionId",
+            "title",
+            "mindset",
+            "status",
+            "sourceLocator",
+            "levels"
+          ],
+          "additionalProperties": false
+        },
+        "example": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "$ref": "#/definitions/KraauContent/properties/criterion/properties/id"
+            },
+            "publicId": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            },
+            "revisionId": {
+              "$ref": "#/definitions/KraauContent/properties/criterion/properties/id"
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "transkript",
+                "priprava",
+                "reflexe",
+                "artefakt",
+                "foto",
+                "video"
+              ]
+            },
+            "status": {
+              "$ref": "#/definitions/KraauContent/properties/criterion/properties/status"
+            },
+            "summary": {
+              "type": "string",
+              "minLength": 1
+            },
+            "duration": {
+              "type": "string",
+              "minLength": 1
+            },
+            "context": {
+              "type": "object",
+              "properties": {
+                "subject": {
+                  "type": "string"
+                },
+                "school": {
+                  "type": "string"
+                },
+                "age": {
+                  "type": "string"
+                },
+                "situation": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "subject",
+                "school",
+                "age",
+                "situation"
+              ],
+              "additionalProperties": false
+            },
+            "topics": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "phases": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "planovani",
+                  "realizace",
+                  "reflexe"
+                ]
+              }
+            },
+            "questions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1
+            },
+            "body": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "heading": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "heading",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            },
+            "limitations": {
+              "type": "string",
+              "minLength": 1
+            },
+            "author": {
+              "type": "string"
+            },
+            "rights": {
+              "type": "object",
+              "properties": {
+                "permissionStatus": {
+                  "type": "string",
+                  "enum": [
+                    "original-demo",
+                    "approved"
+                  ]
+                },
+                "scope": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "permissionStatus",
+                "scope"
+              ],
+              "additionalProperties": false
+            },
+            "reviewedAt": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "links": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "$ref": "#/definitions/KraauContent/properties/criterion/properties/id"
+                  },
+                  "criterionCode": {
+                    "type": "string"
+                  },
+                  "criterionRevisionId": {
+                    "$ref": "#/definitions/KraauContent/properties/criterion/properties/id"
+                  },
+                  "level": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 3
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "commentary": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "id",
+                  "criterionCode",
+                  "criterionRevisionId",
+                  "level",
+                  "evidence",
+                  "commentary"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "id",
+            "publicId",
+            "revisionId",
+            "title",
+            "type",
+            "status",
+            "summary",
+            "duration",
+            "context",
+            "topics",
+            "phases",
+            "questions",
+            "body",
+            "limitations",
+            "author",
+            "rights",
+            "reviewedAt",
+            "links"
+          ],
+          "additionalProperties": false
+        },
+        "transition": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "$ref": "#/definitions/KraauContent/properties/criterion/properties/id"
+            },
+            "criterionRevisionId": {
+              "$ref": "#/definitions/KraauContent/properties/criterion/properties/id"
+            },
+            "fromLevel": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "toLevel": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "status": {
+              "$ref": "#/definitions/KraauContent/properties/criterion/properties/status"
+            },
+            "summaryPoints": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1
+            },
+            "observationQuestion": {
+              "type": "string"
+            },
+            "highlights": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "descriptorId": {
+                    "$ref": "#/definitions/KraauContent/properties/criterion/properties/id"
+                  },
+                  "phrase": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "occurrence": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "required": [
+                  "descriptorId",
+                  "phrase",
+                  "occurrence"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "id",
+            "criterionRevisionId",
+            "fromLevel",
+            "toLevel",
+            "status",
+            "summaryPoints",
+            "observationQuestion",
+            "highlights"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "criterion",
+        "example",
+        "transition"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

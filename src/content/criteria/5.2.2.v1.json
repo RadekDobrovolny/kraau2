@@ -1,0 +1,34 @@
+{
+  "id": "aef1b4e3-5d08-51a2-a200-5e8dcd6b5ce6",
+  "criterionId": "c33c4aec-7233-5701-a675-6d4d3dfe7afb",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Využívám různorodé metody a formy hodnocení včetně těch, jimiž vytvářím příležitosti a oporu pro vzájemné hodnocení.",
+  "mindset": "Jsem přesvědčen/a, že mou zodpovědností je rozvíjet u žáků dovednost konstruktivně hodnotit a přijímat zpětnou vazbu.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 25
+  },
+  "levels": [
+    {
+      "id": "996940f2-c17f-53b2-af97-ead8c2497982",
+      "level": 0,
+      "text": "Vzájemné hodnocení žáků do výuky nezařazuji, případně nevím, jak ho zařadit."
+    },
+    {
+      "id": "c800a3b6-d80b-525e-abe9-6e5fe569147d",
+      "level": 1,
+      "text": "Vzájemné hodnocení žáků a žákyň do výuky zařazuji občas, spíše nahodile a zejména u některých činností (referát, skupinová práce apod.), ale bez stanovených kritérií."
+    },
+    {
+      "id": "3bfe1c61-8155-5006-a6fa-8ceb715a7e9b",
+      "level": 2,
+      "text": "Vzájemné hodnocení žáků a žákyň do výuky zařazuji plánovaně a pravidelně, žáci a žákyně postupují podle jednoduchých kritérií."
+    },
+    {
+      "id": "d2980614-f626-5cd6-a534-a060ebfbcec0",
+      "level": 3,
+      "text": "Vzájemné hodnocení žáků a žákyň ve výuce realizuji promyšleně a podle stanovených kritérií. Žáci a žákyně si poskytují popisnou zpětnou vazbu na základě kritérií a využívají popisný jazyk."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import LevelViewer from '../../../components/LevelViewer';
+import ReflectionQuestions from '../../../components/ReflectionQuestions';
+import NextActions from '../../../components/NextActions';
+import ShareControl from '../../../components/ShareControl.astro';
+import ExampleCard from '../../../components/ExampleCard.astro';
+import CriterionRow from '../../../components/CriterionRow.astro';
+import Icon from '../../../components/Icon.astro';
+import { repository, contextFor, topics, manifest, type Criterion } from '../../../lib/repository';
+import {
+  withBase,
+  criterionUrl,
+  areaUrl,
+  competencyUrl,
+  exampleUrl,
+  displayTitle,
+} from '../../../lib/urls';
+export function getStaticPaths() {
+  return repository
+    .listCriteria()
+    .map((criterion) => ({ params: { code: criterion.publicCode }, props: { criterion } }));
+}
+interface Props {
+  criterion: Criterion;
+}
+const { criterion } = Astro.props;
+const { competency, area } = contextFor(criterion);
+const siblings = repository.listCriteria(competency.id);
+const position = siblings.findIndex((c) => c.stableId === criterion.stableId);
+const previous = siblings[position - 1],
+  next = siblings[position + 1];
+const examples = repository
+  .listExamples()
+  .filter((e) => e.links.some((l) => l.criterionCode === criterion.publicCode));
+const related = repository.listRelated(criterion.publicCode);
+const transitions = [0, 1, 2]
+  .map((from) => repository.getTransition(criterion.id, from, from + 1))
+  .filter((t): t is NonNullable<typeof t> => Boolean(t));
+---
+
+<Layout title={`${criterion.publicCode} ${displayTitle(criterion.title)}`} current="ramec">
+  <div class="shell">
+    <Breadcrumbs
+      items={[
+        { label: 'Rámec', href: withBase('ramec/') },
+        { label: `${area.code} · ${area.title}`, href: areaUrl(area.code) },
+        { label: `Kompetence ${competency.code}`, href: competencyUrl(competency.code) },
+        { label: `Kritérium ${criterion.publicCode}` },
+      ]}
+    />
+    <header class="page-head">
+      <div class="page-head-row">
+        <div>
+          <p class="eyebrow">
+            Kritérium {criterion.publicCode} · {competency.title}
+          </p>
+          <h1>{displayTitle(criterion.title)}</h1>
+        </div>
+        <ShareControl canonical label="Kopírovat odkaz na kritérium" />
+      </div>
+      <div class="tags">
+        {topics
+          .filter((t) => criterion.topics.includes(t.slug))
+          .map((t) => (
+            <a class="tag" href={`${withBase('hledat/')}?tema=${t.slug}`}>
+              {t.title}
+            </a>
+          ))}
+      </div>
+    </header>
+    <aside class="context-note">
+      <p>Popisy vztahujte ke konkrétní situaci, ne k hodnocení člověka.</p>
+      <a href={withBase('urovne/')}>Jak rozumět úrovním</a>
+    </aside>
+    <LevelViewer
+      client:load
+      levels={criterion.levels}
+      transitions={transitions}
+      url={criterionUrl(criterion.publicCode)}
+    />
+    <section class="content-section">
+      <div class="section-head">
+        <h2>Ukázky k tomuto jednání</h2>
+        <a class="text-link" href={withBase('ukazky/')}>
+          Katalog ukázek <Icon name="arrow-right" size={18} />
+        </a>
+      </div>
+      {examples.length ? (
+        <div class="examples-grid">
+          {examples.map((example) => (
+            <ExampleCard
+              example={example}
+              context={`Vazba: úroveň ${example.links.find((l) => l.criterionCode === criterion.publicCode)?.level ?? 'bez přiřazení'}. Model k metodickému ověření.`}
+            />
+          ))}
+        </div>
+      ) : (
+        <p class="small">
+          K tomuto kritériu zatím nemáme publikovanou ukázku.{' '}
+          <a href={withBase('ukazky/')}>Prozkoumejte ostatní situace.</a>
+        </p>
+      )}
+    </section>
+    <div class="two-column">
+      <section class="content-section">
+        <p class="eyebrow">Mindset · text zdrojového rámce</p>
+        <h2>Co stojí za jednáním</h2>
+        <div class="mindset">
+          <p>{criterion.mindset}</p>
+          <details>
+            <summary>Proč je tu mindset?</summary>
+            <p>
+              Deskriptory popisují jednání. Mindset pojmenovává profesní přesvědčení, které za ním
+              stojí.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section class="content-section">
+        <p class="eyebrow">Reflexe · redakční námět</p>
+        <h2>Otázky pro vaši praxi</h2>
+        <ReflectionQuestions client:load />
+      </section>
+    </div>
+    <section class="next-step-section">
+      <h2>Co zkusíte příště?</h2>
+      <p class="small">Vyberte jeden malý krok, který dává smysl ve vaší situaci.</p>
+      <NextActions
+        client:load
+        base={withBase()}
+        exampleUrl={examples[0] ? exampleUrl(examples[0].publicId) : undefined}
+      />
+    </section>
+    {related.length > 0 && (
+      <section class="content-section back-link">
+        <h2>Podívejte se také na</h2>
+        <p class="editorial-label">Redakční souvislosti · k metodickému ověření</p>
+        {related.map((relation) => (
+          <CriterionRow
+            criterion={repository.getCriterion(relation.targetCode)!}
+            explanation={relation.explanation}
+          />
+        ))}
+      </section>
+    )}
+    <nav class="criterion-nav" aria-label="Kritéria této kompetence">
+      <div>
+        {previous && (
+          <a href={criterionUrl(previous.publicCode)}>
+            <Icon name="arrow-left" size={20} />
+            <div>
+              <small>Předchozí kritérium · {previous.publicCode}</small>
+              {displayTitle(previous.title)}
+            </div>
+          </a>
+        )}
+      </div>
+      <div>
+        {next && (
+          <a href={criterionUrl(next.publicCode)}>
+            <div>
+              <small>Další kritérium · {next.publicCode}</small>
+              {displayTitle(next.title)}
+            </div>
+            <Icon name="arrow-right" size={20} />
+          </a>
+        )}
+      </div>
+    </nav>
+    <p class="back-link">
+      <a class="text-link" href={competencyUrl(competency.code)}>
+        <Icon name="arrow-left" size={17} />
+        Zpět na kompetenci {competency.code}
+      </a>
+    </p>
+    <p class="source-reference">
+      Zdroj: {manifest.title}, strana {criterion.sourceLocator.page}.{' '}
+      <a href={`${withBase('kompetencni-ramec-ss.pdf')}#page=${criterion.sourceLocator.page}`}>
+        Zobrazit v PDF <Icon name="external" size={13} />
+      </a>
+      <br />
+      {manifest.versionLabel} · Import pracovního textu; metodická kontrola celého korpusu dosud
+      nepotvrzena.
+    </p>
+  </div>
+</Layout>

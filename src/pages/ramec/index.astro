@@ -1,0 +1,65 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AreaCard from '../../components/AreaCard.astro';
+import CriterionRow from '../../components/CriterionRow.astro';
+import Icon from '../../components/Icon.astro';
+import { repository } from '../../lib/repository';
+import { withBase, competencyUrl, areaUrl } from '../../lib/urls';
+const areas = repository.listAreas();
+---
+
+<Layout title="Prozkoumat rámec" current="ramec">
+  <div class="shell">
+    <Breadcrumbs items={[{ label: 'Rámec' }]} />
+    <header class="page-head">
+      <p class="eyebrow">Od širších témat ke konkrétnímu jednání</p>
+      <h1>Prozkoumat rámec</h1>
+      <p class="lead">
+        Vyberte oblast, která vás zajímá. Každá obsahuje kompetence a konkrétní kritéria s popisy
+        profesního jednání.
+      </p>
+      <div class="structure-intro">
+        <strong>{areas.length} oblastí</strong>
+        <Icon name="chevron-right" size={16} />
+        <strong>{repository.listCompetencies().length} kompetencí</strong>
+        <Icon name="chevron-right" size={16} />
+        <strong>{repository.listCriteria().length} kritérií</strong>
+      </div>
+    </header>
+    <div class="areas-grid">
+      {areas.map((area) => (
+        <AreaCard area={area} />
+      ))}
+    </div>
+    <details class="complete-outline" id="uplny-prehled" data-persist-details>
+      <summary>Zobrazit úplný přehled rámce</summary>
+      <div class="full-outline">
+        {areas.map((area) => (
+          <section>
+            <h2>
+              <a href={areaUrl(area.code)}>
+                {area.code} · {area.title}
+              </a>
+            </h2>
+            {repository.listCompetencies(area.id).map((c) => (
+              <div>
+                <h3>
+                  <a href={competencyUrl(c.code)}>
+                    {c.code} · {c.title}
+                  </a>
+                </h3>
+                {repository.listCriteria(c.id).map((criterion) => (
+                  <CriterionRow criterion={criterion} />
+                ))}
+              </div>
+            ))}
+          </section>
+        ))}
+      </div>
+    </details>
+    <p class="small back-link">
+      Nejste si jistí oblastí? <a href={withBase('hledat/')}>Začněte situací z výuky.</a>
+    </p>
+  </div>
+</Layout>

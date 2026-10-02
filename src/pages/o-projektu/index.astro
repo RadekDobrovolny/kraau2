@@ -1,0 +1,58 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { manifest, framework } from '../../lib/repository';
+import { withBase } from '../../lib/urls';
+---
+
+<Layout title="O projektu">
+  <div class="shell">
+    <Breadcrumbs items={[{ label: 'O projektu' }]} />
+    <header class="page-head">
+      <p class="eyebrow">Digitální prototyp 02</p>
+      <h1>O projektu KRAAU</h1>
+      <p class="lead">
+        Rámec jako opora pro porozumění výuce, společný rozhovor a další profesní krok.
+      </p>
+    </header>
+    <div class="prose">
+      <h2>Východisko</h2>
+      <p>
+        Digitální verze převádí dodaný Kompetenční rámec studentů a studentek učitelství pro střední
+        školy do prostředí, ve kterém lze procházet strukturu, hledat témata a porovnávat konkrétní
+        popisy jednání.
+      </p>
+      <h2>Stav obsahu</h2>
+      <p>
+        Texty oblastí, kompetencí, kritérií, deskriptorů a mindsetů pocházejí z pracovního PDF.
+        Import zatím není metodicky schválené vydání rámce.
+      </p>
+      <p>
+        Průvodci, tematické štítky, přiřazení situací, související kritéria a komentáře přechodů
+        jsou pracovní redakční doprovod. Autorské modelové ukázky nepopisují skutečné vyučovací
+        hodiny a čekají na metodické ověření.
+      </p>
+      <h2>Kontrola zdroje</h2>
+      <p>Každé kritérium odkazuje na stránku PDF. Známé převzaté redakční zásahy:</p>
+      <ul>
+        {framework.editorialCorrections.map((text) => (
+          <li>{text}</li>
+        ))}
+      </ul>
+      <p>
+        Další překlepy pracovního zdroje jsou zachovány. Úprava textu musí projít obsahovou
+        kontrolou a vytvořit novou revizi.
+      </p>
+      <h2>Odpovědnosti</h2>
+      <p>
+        Obsahový a metodický garant pro nové digitální vydání zatím nebyl v podkladech určen.
+        Autorství původního dokumentu je uvedeno v{' '}
+        <a href={withBase('zdroje/')}>zdrojových podkladech</a>. Kontakt pro připomínky bude doplněn
+        po jeho potvrzení.
+      </p>
+      <p class="source-reference">
+        Vydání prototypu: {manifest.contentReleaseId}. Zdroj: {manifest.versionLabel}.
+      </p>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,34 @@
+{
+  "id": "98b818e9-f2e6-50a9-a8ce-4e713f87a103",
+  "criterionId": "7f12729f-0999-5a08-a33f-e0e3c7468ad4",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Cíle výuky nastavuji tak, aby vedly k celkovému rozvoji žáků a žákyň.",
+  "mindset": "Jsem přesvědčen/a, že cíle vzdělávání mají přesahovat kognitivní rozvoj.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 10
+  },
+  "levels": [
+    {
+      "id": "766d21e1-6202-59c9-ac61-41b13a1fac88",
+      "level": 0,
+      "text": "Nastavuji cíle výuky, které se vztahují pouze k jedné oblasti rozvoje žáků a žákyň (např. pouze kognitivní cíle, afektivní, nebo psychomotorické cíle)."
+    },
+    {
+      "id": "8c0b430e-d91d-53ec-a89e-7a9a4fdb5a9e",
+      "level": 1,
+      "text": "Příležitostně nastavuji cíle výuky, které se vztahují k více oblastem rozvoje žáků a žákyň."
+    },
+    {
+      "id": "245006c2-c4e6-57e2-adf5-d6763190c1a6",
+      "level": 2,
+      "text": "Pravidelně nastavuji cíle výuky, které se vztahují k více oblastem rozvoje žáků a žákyň."
+    },
+    {
+      "id": "a8128ed9-f577-5f39-af55-2855aa5433a5",
+      "level": 3,
+      "text": "V mém dlouhodobém plánu systematicky nastavuji cíle pro různé oblasti rozvoje žáků a žákyň."
+    }
+  ]
+}

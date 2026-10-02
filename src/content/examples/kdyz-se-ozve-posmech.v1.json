@@ -1,0 +1,59 @@
+{
+  "publicId": "kdyz-se-ozve-posmech",
+  "title": "Když se po odpovědi ozve výsměch",
+  "type": "transkript",
+  "duration": "3 min čtení",
+  "summary": "Model krátké reakce na výsměch a návratu k domluveným pravidlům diskuse.",
+  "context": {
+    "subject": "Občanská výchova",
+    "school": "Střední škola",
+    "age": "15–18 let",
+    "situation": "Během společné diskuse se po odpovědi žákyně ozve posměšný komentář."
+  },
+  "topics": [
+    "bezpeci",
+    "vztahy",
+    "chyba"
+  ],
+  "phases": [
+    "realizace"
+  ],
+  "questions": [
+    "Co vyučující popisuje a na jaké pravidlo se odvolává?",
+    "Jak může být zachována důstojnost všech aktérů?"
+  ],
+  "body": [
+    {
+      "heading": "Zastavení situace",
+      "text": "Vyučující: „Teď zazněl komentář, který zesměšňuje odpověď. Zastavíme se u toho. Máme domluveno, že můžeme nesouhlasit s myšlenkou, ale neshazujeme člověka.“"
+    },
+    {
+      "heading": "Návrat k pravidlu",
+      "text": "Vyučující připomene pravidlo diskuse a pojmenuje domluvený důsledek jeho nedodržení. Nabídne žákyni možnost doplnit odpověď teď, nebo se k ní vrátit později."
+    },
+    {
+      "heading": "Pokračování",
+      "text": "Vyučující: „Kdo vidí tuto otázku jinak? Zkuste navázat na myšlenku a vysvětlit svůj důvod.“ Po hodině se k situaci s dotčenými žáky vrátí."
+    }
+  ],
+  "limitations": "Model není univerzálním postupem pro řešení konfliktu. Neznáme předchozí vztahy, potřeby žáků ani následný vývoj situace.",
+  "links": [
+    {
+      "criterionCode": "3.2.2",
+      "level": 2,
+      "evidence": "Oddíly Zastavení situace a Návrat k pravidlu.",
+      "commentary": "Model ukazuje přímou reakci na narušení bezpečí a transparentní oporu v pravidlech. Nemůže doložit dlouhodobou konzistenci.",
+      "id": "8448f293-06df-5ae7-ab89-4f23e34e4d2b",
+      "criterionRevisionId": "398b37b3-a46b-5283-a762-e6086bd879f1"
+    }
+  ],
+  "id": "d84d9282-7791-5e84-a34d-d1eeb4e94685",
+  "revisionId": "d0492c42-b75a-594f-a2f0-e2485d428faa",
+  "status": "demo",
+  "author": "Autorský model pro digitální prototyp KRAAU",
+  "rights": {
+    "permissionStatus": "original-demo",
+    "scope": "Modelový text vytvořený pro prototyp; neobsahuje skutečné osobní údaje."
+  },
+  "reviewedAt": null
+}

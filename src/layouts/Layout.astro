@@ -1,0 +1,211 @@
+---
+import '@fontsource-variable/source-sans-3';
+import '@fontsource-variable/source-serif-4';
+import '../styles/global.css';
+import { withBase } from '../lib/urls';
+import Icon from '../components/Icon.astro';
+interface Props {
+  title?: string;
+  description?: string;
+  current?: string;
+  noindex?: boolean;
+}
+const {
+  title,
+  description = 'Najděte téma ze své praxe, porovnejte popisy profesního jednání a promyslete další krok.',
+  current = '',
+  noindex = false,
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).href;
+const nav = [
+  ['ramec', 'Rámec', 'ramec/'],
+  ['ukazky', 'Ukázky z praxe', 'ukazky/'],
+  ['jak-pracovat', 'Jak s rámcem pracovat', 'jak-pracovat/'],
+];
+---
+
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>
+      document.documentElement.dataset.js = 'true';
+    </script>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#246458" />
+    <title>{title?`${title} · KRAAU`:'KRAAU · Rámec pro porozumění vlastní výuce'}</title>
+    <link rel="canonical" href={canonical} />
+    <meta
+      property="og:title"
+      content={title ? `${title} · KRAAU` : 'KRAAU · Rámec pro porozumění vlastní výuce'}
+    />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="cs_CZ" />
+    <meta property="og:url" content={canonical} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
+    <link rel="sitemap" href={withBase('sitemap.xml')} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">
+      Přeskočit na obsah
+    </a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href={withBase()} aria-label="KRAAU, úvod">
+          <span class="brand-mark" aria-hidden="true">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+          <strong>KRAAU</strong>
+          <span class="brand-description">
+            Kompetenční rámec
+            <br />
+            pro učitelskou praxi
+          </span>
+        </a>
+        <nav class="desktop-nav" aria-label="Hlavní navigace">
+          {nav.map(([key, label, path]) => (
+            <a href={withBase(path)} aria-current={current === key ? 'page' : undefined}>
+              {label}
+            </a>
+          ))}
+          <a
+            href={withBase('hledat/')}
+            class="nav-search"
+            aria-current={current === 'hledat' ? 'page' : undefined}
+          >
+            <Icon name="search" size={18} />
+            Hledat
+          </a>
+        </nav>
+        <div class="mobile-actions">
+          <a class="icon-button" href={withBase('hledat/')} aria-label="Hledat" title="Hledat">
+            <Icon name="search" />
+          </a>
+          <details class="mobile-menu">
+            <summary class="icon-button" aria-label="Otevřít nabídku" title="Nabídka">
+              <Icon name="menu" />
+            </summary>
+            <nav aria-label="Mobilní navigace">
+              {nav.map(([key, label, path]) => (
+                <a href={withBase(path)} aria-current={current === key ? 'page' : undefined}>
+                  {label}
+                </a>
+              ))}
+              <a href={withBase('urovne/')}>Jak rozumět úrovním</a>
+            </nav>
+          </details>
+        </div>
+      </div>
+    </header>
+    <div class="context-bar">
+      <div class="shell context-inner">
+        <span class="prototype-label">
+          <span aria-hidden="true"></span>Pracovní prototyp
+        </span>
+        <div class="role-choice" data-js-only>
+          <label for="global-role">Používám rámec jako</label>
+          <select id="global-role" aria-label="Používám rámec jako" aria-describedby="role-help">
+            <option value="neutral">Bez výběru role</option>
+            <option value="student">Studující učitelství</option>
+            <option value="mentor">Provázející učitel</option>
+            <option value="educator">VŠ vzdělavatel</option>
+          </select>
+          <span id="role-help" class="sr-only">
+            Role upraví otázky a doporučení, obsah rámce zůstává stejný.
+          </span>
+        </div>
+      </div>
+    </div>
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="shell">
+        <div class="footer-grid">
+          <div>
+            <a class="footer-brand" href={withBase()}>
+              KRAAU
+            </a>
+            <p>
+              Společný jazyk pro přemýšlení
+              <br />a rozhovor o učitelské praxi.
+            </p>
+          </div>
+          <div>
+            <h2>Práce s rámcem</h2>
+            <a href={withBase('ramec/')}>Prozkoumat rámec</a>
+            <a href={withBase('urovne/')}>Jak rozumět úrovním</a>
+            <a href={withBase('jak-pracovat/')}>Průvodci reflexí</a>
+          </div>
+          <div>
+            <h2>Projekt</h2>
+            <a href={withBase('o-projektu/')}>O projektu</a>
+            <a href={withBase('zdroje/')}>Zdrojové dokumenty</a>
+            <a href={withBase('pristupnost-soukromi/')}>Přístupnost a soukromí</a>
+          </div>
+          <div class="footer-source">
+            <img
+              src={withBase('ramec-titulni-strana.png')}
+              width="54"
+              height="76"
+              alt="Titulní strana zdrojového kompetenčního rámce"
+              loading="lazy"
+            />
+            <div>
+              <span>Zdrojový rámec</span>
+              <a href={withBase('zdroje/')}>
+                Pracovní vydání <Icon name="external" size={14} />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>Digitální prototyp 02 · říjen 2026</span>
+          <span>Obsah rámce z pracovního PDF. Redakční doprovod čeká na metodické ověření.</span>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const roleSelect = document.querySelector<HTMLSelectElement>('#global-role');
+      if (roleSelect) {
+        try {
+          const role = localStorage.getItem('kraau-role');
+          if (role && ['neutral', 'student', 'mentor', 'educator'].includes(role))
+            roleSelect.value = role;
+        } catch {}
+        roleSelect.addEventListener('change', () => {
+          try {
+            if (roleSelect.value === 'neutral') localStorage.removeItem('kraau-role');
+            else localStorage.setItem('kraau-role', roleSelect.value);
+          } catch {}
+          window.dispatchEvent(new CustomEvent('kraau-role-change', { detail: roleSelect.value }));
+        });
+      }
+      document
+        .querySelector<HTMLDetailsElement>('.mobile-menu')
+        ?.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape') {
+            const menu = event.currentTarget as HTMLDetailsElement;
+            menu.open = false;
+            menu.querySelector('summary')?.focus();
+          }
+        });
+      document.querySelectorAll<HTMLDetailsElement>('[data-persist-details]').forEach((details) => {
+        const key = `kraau-details:${location.pathname}:${details.id}`;
+        try {
+          details.open = sessionStorage.getItem(key) === 'true';
+        } catch {}
+        details.addEventListener('toggle', () => {
+          try {
+            sessionStorage.setItem(key, String(details.open));
+          } catch {}
+        });
+      });
+    </script>
+  </body>
+</html>

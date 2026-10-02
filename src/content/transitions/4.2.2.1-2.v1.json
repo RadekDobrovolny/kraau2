@@ -1,0 +1,24 @@
+{
+  "id": "38d86806-e223-5111-a080-557b83d72947",
+  "criterionRevisionId": "4e5367db-ce47-5543-a348-6ffb8f10fb99",
+  "fromLevel": 1,
+  "toLevel": 2,
+  "status": "demo",
+  "summaryPoints": [
+    "Popis se posouvá od některých žáků ke značné části třídy.",
+    "Samotný počet odpovědí ještě neříká nic o jejich myšlenkové náročnosti."
+  ],
+  "observationQuestion": "Jak se příležitosti promluvit rozdělily mezi různé žáky?",
+  "highlights": [
+    {
+      "descriptorId": "1382ea3f-d716-5143-a403-05070c60a7e0",
+      "phrase": "jen některé",
+      "occurrence": 0
+    },
+    {
+      "descriptorId": "17477d88-a49b-5f07-a0b7-30cc3b4c7ff5",
+      "phrase": "značnou část",
+      "occurrence": 0
+    }
+  ]
+}

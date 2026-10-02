@@ -1,0 +1,23 @@
+{
+  "id": "f374aad5-be32-5fcf-a18f-8af7b8558076",
+  "criterionRevisionId": "e1c5465c-bdfe-5519-a9d7-322f758a7447",
+  "fromLevel": 2,
+  "toLevel": 3,
+  "status": "demo",
+  "summaryPoints": [
+    "Plán ověření nyní odpovídá všem nastaveným cílům."
+  ],
+  "observationQuestion": "Jak zvolený výstup dovolí ověřit jednotlivé cíle?",
+  "highlights": [
+    {
+      "descriptorId": "1cfae113-1295-52c0-aa25-5360d4c5338d",
+      "phrase": "U některých",
+      "occurrence": 0
+    },
+    {
+      "descriptorId": "007d840f-d563-52c6-a20d-417d6c3461f9",
+      "phrase": "a odpovídající způsob ověření",
+      "occurrence": 0
+    }
+  ]
+}

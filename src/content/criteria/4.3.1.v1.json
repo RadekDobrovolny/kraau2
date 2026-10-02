@@ -1,0 +1,34 @@
+{
+  "id": "eb96399d-8b98-5dc4-ad27-3efdeab0dcba",
+  "criterionId": "fe35d1c5-89bb-5a1c-a2a0-287ea0abb6d4",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "V průběhu výuky uplatňuji postupy, díky nimž jsme já i žáci a žákyně schopni vyhodnocovat, jak se jim aktuálně daří v procesu učení.",
+  "mindset": "Jsem přesvědčen/a, že pravidelné sledování a vyhodnocování učení během výuky pomáhá mně i žákům a žákyním lépe porozumět procesu učení.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 21
+  },
+  "levels": [
+    {
+      "id": "151efa37-ce15-52ca-a8ea-601cf96ab171",
+      "level": 0,
+      "text": "Během výuky nezjišťuji, jak se žákům a žákyním průběžně daří v procesu učení."
+    },
+    {
+      "id": "56f0f0c9-177a-57e6-a42a-bc97b0353c6e",
+      "level": 1,
+      "text": "Během výuky příležitostně a jen u některých žáků a žákyň zjišťuji, jak se jim průběžně daří v procesu učení."
+    },
+    {
+      "id": "8537e935-f04b-5837-a5d5-2c4782f10aa8",
+      "level": 2,
+      "text": "Během výuky systematicky uplatňuji postupy, díky nimž mohu vyhodnocovat, jak se žákům a žákyním aktuálně daří v procesu učení."
+    },
+    {
+      "id": "0f2a9ce4-8974-56e0-a777-77d479a901d1",
+      "level": 3,
+      "text": "Během výuky systematicky uplatňuji postupy, díky nimž jsme já i žáci a žákyně schopni vyhodnocovat, jak se jim aktuálně daří v procesu učení, průběžně pracujeme s tzv. důkazy o učení."
+    }
+  ]
+}

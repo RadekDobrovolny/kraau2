@@ -1,0 +1,34 @@
+{
+  "id": "e1c5465c-bdfe-5519-a9d7-322f758a7447",
+  "criterionId": "bfba9644-06f8-5cc5-ab67-6558783b1e43",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Cíle výuky nastavuji tak, aby byly ověřitelné, a současně plánuji způsob jejich ověření.",
+  "mindset": "Jsem přesvědčen/a, že součástí výuky je průběžně zjišťovat, jak se žákům a žákyním daří dosahovat stanovených cílů, a mít k tomu jasné důkazy.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 10
+  },
+  "levels": [
+    {
+      "id": "8afa6044-c299-5a9c-aed9-3395ded82d8f",
+      "level": 0,
+      "text": "Prozatím nastavuji cíle výuky, u kterých není možné ověřit, zda jich žáci a žákyně dosahují."
+    },
+    {
+      "id": "3993f196-b43d-5a88-aad8-bf9c10a7a34f",
+      "level": 1,
+      "text": "Nastavuji cíle výuky tak, že u některých lze ověřit, zda jich žáci a žákyně dosahují."
+    },
+    {
+      "id": "1cfae113-1295-52c0-aa25-5360d4c5338d",
+      "level": 2,
+      "text": "Nastavuji ověřitelné cíle výuky. U některých plánuji odpovídající způsob ověření."
+    },
+    {
+      "id": "007d840f-d563-52c6-a20d-417d6c3461f9",
+      "level": 3,
+      "text": "Nastavuji ověřitelné cíle výuky a odpovídající způsob ověření."
+    }
+  ]
+}

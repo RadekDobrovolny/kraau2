@@ -1,0 +1,34 @@
+{
+  "id": "2010dfb7-3ff1-56b4-ad4a-749afcb345ca",
+  "criterionId": "652bd288-2062-58ac-aa2c-8b53e08a0297",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Reflektuji svoji výuku.",
+  "mindset": "Jsem přesvědčen/a, že reflexe by měla být každodenní součástí práce učitele/učitelky.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 29
+  },
+  "levels": [
+    {
+      "id": "681fc8d9-7c57-538a-ae0e-5471ee2100a7",
+      "level": 0,
+      "text": "Svoji výuku nereflektuji."
+    },
+    {
+      "id": "1353cea7-ded1-5531-aa64-18f7048316a1",
+      "level": 1,
+      "text": "Pokouším se reflektovat svoji výuku, ale prozatím se mi nedaří identifikovat to podstatné."
+    },
+    {
+      "id": "6d1a1241-1cc7-594f-a198-83cf68617331",
+      "level": 2,
+      "text": "Reflektuji svoji výuku, zpravidla identifikuji to podstatné a zkouším formulovat návrhy, co bych mohl/a udělat příště lépe."
+    },
+    {
+      "id": "2789bae6-9492-53a5-ade8-e3b7dc222382",
+      "level": 3,
+      "text": "Běžně reflektuji svoji výuku, identifikuji klíčové aspekty a formuluji konkrétní návrhy, s nimiž poté dále pracuji."
+    }
+  ]
+}

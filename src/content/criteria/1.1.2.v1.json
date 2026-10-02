@@ -1,0 +1,34 @@
+{
+  "id": "acf24018-2daf-5e25-af70-3de2c0330abb",
+  "criterionId": "84fc60ca-5be3-5913-a22d-a71b2a2fd562",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "OBSAH VYUČOVANÉHO OBORU ZPROSTŘEDKOVÁVÁM S OPOROU O DŮVĚRYHODNÉ ZDROJE A KRITICKY PRACUJI S INFORMACEMI A JEJICH ZDROJI.",
+  "mindset": "Jsem přesvědčen/a, že součástí kvalitní výuky je práce s důvěryhodnými zdroji a rozvoj schopnosti žáků a žákyň kriticky posuzovat informace.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 6
+  },
+  "levels": [
+    {
+      "id": "4189e1b0-4026-5e15-ac2c-3ce425a3e387",
+      "level": 0,
+      "text": "Při zprostředkovávání obsahu vyučovaného oboru zatím pracuji se zdroji informací jen omezeně nebo bez ověřování jejich spolehlivosti."
+    },
+    {
+      "id": "cd0b01bc-9ce3-56c7-a431-20460b4cc8b8",
+      "level": 1,
+      "text": "Při zprostředkovávání obsahu vyučovaného oboru využívám důvěryhodné zdroje informací."
+    },
+    {
+      "id": "5bfcd827-ab54-5b81-a105-250769165038",
+      "level": 2,
+      "text": "Při zprostředkovávání obsahu vyučovaného oboru využívám důvěryhodné zdroje a upozorňuji žáky a žákyně na rozdílnou kvalitu informací a jejich zdrojů."
+    },
+    {
+      "id": "6716b72d-aff4-5879-a721-f9952295a265",
+      "level": 3,
+      "text": "Při zprostředkovávání obsahu vyučovaného oboru systematicky pracuji s důvěryhodností zdrojů a vedu žáky a žákyně ke kritickému posuzování informací a způsobů, jak v oboru vzniká poznání."
+    }
+  ]
+}

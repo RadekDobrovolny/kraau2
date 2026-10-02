@@ -1,0 +1,1224 @@
+{
+  "schemaVersion": 1,
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "areas": [
+    {
+      "id": "9d3dd4db-5d9b-57d2-a0e6-729a94edc63a",
+      "code": "1",
+      "title": "Obsah vyučovaného oboru a jeho didaktické zprostředkování",
+      "intro": [
+        "Oblast 1 se zaměřuje na vyučované obory a jejich zprostředkovávání žákům a žákyním. Vychází z předpokladu, že kvalitní výuka není založena pouze na obecných pedagogických dovednostech, ale také na hlubokém porozumění vyučovanému oboru, jeho způsobům poznávání a možnostem jeho didaktického zprostředkování různým žákům a žákyním. Současné výzkumy přitom ukazují, že právě propojení oborových znalostí, oborově-didaktického uvažování a schopnosti pracovat s tím, jak žáci a žákyně oborovému obsahu rozumějí, představuje jednu z klíčových složek kvalitní výuky (Shulman, 1986; Janík et al., 2013). Kompetence v této oblasti proto zahrnují nejen práci s obsahem vyučovaných oborů, ale také porozumění tomu, jak v oborech vzniká poznání, jaké způsoby myšlení jsou pro jednotlivé disciplíny typické a jak lze tyto způsoby poznávání zprostředkovávat žákům a žákyním. Součástí je také dovednost reflektovat proměny oboru, pracovat s odbornými zdroji a využívat oborově specifické nástroje a technologie.",
+        "Tato oblast je v předkládaném rámci formulována záměrně obecně tak, aby vytvářela společný základ pro všechny studující učitelství se zaměřením na střední školy. Současně však vycházíme z toho, že jednotlivé vyučované obory mají svá specifika, která nelze plně zachytit pouze na obecné úrovni. Předložený rámec proto chápeme jako zastřešující východisko, které je postupně doplňováno a konkretizováno prostřednictvím oborově specifických kompetenčních rámců vznikajících v návaznosti na národní Kompetenční rámec absolventa a absolventky učitelství (2023). Tyto rámce rozpracovávají specifické aspekty jednotlivých oborů, jejich epistemologii, charakteristické způsoby práce i specifické požadavky na oborově-didaktické kompetence vyučujících."
+      ],
+      "order": 0,
+      "sourcePage": 5,
+      "accentKey": "area-1"
+    },
+    {
+      "id": "9142bded-09d4-5db0-ac52-cfdfc0b42997",
+      "code": "2",
+      "title": "Plánování výuky",
+      "intro": [
+        "Plánování výuky představuje klíčovou profesní činnost, jejímž prostřednictvím vyučující promýšlí a strukturuje výuku tak, aby směřovala k naplnění stanovených cílů a podporovala učení žáků a žákyň. Nejde přitom pouze o organizační přípravu jednotlivých hodin, ale o komplexní rozhodování o cílech, obsahu, metodách, čase i způsobech práce s různorodostí žáků a žákyň. Výzkumy dlouhodobě ukazují, že kvalita plánování se promítá do efektivity výuky i výsledků učení (Hattie, 2009). Současné přístupy ke kurikulu zároveň zdůrazňují, že učení není nahodilý proces, ale opírá se o systematicky strukturované poznání, které je třeba ve výuce cíleně budovat a postupně rozvíjet (Surma et al., 2025).",
+        "V rámci plánování výuky vyučující nastavuje cíle tak, aby byly srozumitelné, dosažitelné a zároveň představovaly přiměřenou výzvu pro různé žáky a žákyně. Jasně formulované cíle pomáhají zaměřit pozornost na podstatné aspekty učiva a umožňují sledovat pokrok v učení (Hattie, 2009; Sadler, 1989). Současně jsou cíle ukotveny v promyšleném výběru obsahu, protože rozvoj komplexních dovedností je vždy spojen s konkrétními znalostmi a jejich strukturou (Surma et al., 2025). Nastavování cílů tak zahrnuje nejen jejich formulaci, ale i jejich zasazení do širšího kontextu učiva a jejich přizpůsobení aktuální úrovni žáků a žákyň.",
+        "Na formulaci cílů navazuje volba metod a forem výuky, které umožňují žákům a žákyním těchto cílů dosahovat. Efektivita výukových metod nespočívá v jejich formální „aktivitě“, ale v míře, v jaké podporují kognitivní zapojení a práci s obsahem (Hattie, 2009; Kirschner, Sweller & Clark, 2006). Vyučující proto plánuje metody v návaznosti na charakter učiva i potřeby konkrétní třídy a zohledňuje přitom také principy kognitivní zátěže (Sweller et al., 2019). Plánování metod zahrnuje jejich strukturování, návaznost i vytváření prostoru pro aktivní zpracování učiva.",
+        "Součástí plánování je také promyšlený výběr a úprava výukových materiálů, které významně ovlivňují, jakým způsobem žáci a žákyně učivu rozumějí a jak s ním pracují. Vyučující vybírá materiály tak, aby podporovaly porozumění, umožňovaly aktivní zapojení a navazovaly na předchozí zkušenosti žáků a žákyň (Hattie, 2009). Současně je upravuje s ohledem na různorodost třídy a vytváří tak různé cesty k porozumění učivu. Diferenciace přitom neznamená zjednodušování obsahu, ale jeho didaktické zpřístupňování různým žákům a žákyním (Navrátilová, 2025; Tomlinson, 2014).",
+        "Plánování výuky zahrnuje také práci s časem, která vytváří rámec pro efektivní průběh učení. Vyučující promýšlí strukturu výuky tak, aby jednotlivé činnosti na sebe navazovaly a podporovaly porozumění, procvičování i upevňování učiva. Efektivní využití času nespočívá pouze v dodržení předem stanoveného plánu, ale především v jeho flexibilním přizpůsobování průběhu výuky a potřebám žáků a žákyň (Hattie, 2009). Současně vyučující zohledňuje i širší časové souvislosti výuky a vytváří prostor pro návrat k obtížným tématům či prohlubování porozumění.",
+        "Nedílnou součástí plánování je také zohlednění různorodosti žáků a žákyň. Vyučující přizpůsobuje výuku jejich předchozím znalostem, zkušenostem i tempu učení a vytváří příležitosti pro zapojení všech. Diferenciace přitom není chápána jako dodatečná úprava výuky, ale jako její integrální součást, která se promítá do cílů, metod i organizace výuky (Tomlinson, 2014). Výzkumy z českého prostředí ukazují, že efektivní diferenciace spočívá především v promyšleném přizpůsobení výukových postupů v rámci společné výuky, nikoli pouze v organizačních opatřeních (Navrátilová, 2025; Obrovská et al., 2025).",
+        "Plánování výuky tak propojuje jednotlivé složky pedagogického rozhodování do funkčního celku. Umožňuje vyučujícím vytvářet smysluplné výukové situace, které reflektují strukturu učiva i potřeby žáků a žákyň, a představuje tak základ pro kvalitní a promyšlenou výuku."
+      ],
+      "order": 1,
+      "sourcePage": 9,
+      "accentKey": "area-2"
+    },
+    {
+      "id": "1163ca5d-cf27-54f7-a958-641cb6cd3679",
+      "code": "3",
+      "title": "Podmínky pro učení",
+      "intro": [
+        "Oblast 3 se zaměřuje na to, jak studující dokáže utvářet podmínky pro učení tak, aby podporovaly zapojení všech žáků a žákyň, jejich pocit bezpečí a kvalitu vztahů ve třídě. Vychází z předpokladu, že prostředí, ve kterém se učení odehrává, zásadním způsobem ovlivňuje, zda a jak se žáci a žákyně mohou učit. Atmosféra ve třídě, kvalita vztahů, pocit důvěry a bezpečí i předvídatelnost pravidel vytvářejí rámec, ve kterém se může smysluplné učení rozvíjet. Bez tohoto rámce zůstávají i dobře připravené výukové aktivity jen obtížně využitelné. Vhodně utvářené podmínky pro učení přitom nepodporují pouze zvládání učiva, ale přispívají i k rozvoji dovedností důležitých pro fungování žáků a žákyň ve skupině, jako je spolupráce, komunikace či regulace emocí. Skládá se ze dvou vzájemně souvisejících kompetencí: kompetence k budování prostředí důvěry (3.1) a k vytváření a udržování bezpečného prostředí (3.2).",
+        "Kompetence budování prostředí důvěry (3.1) vychází z výzkumných zjištění, která ukazují, že prostředí založené na důvěře podporuje zapojení žáků a žákyň do učení, jejich ochotu riskovat chybu i celkovou studijní motivaci (Bryk & Schneider, 2002; Wentzel, 2012). Důvěra se přitom nevytváří jednorázově, ale postupně – v každodenních interakcích mezi vyučujícím a žáky a žákyněmi i mezi nimi navzájem. Výzkumy zároveň ukazují, že pokud žáci a žákyně vnímají, že jsou ve třídě přijímáni a respektováni, vytváří to podmínky pro jejich aktivní zapojení do učení (Wentzel, 2012). Studující s rozvinutou kompetencí proto přistupuje ke všem žákům a žákyním s respektem, jedná předvídatelně a spravedlivě a svým jednáním vytváří stabilní a srozumitelné prostředí. Důvěru posiluje také tím, že dodržuje dohodnutá pravidla, reaguje konzistentně a dokáže regulovat vlastní emoce i v náročných situacích. Současně vědomě pracuje s komunikačními normami ve třídě, podporuje interakce mezi žáky a žákyněmi a oceňuje projevy prosociálního chování, které přispívají k rozvoji pozitivních vztahů a pocitu sounáležitosti. Budování důvěry tak představuje dlouhodobý proces, který tvoří jeden ze základních předpokladů efektivního učení.",
+        "Kompetence vytváření a udržování bezpečného prostředí (3.2) vychází z předpokladu, že bezpečné prostředí – zahrnující fyzickou i psychologickou rovinu – umožňuje žákům a žákyním vyjadřovat své myšlenky a emoce, dělat chyby a aktivně se zapojovat do učení bez obav z ponížení či odmítnutí. Výzkumy ukazují, že vnímané bezpečí ve třídě úzce souvisí se zapojením žáků a žákyň, jejich školní spokojeností i socioemočním rozvojem (Thapa et al., 2013; Wang & Degol, 2016). Bezpečné prostředí zároveň podporuje rozvoj sociálních a emočních dovedností, které jsou důležité nejen pro učení, ale i pro fungování žáků a žákyň mimo školu (Thapa et al., 2013). Studující s rozvinutou kompetencí proto systematicky pracuje s pravidly, která jsou pro žáky a žákyně srozumitelná a předvídatelná, a citlivě reaguje na situace, které by mohly bezpečí ve třídě narušovat. Součástí je také podpora socioemočního rozvoje žáků a žákyň a vedení k uvědomování dopadů jejich chování na ostatní. Studující si všímá projevů, které mohou signalizovat ohrožení bezpečí nebo zdravého vývoje žáků a žákyň, a adekvátně na ně reaguje. Pozornost věnuje rovněž materiálnímu a organizačnímu uspořádání prostředí, včetně podmínek bezpečí ve virtuálním prostoru. Vytváření bezpečného prostředí tak představuje kontinuální proces, který propojuje práci s pravidly, vztahy i konkrétními situacemi ve třídě."
+      ],
+      "order": 2,
+      "sourcePage": 14,
+      "accentKey": "area-3"
+    },
+    {
+      "id": "87d0da3d-c737-59a7-a75e-730576cd0f84",
+      "code": "4",
+      "title": "Podpora učení",
+      "intro": [
+        "Oblast 4 se zaměřuje na to, jak vyučující vede výuku tak, aby podporovala učení všech žáků a žákyň, průběžně reagovala na jejich potřeby a současně rozvíjela jejich schopnost přebírat odpovědnost za vlastní učení. Navazuje na plánování výuky a soustředí se na její realizaci v konkrétní třídní situaci. Výzkumy ukazují, že kvalita výuky úzce souvisí s tím, jakým způsobem vyučující podporuje proces učení a jak dokáže vytvářet příležitosti pro aktivní zapojení žáků a žákyň (Hattie, 2009). Současně poznatky kognitivní psychologie zdůrazňují, že učení není pasivním přijímáním informací, ale procesem aktivního zpracování, při kterém žáci a žákyně propojují nové poznatky s již existujícími znalostmi a postupně budují strukturované porozumění (Surma et al., 2025).",
+        "V průběhu výuky vyučující zprostředkovává cíle učení a ověřuje, jak jim žáci a žákyně rozumějí. Jasně formulované cíle a kritéria úspěchu patří mezi faktory s významným dopadem na učení, protože umožňují žákům a žákyním orientovat se v tom, čeho mají dosáhnout, sledovat vlastní pokrok a regulovat své úsilí (Hattie, 2009; Black & Wiliam, 2009). Vyučující proto s cíli nepracuje pouze na začátku hodiny, ale průběžně je zpřítomňuje, vrací se k nim a zapojuje žáky a žákyně do jejich porozumění, například prostřednictvím společného formulování kritérií nebo diskuse o tom, jak poznají, že cíle dosáhli (Andrade & Brookhart, 2020).",
+        "Současně vyučující využívá výukové strategie, které podporují učení žáků a žákyň. Výzkumy ukazují, že efektivní výuka je založena na promyšlené kombinaci postupů vedoucích k aktivnímu zpracování učiva, jeho strukturování a propojování s předchozími znalostmi (Hattie, 2009; Surma et al., 2025). Srozumitelná zadání snižují vnější kognitivní zátěž a umožňují soustředit pozornost na podstatné aspekty učiva (Sweller et al., 2019). Významnou roli hraje také výuková komunikace, která slouží jako nástroj rozvoje myšlení — žáci a žákyně se prostřednictvím svého zapojení do výukové komunikace učí formulovat své myšlenky, argumentovat i reflektovat vlastní porozumění. Kvalita výukové komunikace ve třídě přitom souvisí s výsledky učení (Šeďová et al., 2019). Vyučující současně vytváří příležitosti pro spolupráci, v nichž žáci a žákyně rozvíjejí nejen porozumění učivu, ale i komunikační a sociální dovednosti (Kasíková, 2010; Slavin, 2014).",
+        "Důležitou součástí podpory učení je také schopnost vyučujícího průběžně vyhodnocovat, jak se žákům a žákyním daří pracovat s učivem, a na základě těchto zjištění reagovat. Vyučující sleduje, jak žáci a žákyně učivu rozumějí, identifikuje obtíže či miskoncepce a podle toho upravuje průběh výuky (Heritage, 2010; Schön, 1983). Schopnost flexibilně reagovat přispívá nejen k lepším výsledkům učení, ale také k vyšší motivaci žáků a žákyň a jejich pocitu podpory ze strany vyučujícího (Pianta et al., 2012; Bardach et al., 2020).",
+        "V průběhu výuky vyučující zároveň podporuje autoregulaci učení žáků a žákyň. Jedním z cílů vzdělávání je vést žáky a žákyně k tomu, aby dokázali plánovat, sledovat a vyhodnocovat vlastní učení (MŠMT, 2020). Schopnost autoregulace představuje významný předpoklad dlouhodobého vzdělávacího úspěchu (Zimmerman, 2002). Žáci a žákyně se těmto dovednostem učí postupně prostřednictvím cílené podpory vyučujícího, který modeluje postupy, poskytuje vedení a postupně předává odpovědnost za učení samotným žákům a žákyním (Fisher & Frey, 2014). Součástí tohoto procesu je také rozvoj metakognice, tedy schopnosti přemýšlet o vlastním učení, volit strategie a vyhodnocovat jejich účinnost (Efklides, 2011). Žáci a žákyně, kteří vnímají, že mohou své učení ovlivňovat, vykazují vyšší vytrvalost i odolnost při překonávání obtíží (Zimmerman & Schunk, 2011).",
+        "Oblast podpory učení tak propojuje práci s cíli, výukovými strategiemi, průběžným vyhodnocováním učení i rozvojem autoregulace do jednoho celku. Umožňuje vyučujícím vytvářet výuku, která není pouze předáváním informací, ale procesem, v němž se žáci a žákyně aktivně zapojují, rozvíjejí své porozumění a postupně přebírají odpovědnost za vlastní učení."
+      ],
+      "order": 3,
+      "sourcePage": 18,
+      "accentKey": "area-4"
+    },
+    {
+      "id": "3a5d5b09-f34d-594b-aba5-8b4ae5587ddd",
+      "code": "5",
+      "title": "Zpětná vazba a hodnocení",
+      "intro": [
+        "Oblast 5 se zaměřuje na to, jak studující využívá hodnocení jako součást výuky tak, aby podporovalo učení žáků a žákyň a poskytovalo jim orientaci v jejich pokroku. Hodnocení zde není chápáno pouze jako závěrečné posouzení výsledků, ale jako průběžná práce s informacemi o učení, které umožňují vyučujícímu i žákům a žákyním rozhodovat o dalším postupu. Tento přístup odpovídá současnému pojetí hodnocení jako nástroje regulace učení, který je úzce propojen s cíli výuky, výukovými činnostmi i zpětnou vazbou (Black & Wiliam, 1998; Wiliam & Leahy, 2016; Slavík, 1999). V návaznosti na pojetí zdůrazňované v národním kompetenčním rámci je hodnocení chápáno jako proces, který vytváří podmínky pro aktivní zapojení žáků a žákyň do učení, podporuje jejich porozumění smyslu učení a umožňuje jim postupně přebírat odpovědnost za vlastní učení. Formativní hodnocení v tomto smyslu představuje průběžné hodnocení, které žákům a žákyním poskytuje informace o tom, co již zvládají, čemu rozumějí a jak mohou své učení dále rozvíjet, umožňuje jim sledovat vlastní pokrok a směřuje jejich učení k naplnění stanovených cílů (MŠMT, 2020; Starý, Laufková et al., 2016). Hodnocení se tak stává integrální součástí výukové interakce a opírá se o systematickou práci s důkazy o učení, které se ve výuce objevují v různých podobách (Hattie & Yates, 2014). V tomto pojetí zároveň dochází k propojení formativních a sumativních prvků hodnocení, kdy i souhrnné posouzení může sloužit jako zdroj informací pro další učení, pokud je interpretováno ve vztahu k cílům a kritériím a poskytuje žákům a žákyním vodítka pro další postup.",
+        "Kompetence poskytování průběžné zpětné vazby vychází z předpokladu, že zpětná vazba pomáhá žákům a žákyním porozumět jejich aktuálnímu výkonu i dalším krokům v učení. Studující ji opírá o předem sdílená kritéria a vztahuje ji k cílům výuky, čímž podporuje orientaci žáků a žákyň v tom, co se učí a proč. Zpětná vazba je konkrétní, popisná a zaměřená na proces učení, nikoli na hodnocení osoby žáka či žákyně (Slavík, 1999). Současně studující vede žáky a žákyně k tomu, aby zpětné vazbě rozuměli, dokázali ji interpretovat a využívali ji při plánování dalšího postupu v učení. Zpětná vazba se tak nestává pouze informací o výsledku, ale prostředkem aktivně podporujícím další rozvoj učení (Black & Wiliam, 1998; Wiliam & Leahy, 2016). Důležitou roli přitom hraje také načasování zpětné vazby, její provázanost s konkrétními učebními situacemi a návaznost na další výukové kroky, aby byla pro žáky a žákyně skutečně využitelná a vedla k reálné změně jejich učení.",
+        "Kompetence využívání různorodých metod a forem hodnocení vychází z předpokladu, že různé způsoby hodnocení umožňují zachytit různé podoby učení žáků a žákyň. Studující proto volí způsoby hodnocení v návaznosti na cíle učení a povahu učiva tak, aby poskytovaly co nejúplnější obraz o učení žáků a žákyň. Kombinuje různé přístupy a vytváří příležitosti k tomu, aby žáci a žákyně mohli své porozumění prokazovat různými způsoby (Wiliam & Leahy, 2016). V souladu s formativním pojetím hodnocení zapojuje žáky a žákyně do hodnoticího procesu prostřednictvím sebehodnocení a vzájemného hodnocení, které rozvíjí jejich schopnost posuzovat kvalitu vlastní práce, formulovat kritéria kvality a přebírat odpovědnost za vlastní učení (Starý, Laufková et al., 2016; Košťálová et al., 2008). Studující přitom využívá nástroje založené na kritériích, které umožňují sledovat pokrok a podporují porozumění tomu, co znamená kvalitní výkon. Důležitou roli hraje také transparentnost hodnocení, která posiluje důvěru žáků a žákyň v jeho spravedlnost a srozumitelnost, a tím přispívá k jejich větší ochotě aktivně se do hodnocení zapojovat.",
+        "Kompetence využívání okamžité zpětné vazby v průběhu výuky vychází z předpokladu, že podoba zpětné vazby ve výukové komunikaci významně ovlivňuje příležitosti žáků a žákyň k učení. Studující proto pracuje se zpětnou vazbou přímo v průběhu výukové komunikace a reaguje na odpovědi žáků a žákyň způsobem, který podporuje jejich porozumění, rozvíjí jejich myšlení a vede je k dalšímu uvažování. Výzkumy výukové komunikace ukazují, že pokud zpětná vazba přesahuje pouhé hodnocení správnosti a směřuje k rozvíjení odpovědí, kladení navazujících otázek a vytváření prostoru pro společné uvažování, podporuje hlubší zapojení žáků a žákyň do učení i rozvoj jejich porozumění (Šeďová, Švaříček, & Šalamounová, 2012). Nedílnou součástí tohoto přístupu je také práce s chybou jako přirozenou součástí učení — studující vytváří prostředí, ve kterém jsou chyby využívány jako zdroj informací o porozumění a příležitost k dalšímu učení, a vede žáky a žákyně k jejich aktivnímu zpracování. Tento způsob práce současně podporuje rozvoj metakognitivních dovedností, protože žáci a žákyně se učí reflektovat vlastní myšlení, strategie i postupy při řešení úloh a využívat tyto zkušenosti při dalším učení."
+      ],
+      "order": 4,
+      "sourcePage": 23,
+      "accentKey": "area-5"
+    },
+    {
+      "id": "43d293e5-2871-5c91-a0b8-0b15a20e331e",
+      "code": "6",
+      "title": "Profesní spolupráce, profesní sebepojetí, profesní rozvoj a péče o sebe",
+      "intro": [
+        "Oblast 6 se zaměřuje na profesní fungování studujícího jako člena školního společenství a jeho schopnost dlouhodobě rozvíjet vlastní profesní kompetence při současném zachování osobní pohody a psychického zdraví. V návaznosti na pojetí národního kompetenčního rámce je profesní rozvoj chápán jako kontinuální proces utváření profesní identity, který probíhá v interakci s profesní zkušeností, reflexí a spoluprací s ostatními. Nejde tedy pouze o osvojování dílčích dovedností, ale o postupné porozumění vlastní roli vyučujícího a hledání způsobů, jak tuto roli naplňovat v různých pedagogických situacích.",
+        "Kompetence profesní spolupráce vychází z předpokladu, že spolupráce s ostatními představuje jeden z klíčových zdrojů profesního učení. Výzkumy ukazují, že míra a kvalita spolupráce mezi vyučujícími souvisí s kvalitou výuky, výsledky žáků a žákyň i pracovní spokojeností vyučujících (OECD, 2020; Vangrieken et al., 2015). Spolupráce přitom nezahrnuje pouze sdílení materiálů, ale také společné promýšlení výuky, reflexi pedagogických situací a koordinaci postupů ve vztahu k žákům a žákyním. Důležitou podmínkou její funkčnosti je otevřenost sdílení a ochota učit se od druhých (García-Martínez et al., 2021; Brücknerová & Novotný, 2017). Studující proto aktivně vstupuje do profesních vztahů, rozvíjí spolupráci s provázejícím vyučujícím, asistenty pedagoga i dalšími aktéry školního prostředí a učí se využívat spolupráci jako zdroj vlastního profesního růstu. V tomto kontextu představuje tandemová výuka specifickou příležitost, protože umožňuje sdílet odpovědnost za výuku a současně reflektovat různé přístupy k řešení pedagogických situací (Baeten & Simons, 2014).",
+        "Kompetence plánování a realizace profesního rozvoje vychází z předpokladu, že profesní učení je dlouhodobý, systematický a reflektivní proces. Profesní rozvoj není jednorázovou aktivitou, ale průběžným propojováním zkušenosti, reflexe a teoretického porozumění (Day, 1999; Kelchtermans, 2009). Formování profesního sebepojetí umožňuje vyučujícím interpretovat pedagogické situace, čelit profesním výzvám a hledat adekvátní způsoby jednání (Wong & Liu, 2024). Výzkumy zároveň ukazují, že nejúčinnější profesní rozvoj je úzce propojen s vlastní výukovou praxí, zahrnuje systematickou reflexi a zpětnou vazbu a má dlouhodobý charakter (Timperley et al., 2007). Studující proto plánuje svůj profesní rozvoj v návaznosti na vlastní zkušenosti z výuky, identifikuje oblasti pro zlepšení a využívá různé zdroje učení, včetně reflexe vlastní praxe i sdílení s ostatními. Součástí tohoto procesu je také schopnost průběžné reflexe přímo během výuky, tedy schopnost situace interpretovat a adekvátně na ně reagovat (Schön, 1983).",
+        "Kompetence péče o sebe vychází z předpokladu, že péče o vlastní psychickou pohodu představuje nezbytnou podmínku dlouhodobě udržitelného profesního fungování. Učitelská profese patří mezi povolání s vyšší mírou psychické náročnosti a rizikem stresu a vyhoření, přičemž dlouhodobý stres negativně ovlivňuje nejen zdraví vyučujících, ale také kvalitu jejich interakcí se žáky a žákyněmi, motivaci žáků a žákyň i jejich vzdělávací výsledky (Madigan & Kim, 2021; Wartenberg et al., 2023). Péče o sebe proto není chápána jako individuální doplněk profesní role, ale jako její integrální součást. Zahrnuje schopnost sledovat vlastní psychickou pohodu, nastavovat hranice mezi pracovním a osobním životem a využívat strategie zvládání zátěže. Výzkumy zároveň ukazují, že vyšší míra wellbeingu vyučujícího souvisí s kvalitnějším třídním klimatem a efektivnější výukou (Hascher & Waber, 2021). Studující se proto učí vnímat péči o sebe jako předpoklad dlouhodobé profesní udržitelnosti i jako faktor, který přímo ovlivňuje kvalitu vzdělávacího procesu."
+      ],
+      "order": 5,
+      "sourcePage": 27,
+      "accentKey": "area-6"
+    }
+  ],
+  "competencies": [
+    {
+      "id": "f9caa39d-8322-5551-a721-cc405b26090a",
+      "areaId": "9d3dd4db-5d9b-57d2-a0e6-729a94edc63a",
+      "code": "1.1",
+      "title": "Rozumím vyučovaným oborům a dále se v nich rozvíjím",
+      "order": 0
+    },
+    {
+      "id": "c943b1dc-ace1-5968-ab98-7a9518417a68",
+      "areaId": "9d3dd4db-5d9b-57d2-a0e6-729a94edc63a",
+      "code": "1.2",
+      "title": "Zprostředkovávám obsah vyučovaného oboru",
+      "order": 1
+    },
+    {
+      "id": "a2ff0c3f-ee43-5e1c-aa9e-a062ce23a2e6",
+      "areaId": "9142bded-09d4-5db0-ac52-cfdfc0b42997",
+      "code": "2.1",
+      "title": "Nastavuji cíle výuky",
+      "order": 2
+    },
+    {
+      "id": "0601fcd1-a923-5213-a417-88f9ab542821",
+      "areaId": "9142bded-09d4-5db0-ac52-cfdfc0b42997",
+      "code": "2.2",
+      "title": "Plánuji metody výuky",
+      "order": 3
+    },
+    {
+      "id": "d1eef978-bd70-5e18-a9f3-9ac6b7410cbd",
+      "areaId": "9142bded-09d4-5db0-ac52-cfdfc0b42997",
+      "code": "2.3",
+      "title": "Připravuji výukové materiály",
+      "order": 4
+    },
+    {
+      "id": "646c4bae-d877-528b-a0af-dca0027ba9a5",
+      "areaId": "9142bded-09d4-5db0-ac52-cfdfc0b42997",
+      "code": "2.4",
+      "title": "Plánuji rozvržení času",
+      "order": 5
+    },
+    {
+      "id": "3b0d2110-f094-5d1e-a543-d6cd29897e2b",
+      "areaId": "9142bded-09d4-5db0-ac52-cfdfc0b42997",
+      "code": "2.5",
+      "title": "Individualizuji plán výuky",
+      "order": 6
+    },
+    {
+      "id": "dee34589-7d66-5600-a723-9939a1653b71",
+      "areaId": "1163ca5d-cf27-54f7-a958-641cb6cd3679",
+      "code": "3.1",
+      "title": "Buduji prostředí důvěry",
+      "order": 7
+    },
+    {
+      "id": "e3befa8e-8a66-5065-a2c2-d51129d249df",
+      "areaId": "1163ca5d-cf27-54f7-a958-641cb6cd3679",
+      "code": "3.2",
+      "title": "Udržuji bezpečné prostředí",
+      "order": 8
+    },
+    {
+      "id": "56d6ce56-39fe-5cad-abb8-e5bcceef79b5",
+      "areaId": "87d0da3d-c737-59a7-a75e-730576cd0f84",
+      "code": "4.1",
+      "title": "Zprostředkovávám výukové cíle a ověřuji, jak jim žáci a žákyně rozumí",
+      "order": 9
+    },
+    {
+      "id": "373cb445-6662-5080-af83-cbf389a102ea",
+      "areaId": "87d0da3d-c737-59a7-a75e-730576cd0f84",
+      "code": "4.2",
+      "title": "Využívám výukové strategie podporující učení žáků a žákyň",
+      "order": 10
+    },
+    {
+      "id": "52eff952-5c22-5e50-ad23-6261c3c07718",
+      "areaId": "87d0da3d-c737-59a7-a75e-730576cd0f84",
+      "code": "4.3",
+      "title": "Vedu výuku s ohledem na aktuální situaci ve třídě",
+      "order": 11
+    },
+    {
+      "id": "680341a3-8f64-5713-a308-543a24d343ef",
+      "areaId": "87d0da3d-c737-59a7-a75e-730576cd0f84",
+      "code": "4.4",
+      "title": "Podporuji autoregulaci učení žáků a žákyň",
+      "order": 12
+    },
+    {
+      "id": "34a32d2d-ba7f-57d6-accc-8919b48aff78",
+      "areaId": "3a5d5b09-f34d-594b-aba5-8b4ae5587ddd",
+      "code": "5.1",
+      "title": "Poskytuji průběžnou zpětnou vazbu",
+      "order": 13
+    },
+    {
+      "id": "a3b105e7-af05-57b2-a364-5b16b9c77d66",
+      "areaId": "3a5d5b09-f34d-594b-aba5-8b4ae5587ddd",
+      "code": "5.2",
+      "title": "Využívám různorodé metody a formy hodnocení",
+      "order": 14
+    },
+    {
+      "id": "e031fbe8-944a-5690-a179-7ccfbfe82076",
+      "areaId": "3a5d5b09-f34d-594b-aba5-8b4ae5587ddd",
+      "code": "5.3",
+      "title": "Svou okamžitou zpětnou vazbou podporuji učení žáků a žákyň",
+      "order": 15
+    },
+    {
+      "id": "5b1bcab2-4041-50c0-a7e4-7ac30c61f729",
+      "areaId": "43d293e5-2871-5c91-a0b8-0b15a20e331e",
+      "code": "6.1",
+      "title": "Spolupracuji s ostatními",
+      "order": 16
+    },
+    {
+      "id": "b029eb8c-be6a-55b3-ac2f-9339dad407df",
+      "areaId": "43d293e5-2871-5c91-a0b8-0b15a20e331e",
+      "code": "6.2",
+      "title": "Plánuji a realizuji svůj profesní rozvoj",
+      "order": 17
+    },
+    {
+      "id": "99ab5e21-18b2-5f03-aaa0-79726681a48c",
+      "areaId": "43d293e5-2871-5c91-a0b8-0b15a20e331e",
+      "code": "6.3",
+      "title": "Pečuji o sebe",
+      "order": 18
+    }
+  ],
+  "identities": [
+    {
+      "id": "5e737690-44df-5dac-aa8a-04053b4e16b2",
+      "competencyId": "f9caa39d-8322-5551-a721-cc405b26090a",
+      "publicCode": "1.1.1",
+      "order": 0,
+      "aliases": ["1-1-1"],
+      "topics": ["obor", "zdroje", "technologie"],
+      "phases": ["planovani", "realizace"]
+    },
+    {
+      "id": "84fc60ca-5be3-5913-a22d-a71b2a2fd562",
+      "competencyId": "f9caa39d-8322-5551-a721-cc405b26090a",
+      "publicCode": "1.1.2",
+      "order": 1,
+      "aliases": ["1-1-2"],
+      "topics": ["obor", "zdroje", "technologie"],
+      "phases": ["planovani", "realizace"]
+    },
+    {
+      "id": "46bd0ba6-2e04-5c7b-ace8-60015500d406",
+      "competencyId": "f9caa39d-8322-5551-a721-cc405b26090a",
+      "publicCode": "1.1.3",
+      "order": 2,
+      "aliases": ["1-1-3"],
+      "topics": ["obor", "zdroje", "technologie"],
+      "phases": ["planovani", "realizace"]
+    },
+    {
+      "id": "ad616db6-71c1-59d7-abd4-a2253a6b1de1",
+      "competencyId": "f9caa39d-8322-5551-a721-cc405b26090a",
+      "publicCode": "1.1.4",
+      "order": 3,
+      "aliases": ["1-1-4"],
+      "topics": ["obor", "zdroje", "technologie"],
+      "phases": ["planovani", "realizace"]
+    },
+    {
+      "id": "f71e7203-f49d-5d4a-a3b6-69647f1886ad",
+      "competencyId": "c943b1dc-ace1-5968-ab98-7a9518417a68",
+      "publicCode": "1.2.1",
+      "order": 4,
+      "aliases": ["1-2-1"],
+      "topics": ["obor", "porozumeni", "diferenciace"],
+      "phases": ["planovani", "realizace"]
+    },
+    {
+      "id": "368fee35-723e-5430-a6c3-6460d0801947",
+      "competencyId": "c943b1dc-ace1-5968-ab98-7a9518417a68",
+      "publicCode": "1.2.2",
+      "order": 5,
+      "aliases": ["1-2-2"],
+      "topics": ["obor", "porozumeni", "diferenciace"],
+      "phases": ["planovani", "realizace"]
+    },
+    {
+      "id": "942a588c-13bc-5545-a3bf-2eb36fbd7b35",
+      "competencyId": "c943b1dc-ace1-5968-ab98-7a9518417a68",
+      "publicCode": "1.2.3",
+      "order": 6,
+      "aliases": ["1-2-3"],
+      "topics": ["obor", "porozumeni", "diferenciace"],
+      "phases": ["planovani", "realizace"]
+    },
+    {
+      "id": "d5795a11-259d-5b05-a2c4-616ca9341708",
+      "competencyId": "c943b1dc-ace1-5968-ab98-7a9518417a68",
+      "publicCode": "1.2.4",
+      "order": 7,
+      "aliases": ["1-2-4"],
+      "topics": ["obor", "porozumeni", "diferenciace"],
+      "phases": ["planovani", "realizace"]
+    },
+    {
+      "id": "37d197ce-4cdf-53e7-a277-05b0636a6f48",
+      "competencyId": "c943b1dc-ace1-5968-ab98-7a9518417a68",
+      "publicCode": "1.2.5",
+      "order": 8,
+      "aliases": ["1-2-5"],
+      "topics": ["obor", "porozumeni", "diferenciace"],
+      "phases": ["planovani", "realizace"]
+    },
+    {
+      "id": "ec7140a5-17de-5388-a57c-f7d4c1f069bd",
+      "competencyId": "a2ff0c3f-ee43-5e1c-aa9e-a062ce23a2e6",
+      "publicCode": "2.1.1",
+      "order": 9,
+      "aliases": ["2-1-1"],
+      "topics": ["cile", "hodnoceni"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "bfba9644-06f8-5cc5-ab67-6558783b1e43",
+      "competencyId": "a2ff0c3f-ee43-5e1c-aa9e-a062ce23a2e6",
+      "publicCode": "2.1.2",
+      "order": 10,
+      "aliases": ["2-1-2"],
+      "topics": ["cile", "hodnoceni"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "058f855c-7c69-58be-a9ac-cc8fc9aec31a",
+      "competencyId": "a2ff0c3f-ee43-5e1c-aa9e-a062ce23a2e6",
+      "publicCode": "2.1.3",
+      "order": 11,
+      "aliases": ["2-1-3"],
+      "topics": ["cile", "hodnoceni"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "7f12729f-0999-5a08-a33f-e0e3c7468ad4",
+      "competencyId": "a2ff0c3f-ee43-5e1c-aa9e-a062ce23a2e6",
+      "publicCode": "2.1.4",
+      "order": 12,
+      "aliases": ["2-1-4"],
+      "topics": ["cile", "hodnoceni"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "ecfb6519-c893-50eb-a225-890d57554069",
+      "competencyId": "0601fcd1-a923-5213-a417-88f9ab542821",
+      "publicCode": "2.2.1",
+      "order": 13,
+      "aliases": ["2-2-1"],
+      "topics": ["metody", "zapojeni"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "e6505230-d853-5b98-ada8-f26c6037bdd2",
+      "competencyId": "0601fcd1-a923-5213-a417-88f9ab542821",
+      "publicCode": "2.2.2",
+      "order": 14,
+      "aliases": ["2-2-2"],
+      "topics": ["metody", "zapojeni"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "9c39ffd5-b44c-5476-a0db-867714bc7cf5",
+      "competencyId": "0601fcd1-a923-5213-a417-88f9ab542821",
+      "publicCode": "2.2.3",
+      "order": 15,
+      "aliases": ["2-2-3"],
+      "topics": ["metody", "zapojeni"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "08e5f175-f21f-5d72-a9d2-823c5b9b0976",
+      "competencyId": "0601fcd1-a923-5213-a417-88f9ab542821",
+      "publicCode": "2.2.4",
+      "order": 16,
+      "aliases": ["2-2-4"],
+      "topics": ["metody", "zapojeni"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "669808dc-ea4f-55a0-a264-0fc6a7848da5",
+      "competencyId": "0601fcd1-a923-5213-a417-88f9ab542821",
+      "publicCode": "2.2.5",
+      "order": 17,
+      "aliases": ["2-2-5"],
+      "topics": ["metody", "zapojeni"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "ca2cb42c-6545-514c-ad3e-0ffd55442f16",
+      "competencyId": "0601fcd1-a923-5213-a417-88f9ab542821",
+      "publicCode": "2.2.6",
+      "order": 18,
+      "aliases": ["2-2-6"],
+      "topics": ["metody", "zapojeni"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "059115f5-2bde-51a9-a677-022365859c26",
+      "competencyId": "d1eef978-bd70-5e18-a9f3-9ac6b7410cbd",
+      "publicCode": "2.3.1",
+      "order": 19,
+      "aliases": ["2-3-1"],
+      "topics": ["materialy", "diferenciace"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "de8c0f52-8f46-50ab-a35f-162afa8bb9da",
+      "competencyId": "d1eef978-bd70-5e18-a9f3-9ac6b7410cbd",
+      "publicCode": "2.3.2",
+      "order": 20,
+      "aliases": ["2-3-2"],
+      "topics": ["materialy", "diferenciace"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "76ec48a7-2bbc-55c9-a453-a8781da17caf",
+      "competencyId": "646c4bae-d877-528b-a0af-dca0027ba9a5",
+      "publicCode": "2.4.1",
+      "order": 21,
+      "aliases": ["2-4-1"],
+      "topics": ["cas"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "7de5be45-0e09-541f-a4f2-d385442a69b0",
+      "competencyId": "3b0d2110-f094-5d1e-a543-d6cd29897e2b",
+      "publicCode": "2.5.1",
+      "order": 22,
+      "aliases": ["2-5-1"],
+      "topics": ["diferenciace"],
+      "phases": ["planovani"]
+    },
+    {
+      "id": "3b861665-7e4d-56e4-a82f-646bea1dc9a0",
+      "competencyId": "dee34589-7d66-5600-a723-9939a1653b71",
+      "publicCode": "3.1.1",
+      "order": 23,
+      "aliases": ["3-1-1"],
+      "topics": ["bezpeci", "komunikace", "vztahy"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "68b7ef05-5d67-5638-ac02-4c5221cbda9f",
+      "competencyId": "dee34589-7d66-5600-a723-9939a1653b71",
+      "publicCode": "3.1.2",
+      "order": 24,
+      "aliases": ["3-1-2"],
+      "topics": ["bezpeci", "komunikace", "vztahy"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "5f8b6bb1-31ba-5afd-a87d-9be2a1e56863",
+      "competencyId": "dee34589-7d66-5600-a723-9939a1653b71",
+      "publicCode": "3.1.3",
+      "order": 25,
+      "aliases": ["3-1-3"],
+      "topics": ["bezpeci", "komunikace", "vztahy"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "838bdadf-ebef-512e-af2d-51196cdc856b",
+      "competencyId": "dee34589-7d66-5600-a723-9939a1653b71",
+      "publicCode": "3.1.4",
+      "order": 26,
+      "aliases": ["3-1-4"],
+      "topics": ["bezpeci", "komunikace", "vztahy"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "33427bcd-9ce0-5298-ae37-daf964ffc41d",
+      "competencyId": "e3befa8e-8a66-5065-a2c2-d51129d249df",
+      "publicCode": "3.2.1",
+      "order": 27,
+      "aliases": ["3-2-1"],
+      "topics": ["bezpeci", "vztahy"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "2ded6a77-dde5-5000-a40a-33ad4c54e1cf",
+      "competencyId": "e3befa8e-8a66-5065-a2c2-d51129d249df",
+      "publicCode": "3.2.2",
+      "order": 28,
+      "aliases": ["3-2-2"],
+      "topics": ["bezpeci", "vztahy"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "056ae8f4-4915-54be-aae9-da93a37cb0e6",
+      "competencyId": "e3befa8e-8a66-5065-a2c2-d51129d249df",
+      "publicCode": "3.2.3",
+      "order": 29,
+      "aliases": ["3-2-3"],
+      "topics": ["bezpeci", "vztahy"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "7b751729-ed15-5fdf-a20b-00d5ed4be239",
+      "competencyId": "e3befa8e-8a66-5065-a2c2-d51129d249df",
+      "publicCode": "3.2.4",
+      "order": 30,
+      "aliases": ["3-2-4"],
+      "topics": ["bezpeci", "vztahy"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "9f473329-163b-5d08-afb7-b526a44ec010",
+      "competencyId": "e3befa8e-8a66-5065-a2c2-d51129d249df",
+      "publicCode": "3.2.5",
+      "order": 31,
+      "aliases": ["3-2-5"],
+      "topics": ["bezpeci", "vztahy"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "136e9297-7844-538f-a2a8-942ae1ebae12",
+      "competencyId": "e3befa8e-8a66-5065-a2c2-d51129d249df",
+      "publicCode": "3.2.6",
+      "order": 32,
+      "aliases": ["3-2-6"],
+      "topics": ["bezpeci", "vztahy"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "7c0cc655-5737-5468-a85c-48567aa1b19a",
+      "competencyId": "56d6ce56-39fe-5cad-abb8-e5bcceef79b5",
+      "publicCode": "4.1.1",
+      "order": 33,
+      "aliases": ["4-1-1"],
+      "topics": ["cile", "porozumeni"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "462d4cc9-6c61-5b3d-a587-f89249f01abc",
+      "competencyId": "373cb445-6662-5080-af83-cbf389a102ea",
+      "publicCode": "4.2.1",
+      "order": 34,
+      "aliases": ["4-2-1"],
+      "topics": ["zapojeni", "komunikace", "metody"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "5b1372e6-0de2-5bd1-a793-07dbc20a8628",
+      "competencyId": "373cb445-6662-5080-af83-cbf389a102ea",
+      "publicCode": "4.2.2",
+      "order": 35,
+      "aliases": ["4-2-2"],
+      "topics": ["zapojeni", "komunikace", "metody"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "3ae5b021-8874-56b9-a047-1a779c5f548f",
+      "competencyId": "373cb445-6662-5080-af83-cbf389a102ea",
+      "publicCode": "4.2.3",
+      "order": 36,
+      "aliases": ["4-2-3"],
+      "topics": ["zapojeni", "komunikace", "metody"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "2401f364-c57f-565b-aae6-4c22917a41da",
+      "competencyId": "373cb445-6662-5080-af83-cbf389a102ea",
+      "publicCode": "4.2.4",
+      "order": 37,
+      "aliases": ["4-2-4"],
+      "topics": ["zapojeni", "komunikace", "metody"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "200be649-50cf-5745-abaa-2f8deb479ac4",
+      "competencyId": "373cb445-6662-5080-af83-cbf389a102ea",
+      "publicCode": "4.2.5",
+      "order": 38,
+      "aliases": ["4-2-5"],
+      "topics": ["zapojeni", "komunikace", "metody"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "fe35d1c5-89bb-5a1c-a2a0-287ea0abb6d4",
+      "competencyId": "52eff952-5c22-5e50-ad23-6261c3c07718",
+      "publicCode": "4.3.1",
+      "order": 39,
+      "aliases": ["4-3-1"],
+      "topics": ["porozumeni", "hodnoceni", "diferenciace"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "d6f12f52-f83d-5b95-abe7-93b866183a26",
+      "competencyId": "52eff952-5c22-5e50-ad23-6261c3c07718",
+      "publicCode": "4.3.2",
+      "order": 40,
+      "aliases": ["4-3-2"],
+      "topics": ["porozumeni", "hodnoceni", "diferenciace"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "fab78ee0-8077-51e7-a77a-2025b6666df9",
+      "competencyId": "680341a3-8f64-5713-a308-543a24d343ef",
+      "publicCode": "4.4.1",
+      "order": 41,
+      "aliases": ["4-4-1"],
+      "topics": ["samostatnost", "reflexe"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "9e295409-18d6-5bd4-ac72-d743fe15f776",
+      "competencyId": "680341a3-8f64-5713-a308-543a24d343ef",
+      "publicCode": "4.4.2",
+      "order": 42,
+      "aliases": ["4-4-2"],
+      "topics": ["samostatnost", "reflexe"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "ae02e9fd-706c-5721-a2d7-0500feb09ea8",
+      "competencyId": "34a32d2d-ba7f-57d6-accc-8919b48aff78",
+      "publicCode": "5.1.1",
+      "order": 43,
+      "aliases": ["5-1-1"],
+      "topics": ["zpetna-vazba", "hodnoceni"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "054062bc-e008-56f2-a909-47ac6e84a7b6",
+      "competencyId": "34a32d2d-ba7f-57d6-accc-8919b48aff78",
+      "publicCode": "5.1.2",
+      "order": 44,
+      "aliases": ["5-1-2"],
+      "topics": ["zpetna-vazba", "hodnoceni"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "c34d2a07-6504-563c-ac72-424d7c02373f",
+      "competencyId": "34a32d2d-ba7f-57d6-accc-8919b48aff78",
+      "publicCode": "5.1.3",
+      "order": 45,
+      "aliases": ["5-1-3"],
+      "topics": ["zpetna-vazba", "hodnoceni"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "36d36afd-91bd-53e4-aa07-3c985b995e55",
+      "competencyId": "a3b105e7-af05-57b2-a364-5b16b9c77d66",
+      "publicCode": "5.2.1",
+      "order": 46,
+      "aliases": ["5-2-1"],
+      "topics": ["hodnoceni", "samostatnost"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "c33c4aec-7233-5701-a675-6d4d3dfe7afb",
+      "competencyId": "a3b105e7-af05-57b2-a364-5b16b9c77d66",
+      "publicCode": "5.2.2",
+      "order": 47,
+      "aliases": ["5-2-2"],
+      "topics": ["hodnoceni", "samostatnost"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "fcf276da-459b-5723-a5bf-9b3a500d007e",
+      "competencyId": "a3b105e7-af05-57b2-a364-5b16b9c77d66",
+      "publicCode": "5.2.3",
+      "order": 48,
+      "aliases": ["5-2-3"],
+      "topics": ["hodnoceni", "samostatnost"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "c3a0ab60-1a79-5444-ab63-ef0b82916b0f",
+      "competencyId": "e031fbe8-944a-5690-a179-7ccfbfe82076",
+      "publicCode": "5.3.1",
+      "order": 49,
+      "aliases": ["5-3-1"],
+      "topics": ["zpetna-vazba", "chyba", "komunikace"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "c34da8cd-3bf9-5070-ae47-baed6f809f85",
+      "competencyId": "e031fbe8-944a-5690-a179-7ccfbfe82076",
+      "publicCode": "5.3.2",
+      "order": 50,
+      "aliases": ["5-3-2"],
+      "topics": ["zpetna-vazba", "chyba", "komunikace"],
+      "phases": ["realizace", "reflexe"]
+    },
+    {
+      "id": "cd61b1e1-f3b6-58f3-a5b3-d5220c0d2b27",
+      "competencyId": "5b1bcab2-4041-50c0-a7e4-7ac30c61f729",
+      "publicCode": "6.1.1",
+      "order": 51,
+      "aliases": ["6-1-1"],
+      "topics": ["spoluprace"],
+      "phases": ["reflexe"]
+    },
+    {
+      "id": "02e2f11c-8183-59f9-afdf-01ace299d676",
+      "competencyId": "5b1bcab2-4041-50c0-a7e4-7ac30c61f729",
+      "publicCode": "6.1.2",
+      "order": 52,
+      "aliases": ["6-1-2"],
+      "topics": ["spoluprace"],
+      "phases": ["reflexe"]
+    },
+    {
+      "id": "64d02ec3-1951-58c8-a382-796a9ed221d9",
+      "competencyId": "5b1bcab2-4041-50c0-a7e4-7ac30c61f729",
+      "publicCode": "6.1.3",
+      "order": 53,
+      "aliases": ["6-1-3"],
+      "topics": ["spoluprace"],
+      "phases": ["reflexe"]
+    },
+    {
+      "id": "dddf8a4b-3486-5f33-a73f-639ae033063e",
+      "competencyId": "5b1bcab2-4041-50c0-a7e4-7ac30c61f729",
+      "publicCode": "6.1.4",
+      "order": 54,
+      "aliases": ["6-1-4"],
+      "topics": ["spoluprace"],
+      "phases": ["reflexe"]
+    },
+    {
+      "id": "fd360abc-4792-588c-ac0d-cfb6274c9cde",
+      "competencyId": "b029eb8c-be6a-55b3-ac2f-9339dad407df",
+      "publicCode": "6.2.1",
+      "order": 55,
+      "aliases": ["6-2-1"],
+      "topics": ["reflexe", "rozvoj"],
+      "phases": ["reflexe"]
+    },
+    {
+      "id": "3948e16d-c825-5a65-aa97-6098cac225a1",
+      "competencyId": "b029eb8c-be6a-55b3-ac2f-9339dad407df",
+      "publicCode": "6.2.2",
+      "order": 56,
+      "aliases": ["6-2-2"],
+      "topics": ["reflexe", "rozvoj"],
+      "phases": ["reflexe"]
+    },
+    {
+      "id": "652bd288-2062-58ac-aa2c-8b53e08a0297",
+      "competencyId": "b029eb8c-be6a-55b3-ac2f-9339dad407df",
+      "publicCode": "6.2.3",
+      "order": 57,
+      "aliases": ["6-2-3"],
+      "topics": ["reflexe", "rozvoj"],
+      "phases": ["reflexe"]
+    },
+    {
+      "id": "2b77168e-c36c-5984-a962-69d3b2301ade",
+      "competencyId": "b029eb8c-be6a-55b3-ac2f-9339dad407df",
+      "publicCode": "6.2.4",
+      "order": 58,
+      "aliases": ["6-2-4"],
+      "topics": ["reflexe", "rozvoj"],
+      "phases": ["reflexe"]
+    },
+    {
+      "id": "3ede5e08-6a0d-5a6b-a05f-eac56b5c88ff",
+      "competencyId": "99ab5e21-18b2-5f03-aaa0-79726681a48c",
+      "publicCode": "6.3.1",
+      "order": 59,
+      "aliases": ["6-3-1"],
+      "topics": ["pece-o-sebe"],
+      "phases": ["reflexe"]
+    },
+    {
+      "id": "928933b7-dea5-579b-a5d6-d9c37a8ec286",
+      "competencyId": "99ab5e21-18b2-5f03-aaa0-79726681a48c",
+      "publicCode": "6.3.2",
+      "order": 60,
+      "aliases": ["6-3-2"],
+      "topics": ["pece-o-sebe"],
+      "phases": ["reflexe"]
+    }
+  ],
+  "aliases": [
+    {
+      "oldPath": "/oblasti/1/",
+      "targetStableId": "9d3dd4db-5d9b-57d2-a0e6-729a94edc63a",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/oblasti/2/",
+      "targetStableId": "9142bded-09d4-5db0-ac52-cfdfc0b42997",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/oblasti/3/",
+      "targetStableId": "1163ca5d-cf27-54f7-a958-641cb6cd3679",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/oblasti/4/",
+      "targetStableId": "87d0da3d-c737-59a7-a75e-730576cd0f84",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/oblasti/5/",
+      "targetStableId": "3a5d5b09-f34d-594b-aba5-8b4ae5587ddd",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/oblasti/6/",
+      "targetStableId": "43d293e5-2871-5c91-a0b8-0b15a20e331e",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/1-1/",
+      "targetStableId": "f9caa39d-8322-5551-a721-cc405b26090a",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/1-2/",
+      "targetStableId": "c943b1dc-ace1-5968-ab98-7a9518417a68",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/2-1/",
+      "targetStableId": "a2ff0c3f-ee43-5e1c-aa9e-a062ce23a2e6",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/2-2/",
+      "targetStableId": "0601fcd1-a923-5213-a417-88f9ab542821",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/2-3/",
+      "targetStableId": "d1eef978-bd70-5e18-a9f3-9ac6b7410cbd",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/2-4/",
+      "targetStableId": "646c4bae-d877-528b-a0af-dca0027ba9a5",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/2-5/",
+      "targetStableId": "3b0d2110-f094-5d1e-a543-d6cd29897e2b",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/3-1/",
+      "targetStableId": "dee34589-7d66-5600-a723-9939a1653b71",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/3-2/",
+      "targetStableId": "e3befa8e-8a66-5065-a2c2-d51129d249df",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/4-1/",
+      "targetStableId": "56d6ce56-39fe-5cad-abb8-e5bcceef79b5",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/4-2/",
+      "targetStableId": "373cb445-6662-5080-af83-cbf389a102ea",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/4-3/",
+      "targetStableId": "52eff952-5c22-5e50-ad23-6261c3c07718",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/4-4/",
+      "targetStableId": "680341a3-8f64-5713-a308-543a24d343ef",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/5-1/",
+      "targetStableId": "34a32d2d-ba7f-57d6-accc-8919b48aff78",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/5-2/",
+      "targetStableId": "a3b105e7-af05-57b2-a364-5b16b9c77d66",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/5-3/",
+      "targetStableId": "e031fbe8-944a-5690-a179-7ccfbfe82076",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/6-1/",
+      "targetStableId": "5b1bcab2-4041-50c0-a7e4-7ac30c61f729",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/6-2/",
+      "targetStableId": "b029eb8c-be6a-55b3-ac2f-9339dad407df",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kompetence/6-3/",
+      "targetStableId": "99ab5e21-18b2-5f03-aaa0-79726681a48c",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/1-1-1/",
+      "targetStableId": "5e737690-44df-5dac-aa8a-04053b4e16b2",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/1-1-2/",
+      "targetStableId": "84fc60ca-5be3-5913-a22d-a71b2a2fd562",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/1-1-3/",
+      "targetStableId": "46bd0ba6-2e04-5c7b-ace8-60015500d406",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/1-1-4/",
+      "targetStableId": "ad616db6-71c1-59d7-abd4-a2253a6b1de1",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/1-2-1/",
+      "targetStableId": "f71e7203-f49d-5d4a-a3b6-69647f1886ad",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/1-2-2/",
+      "targetStableId": "368fee35-723e-5430-a6c3-6460d0801947",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/1-2-3/",
+      "targetStableId": "942a588c-13bc-5545-a3bf-2eb36fbd7b35",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/1-2-4/",
+      "targetStableId": "d5795a11-259d-5b05-a2c4-616ca9341708",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/1-2-5/",
+      "targetStableId": "37d197ce-4cdf-53e7-a277-05b0636a6f48",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-1-1/",
+      "targetStableId": "ec7140a5-17de-5388-a57c-f7d4c1f069bd",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-1-2/",
+      "targetStableId": "bfba9644-06f8-5cc5-ab67-6558783b1e43",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-1-3/",
+      "targetStableId": "058f855c-7c69-58be-a9ac-cc8fc9aec31a",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-1-4/",
+      "targetStableId": "7f12729f-0999-5a08-a33f-e0e3c7468ad4",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-2-1/",
+      "targetStableId": "ecfb6519-c893-50eb-a225-890d57554069",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-2-2/",
+      "targetStableId": "e6505230-d853-5b98-ada8-f26c6037bdd2",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-2-3/",
+      "targetStableId": "9c39ffd5-b44c-5476-a0db-867714bc7cf5",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-2-4/",
+      "targetStableId": "08e5f175-f21f-5d72-a9d2-823c5b9b0976",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-2-5/",
+      "targetStableId": "669808dc-ea4f-55a0-a264-0fc6a7848da5",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-2-6/",
+      "targetStableId": "ca2cb42c-6545-514c-ad3e-0ffd55442f16",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-3-1/",
+      "targetStableId": "059115f5-2bde-51a9-a677-022365859c26",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-3-2/",
+      "targetStableId": "de8c0f52-8f46-50ab-a35f-162afa8bb9da",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-4-1/",
+      "targetStableId": "76ec48a7-2bbc-55c9-a453-a8781da17caf",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/2-5-1/",
+      "targetStableId": "7de5be45-0e09-541f-a4f2-d385442a69b0",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/3-1-1/",
+      "targetStableId": "3b861665-7e4d-56e4-a82f-646bea1dc9a0",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/3-1-2/",
+      "targetStableId": "68b7ef05-5d67-5638-ac02-4c5221cbda9f",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/3-1-3/",
+      "targetStableId": "5f8b6bb1-31ba-5afd-a87d-9be2a1e56863",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/3-1-4/",
+      "targetStableId": "838bdadf-ebef-512e-af2d-51196cdc856b",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/3-2-1/",
+      "targetStableId": "33427bcd-9ce0-5298-ae37-daf964ffc41d",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/3-2-2/",
+      "targetStableId": "2ded6a77-dde5-5000-a40a-33ad4c54e1cf",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/3-2-3/",
+      "targetStableId": "056ae8f4-4915-54be-aae9-da93a37cb0e6",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/3-2-4/",
+      "targetStableId": "7b751729-ed15-5fdf-a20b-00d5ed4be239",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/3-2-5/",
+      "targetStableId": "9f473329-163b-5d08-afb7-b526a44ec010",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/3-2-6/",
+      "targetStableId": "136e9297-7844-538f-a2a8-942ae1ebae12",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/4-1-1/",
+      "targetStableId": "7c0cc655-5737-5468-a85c-48567aa1b19a",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/4-2-1/",
+      "targetStableId": "462d4cc9-6c61-5b3d-a587-f89249f01abc",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/4-2-2/",
+      "targetStableId": "5b1372e6-0de2-5bd1-a793-07dbc20a8628",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/4-2-3/",
+      "targetStableId": "3ae5b021-8874-56b9-a047-1a779c5f548f",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/4-2-4/",
+      "targetStableId": "2401f364-c57f-565b-aae6-4c22917a41da",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/4-2-5/",
+      "targetStableId": "200be649-50cf-5745-abaa-2f8deb479ac4",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/4-3-1/",
+      "targetStableId": "fe35d1c5-89bb-5a1c-a2a0-287ea0abb6d4",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/4-3-2/",
+      "targetStableId": "d6f12f52-f83d-5b95-abe7-93b866183a26",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/4-4-1/",
+      "targetStableId": "fab78ee0-8077-51e7-a77a-2025b6666df9",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/4-4-2/",
+      "targetStableId": "9e295409-18d6-5bd4-ac72-d743fe15f776",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/5-1-1/",
+      "targetStableId": "ae02e9fd-706c-5721-a2d7-0500feb09ea8",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/5-1-2/",
+      "targetStableId": "054062bc-e008-56f2-a909-47ac6e84a7b6",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/5-1-3/",
+      "targetStableId": "c34d2a07-6504-563c-ac72-424d7c02373f",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/5-2-1/",
+      "targetStableId": "36d36afd-91bd-53e4-aa07-3c985b995e55",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/5-2-2/",
+      "targetStableId": "c33c4aec-7233-5701-a675-6d4d3dfe7afb",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/5-2-3/",
+      "targetStableId": "fcf276da-459b-5723-a5bf-9b3a500d007e",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/5-3-1/",
+      "targetStableId": "c3a0ab60-1a79-5444-ab63-ef0b82916b0f",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/5-3-2/",
+      "targetStableId": "c34da8cd-3bf9-5070-ae47-baed6f809f85",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/6-1-1/",
+      "targetStableId": "cd61b1e1-f3b6-58f3-a5b3-d5220c0d2b27",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/6-1-2/",
+      "targetStableId": "02e2f11c-8183-59f9-afdf-01ace299d676",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/6-1-3/",
+      "targetStableId": "64d02ec3-1951-58c8-a382-796a9ed221d9",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/6-1-4/",
+      "targetStableId": "dddf8a4b-3486-5f33-a73f-639ae033063e",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/6-2-1/",
+      "targetStableId": "fd360abc-4792-588c-ac0d-cfb6274c9cde",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/6-2-2/",
+      "targetStableId": "3948e16d-c825-5a65-aa97-6098cac225a1",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/6-2-3/",
+      "targetStableId": "652bd288-2062-58ac-aa2c-8b53e08a0297",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/6-2-4/",
+      "targetStableId": "2b77168e-c36c-5984-a962-69d3b2301ade",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/6-3-1/",
+      "targetStableId": "3ede5e08-6a0d-5a6b-a05f-eac56b5c88ff",
+      "redirectType": 301
+    },
+    {
+      "oldPath": "/kriteria/6-3-2/",
+      "targetStableId": "928933b7-dea5-579b-a5d6-d9c37a8ec286",
+      "redirectType": 301
+    }
+  ],
+  "methodology": [
+    "Předkládaný nástroj vznikl jako podpora profesního učení studujících učitelství. Jeho cílem není pouze popsat, jaké kompetence by měl mít absolvent učitelství, ale především zachytit cestu, kterou studující během svého profesního rozvoje prochází. Kompetenční rámec je proto členěn do oblastí, které představují širší okruhy profesního fungování vyučujícího. Jednotlivé oblasti jsou dále rozpracovány do kompetencí a konkrétních kritérií profesního jednání. Kritéria jsou popsána prostřednictvím čtyř úrovní kvality, které umožňují sledovat postupný profesní růst, a doplněna mindsetem zachycujícím profesní přesvědčení vztahující se k dané oblasti pedagogické práce.",
+    "Úrovně nejsou chápány jako „nálepky“ či konečné hodnocení studujících, ale jako opora pro formativní práci, profesní růst a reflexi — mají pomoci odpovědět na otázky: Kde se právě nacházím? Co už zvládám? A kam se mohu posouvat dál?",
+    "Důležitým principem při tvorbě nástroje bylo, aby jednotlivé úrovně vycházely z toho, co lze skutečně pozorovat v profesním jednání studujících. Kritéria proto nejsou formulována primárně prostřednictvím produktů práce, například plánů výuky, ani prostřednictvím obtížně zachytitelných charakteristik. Zaměřují se na konkrétní projevy pedagogického jednání, které lze během výuky sledovat, dokumentovat a následně reflektovat. Díky tomu nástroj neosciluje mezi tím, co je a není možné v pedagogické situaci zachytit, ale vytváří společný základ pro pozorování výuky, poskytování zpětné vazby i vedení profesní reflexe opřené o důkazy z praxe. Právě tuto oporu v pozorovatelném jednání považujeme za zásadní.",
+    "Nástroj je současně záměrně vystavěn jako popisný. Neslouží tedy pouze k tomu, aby bylo možné studující „zařadit“ na určitou úroveň, ale především k tomu, aby se studující, univerzitní vyučující i provázející učitelé učili společně a profesně hovořit o výuce. Popisná formulace kritérií umožňuje vést rozhovor nad konkrétními situacemi a zkušenostmi z praxe místo obecných hodnotících soudů. Podporuje tak rozvoj profesního jazyka, který je důležitý nejen pro reflexi vlastní výuky, ale i pro spolupráci mezi všemi, kdo se podílejí na přípravě budoucích učitelů a učitelek.",
+    "Specifickou součástí nástroje je tzv. mindset, který doprovází každé kritérium. Mindset vyjadřuje profesní přesvědčení vztahující se k dané oblasti pedagogické práce — tedy to, jak vyučující o dané činnosti přemýšlí a jaký jí přikládá význam pro učení žáků a žákyň. Nesoustředí se proto pouze na to, co studující dělá, ale také proč to dělá a zda danému postupu skutečně věří.",
+    "Zařazení mindsetu vychází z předpokladu, že studující vstupují do učitelské přípravy již s určitými představami o tom, co znamená „dobře učit“. Tyto představy vznikají dlouhodobě na základě vlastních zkušeností v roli žáků a žákyň a často ovlivňují pedagogické jednání ještě dříve, než studující získají vlastní zkušenost s výukou. Právě proto považujeme za důležité, aby studující nepromýšleli pouze to, jak určitou profesní činnost provádět, ale také jak o ní přemýšlejí a zda je v souladu s jejich pojetím kvalitní výuky.",
+    "Mindset současně může pomoci porozumět situacím, kdy se studující v některé oblasti dlouhodobě neposouvá. Někdy totiž není problém v nedostatku znalostí nebo dovedností, ale v tom, že studující není vnitřně přesvědčen o významu dané kompetence pro učení žáků a žákyň. Pokud například nevěří, že formativní hodnocení podporuje učení, bude jej jen obtížně začleňovat do vlastní výuky, i když zná konkrétní postupy. V takové situaci může být užitečné vrátit se právě k mindsetu — tedy k otázce, jaké pojetí výuky a učení studující zastává a z jakých předpokladů jeho pedagogické jednání vychází. V tomto smyslu nástroj navazuje na pojetí reflexe typu double-loop learning (Argyris & Schön, 1974), které nesměřuje pouze k úpravě jednotlivých postupů, ale také k promýšlení hlubších předpokladů pedagogického jednání.",
+    "Mindset proto nechápeme jako doplněk k profesním dovednostem, ale jako jejich důležitou součást. Umožňuje propojit profesní jednání s hlubší reflexí vlastních přesvědčení a podporuje tak rozvoj, který nespočívá pouze ve změně jednotlivých postupů, ale i v proměně způsobu uvažování o výuce. V tomto smyslu nástroj navazuje na pojetí reflexe typu double-loop learning, které nesměřuje pouze k úpravě jednotlivých postupů, ale také k promýšlení hlubších předpokladů pedagogického jednání.",
+    "Nástroj tak propojuje sledování profesních dovedností, reflexi zkušenosti i práci s profesním přesvědčením do jednoho celku. Jeho cílem není pouze popsat kompetence budoucích učitelů a učitelek, ale vytvářet podmínky pro jejich dlouhodobý, reflektovaný a smysluplný profesní rozvoj."
+  ],
+  "editorialCorrections": [
+    "2.1.3, úroveň 3: V PDF je na konci buňky oříznutý začátek slova „cílů“; na webu je doplněno „c“ a koncová tečka."
+  ]
+}

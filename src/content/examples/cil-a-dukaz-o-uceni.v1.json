@@ -1,0 +1,63 @@
+{
+  "publicId": "cil-a-dukaz-o-uceni",
+  "title": "Cíl hodiny a důkaz o učení",
+  "type": "priprava",
+  "duration": "3 min čtení",
+  "summary": "Příprava hodiny o argumentaci propojuje cíl, učební činnost a závěrečný výstup.",
+  "context": {
+    "subject": "Český jazyk",
+    "school": "Střední škola",
+    "age": "15–18 let",
+    "situation": "Vyučující plánuje hodinu, ve které mají žáci rozlišit tvrzení a argument a vlastní tvrzení podpořit."
+  },
+  "topics": [
+    "cile",
+    "hodnoceni",
+    "materialy"
+  ],
+  "phases": [
+    "planovani"
+  ],
+  "questions": [
+    "Jaký konkrétní výkon dovolí ověřit cíl?",
+    "Co bude v žákovském výstupu důkazem porozumění?"
+  ],
+  "body": [
+    {
+      "heading": "Cíl",
+      "text": "Na konci hodiny žák v krátkém textu rozliší tvrzení od argumentu a napíše vlastní tvrzení podpořené relevantním argumentem."
+    },
+    {
+      "heading": "Učební činnost",
+      "text": "Dvojice porovnají dva krátké texty. V každém označí tvrzení a informace, které ho podporují. Své označení vysvětlí další dvojici."
+    },
+    {
+      "heading": "Ověření",
+      "text": "Každý žák na závěr samostatně napíše tvrzení k novému tématu a jeden argument. Vyučující sleduje, zda argument tvrzení skutečně podporuje, a podle výstupů upraví začátek další hodiny."
+    },
+    {
+      "heading": "Otázka do přípravy",
+      "text": "Pokud žák dokáže text správně označit, ale nevytvoří vlastní argument, kterou část cíle už výstup dokládá a kterou ještě ne?"
+    }
+  ],
+  "limitations": "Příprava ukazuje zamýšlený postup. Sama nedokládá, že se výuka podle plánu odehrála nebo že žáci cíle dosáhli.",
+  "links": [
+    {
+      "criterionCode": "2.1.2",
+      "level": 3,
+      "evidence": "Oddíly Cíl a Ověření.",
+      "commentary": "Příprava obsahuje ověřitelný cíl i odpovídající způsob ověření. Jde o model plánovaného jednání.",
+      "id": "eac369ca-3415-52e3-ae93-92c16f1286bc",
+      "criterionRevisionId": "e1c5465c-bdfe-5519-a9d7-322f758a7447"
+    }
+  ],
+  "id": "992f9101-5f39-5261-a615-55c35fcc7a28",
+  "revisionId": "ecd50f04-7d0e-5c54-ab02-f9ab48954b4e",
+  "status": "demo",
+  "author": "Autorský model pro digitální prototyp KRAAU",
+  "rights": {
+    "permissionStatus": "original-demo",
+    "scope": "Modelový text vytvořený pro prototyp; neobsahuje skutečné osobní údaje."
+  },
+  "reviewedAt": null
+}

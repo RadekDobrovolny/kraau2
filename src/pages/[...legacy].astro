@@ -1,0 +1,46 @@
+---
+import { framework, repository } from '../lib/repository';
+import { areaUrl, competencyUrl, criterionUrl } from '../lib/urls';
+export function getStaticPaths() {
+  return framework.aliases.map((alias) => {
+    const area = repository.listAreas().find((a) => a.id === alias.targetStableId);
+    const competency = repository.listCompetencies().find((c) => c.id === alias.targetStableId);
+    const criterion = repository.getCriterion(alias.targetStableId);
+    const target = area
+      ? areaUrl(area.code)
+      : competency
+        ? competencyUrl(competency.code)
+        : criterionUrl(criterion!.publicCode);
+    return {
+      params: { legacy: alias.oldPath.replace(/^\//, '').replace(/\/$/, '') },
+      props: { target },
+    };
+  });
+}
+interface Props {
+  target: string;
+}
+const { target } = Astro.props;
+---
+
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Obsah byl přesunut · KRAAU</title>
+    <link rel="canonical" href={new URL(target, Astro.site ?? Astro.url.origin).href} />
+    <meta name="robots" content="noindex,follow" />
+    <script is:inline define:vars={{ target }}>
+      location.replace(target + location.search + location.hash);
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content={`0;url=${target}`} />
+    </noscript>
+  </head>
+  <body>
+    <p>
+      Obsah najdete na nové adrese. <a href={target}>Otevřít stránku rámce</a>
+    </p>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "id": "8798cb8a-3374-5e30-a7c1-a460e0ea535b",
+  "criterionId": "5e737690-44df-5dac-aa8a-04053b4e16b2",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "PŘI PLÁNOVÁNÍ A REALIZACI VÝUKY ÚČELNĚ VYUŽÍVÁM ZNALOSTI A DOVEDNOSTI VYUČOVANÉHO OBORU.",
+  "mindset": "Jsem přesvědčen/a, že kvalitní výuka oboru se opírá o věcně správné a ověřené informace, zprostředkovává žákům a žákyním způsob myšlení typický pro daný obor a vychází z dlouhodobého zájmu vyučujícího o vývoj a proměny oboru.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 6
+  },
+  "levels": [
+    {
+      "id": "bd3eb99c-8534-5034-a273-053b14b184ce",
+      "level": 0,
+      "text": "Obsah vyučovaného oboru prozatím zprostředkovávám s jistou mírou nejistoty, s občasnými chybami či s nedostatečným porozuměním."
+    },
+    {
+      "id": "48c7a18b-092e-5d00-a73c-8b7e03d84db6",
+      "level": 1,
+      "text": "Obsah vyučovaného oboru zprostředkovávám věcně správně, s oporou o informace z VŠ studia a z učebních materiálů, které využívá škola, na níž vykonávám praxi (učebnice, pracovní sešity apod.)."
+    },
+    {
+      "id": "8fb0bf13-5e4f-5c3e-ac99-34b993b92b0e",
+      "level": 2,
+      "text": "Obsah vyučovaného oboru zprostředkovávám věcně správně, informace z VŠ studia a z učebních materiálů školy, na níž vykonávám praxi, místy rozšiřuji o další důvěryhodné zdroje či aktuální vědecká fakta."
+    },
+    {
+      "id": "16b02275-6881-5673-acb5-5a6053a6c2f4",
+      "level": 3,
+      "text": "Obsah vyučovaného oboru zprostředkovávám věcně správně, s oporou o pestré a důvěryhodné oborové zdroje i aktuální vědecká fakta. Svou výukou žákům a žákyním zprostředkovávám současně také způsob myšlení v daném oboru, jeho metody, případně etické otázky."
+    }
+  ]
+}

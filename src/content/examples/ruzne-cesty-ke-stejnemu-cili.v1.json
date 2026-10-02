@@ -1,0 +1,71 @@
+{
+  "publicId": "ruzne-cesty-ke-stejnemu-cili",
+  "title": "Různé cesty ke stejnému cíli",
+  "type": "priprava",
+  "duration": "4 min čtení",
+  "summary": "Společný matematický cíl, různá míra opory a navazující otázka pro žáky, kteří jsou hotovi dříve.",
+  "context": {
+    "subject": "Matematika",
+    "school": "Střední škola",
+    "age": "15–18 let",
+    "situation": "Třída bude interpretovat graf lineární funkce. Žáci přicházejí s různými předchozími zkušenostmi."
+  },
+  "topics": [
+    "diferenciace",
+    "materialy",
+    "cile"
+  ],
+  "phases": [
+    "planovani"
+  ],
+  "questions": [
+    "Co zůstává společné pro celou třídu?",
+    "Jaká opora odpovídá konkrétní potřebě?"
+  ],
+  "body": [
+    {
+      "heading": "Společný cíl",
+      "text": "Žáci vysvětlí, co sklon přímky vyjadřuje v dané situaci, a své vysvětlení opřou o dvě hodnoty z grafu."
+    },
+    {
+      "heading": "Nabídka opory",
+      "text": "V přípravě je varianta pracovního listu s vyznačenými souřadnicemi a pomocnými otázkami. Další varianta ponechává volbu bodů žákům. Rozdělení opory se opírá o předchozí krátký výstup, ne o trvalé skupiny „slabých“ a „silných“."
+    },
+    {
+      "heading": "Navazující úkol",
+      "text": "Žáci, kteří vysvětlení dokončí, porovnají dvě přímky a navrhnou reálnou situaci, ve které by rozdílné sklony dávaly smysl."
+    },
+    {
+      "heading": "Ověření",
+      "text": "Každý žák na závěr vysvětlí nový graf bez ohledu na to, jakou oporu při práci použil. Podle odpovědí bude upravena další příprava."
+    }
+  ],
+  "limitations": "Příprava nedokládá účinnost opory v konkrétní třídě. Potřeby žáků je nutné průběžně zjišťovat a podporu upravovat.",
+  "links": [
+    {
+      "criterionCode": "2.5.1",
+      "level": 3,
+      "evidence": "Oddíly Nabídka opory a Navazující úkol.",
+      "commentary": "Model plánuje více podob podpory podle různých potřeb a předchozích zkušeností žáků.",
+      "id": "9286442c-5775-5ca7-a0e8-bae7a805bd82",
+      "criterionRevisionId": "0bc19775-42ab-5bda-aea2-4ee0b4bfb5b5"
+    },
+    {
+      "criterionCode": "2.3.2",
+      "level": 2,
+      "evidence": "Oddíl Nabídka opory.",
+      "commentary": "Varianta materiálu je upravena pro konkrétní potřebu čtení grafu. Nejde o ukázku dlouhodobého způsobu práce.",
+      "id": "02a05783-7c8d-5274-a038-ee8f04f31d89",
+      "criterionRevisionId": "9a53a403-2ef3-5281-a90b-211cb2f7263b"
+    }
+  ],
+  "id": "0fe4be3d-a6ec-5227-af49-5c9fc25ac511",
+  "revisionId": "906ecc5d-71db-53c8-a725-a6fddcf12491",
+  "status": "demo",
+  "author": "Autorský model pro digitální prototyp KRAAU",
+  "rights": {
+    "permissionStatus": "original-demo",
+    "scope": "Modelový text vytvořený pro prototyp; neobsahuje skutečné osobní údaje."
+  },
+  "reviewedAt": null
+}

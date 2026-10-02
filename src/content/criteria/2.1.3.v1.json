@@ -1,0 +1,34 @@
+{
+  "id": "a5403746-7f63-5679-a138-a3bb0927ad8e",
+  "criterionId": "058f855c-7c69-58be-a9ac-cc8fc9aec31a",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Cíle výuky nastavuji tak, aby byly pro žáky a žákyně přiměřenou výzvou.",
+  "mindset": "Jsem přesvědčen/a, že cíle výuky mají pro žáky a žákyně představovat přiměřenou výzvu, která podporuje jejich učení.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 10
+  },
+  "levels": [
+    {
+      "id": "cc182f98-8c18-5619-a0f0-51caebd2ac62",
+      "level": 0,
+      "text": "Cíle výuky prozatím nastavuji podle tematického plánu. Nepřizpůsobuji je aktuální úrovni výkonu žáků a žákyň."
+    },
+    {
+      "id": "b0bea658-0e8b-5164-a34f-7fc1e7b078a3",
+      "level": 1,
+      "text": "Cíle vycházející z tematického plánu upravuji tak, aby byly pro žáky a žákyně výzvou, ale mnohdy jsou příliš obtížné, nebo naopak příliš snadné."
+    },
+    {
+      "id": "13a36a48-735f-5e8d-afc9-5e4ee6de4e32",
+      "level": 2,
+      "text": "Cíle vycházející z tematického plánu upravuji tak, aby pro žáky a žákyně byly přiměřenou výzvou."
+    },
+    {
+      "id": "04ea7f3b-86b9-5bf0-aadb-fbfd05f3c7f4",
+      "level": 3,
+      "text": "Cíle vycházející z tematického plánu upravuji tak, aby pro žáky a žákyně byly přiměřenou výzvou. Tam, kde je to vhodné, obsahuje můj plán i gradaci cílů."
+    }
+  ]
+}

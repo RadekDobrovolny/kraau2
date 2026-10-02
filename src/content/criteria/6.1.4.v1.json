@@ -1,0 +1,34 @@
+{
+  "id": "97647379-1868-51e2-ad9c-1fb000fd1ae6",
+  "criterionId": "dddf8a4b-3486-5f33-a73f-639ae033063e",
+  "editionId": "e1938dba-cd78-53b0-ae28-732bcbd172b0",
+  "title": "Vyhodnocuji, kdy, jak a s jakým cílem komunikovat s rodiči žáků a žákyň.",
+  "mindset": "Vnímám rodiče žáků a žákyň jako partnery v efektivní podpoře žáků a žákyň.",
+  "status": "imported",
+  "sourceLocator": {
+    "documentId": "db1122ff-d0cf-54e0-aadc-9d04acd1bef3",
+    "page": 28
+  },
+  "levels": [
+    {
+      "id": "7c6925b7-5ed3-5768-ae97-d593fa685bd3",
+      "level": 0,
+      "text": "O komunikaci s rodiči žáků a žákyň prozatím nepřemýšlím."
+    },
+    {
+      "id": "0db1744d-884d-564e-a293-29e7281de7ef",
+      "level": 1,
+      "text": "Identifikuji typické situace, kdy je komunikace s rodiči důležitá (např. podpora žáka a žákyně, řešení problému, sdílení úspěchu), ale prozatím neformuluji, jak a kdy komunikaci vést."
+    },
+    {
+      "id": "a65eb527-fbe9-53b5-aed2-cbde9b32f762",
+      "level": 2,
+      "text": "Identifikuji typické situace, kdy je komunikace s rodiči důležitá (např. podpora žáka a žákyně, řešení problému, sdílení úspěchu). Formuluji cíl komunikace s rodiči, navrhuji provázejícímu učiteli / provázející učitelce možný způsob komunikace."
+    },
+    {
+      "id": "451cbb32-f9ac-515a-af59-84e6bc5f6eec",
+      "level": 3,
+      "text": "Průběžně vyhodnocuji různé situace z hlediska potřeby komunikace s rodiči. Promýšlím vhodný cíl, formu i načasování komunikace a s provázejícím učitelem / provázející učitelkou konzultuji, jak by zvolený postup mohl být účinný pro podporu žáka a žákyně. Diskutuji, jak nastavit podporu u žáků a žákyň, jejichž rodiče se školou nekomunikují, tak, aby tím žáci a žákyně nebyli znevýhodněni."
+    }
+  ]
+}

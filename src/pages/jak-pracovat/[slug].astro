@@ -1,0 +1,51 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Icon from '../../components/Icon.astro';
+import { guides } from '../../data/guides';
+import { withBase, searchUrl } from '../../lib/urls';
+export function getStaticPaths() {
+  return guides.map((guide) => ({ params: { slug: guide.slug }, props: { guide } }));
+}
+interface Props {
+  guide: (typeof guides)[number];
+}
+const { guide } = Astro.props;
+---
+
+<Layout title={guide.title} current="jak-pracovat">
+  <div class="shell">
+    <Breadcrumbs
+      items={[
+        { label: 'Jak s rámcem pracovat', href: withBase('jak-pracovat/') },
+        { label: 'Průvodce reflexí' },
+      ]}
+    />
+    <header class="page-head">
+      <p class="eyebrow">Průvodce reflexí · {guide.duration}</p>
+      <h1>{guide.title}</h1>
+      <p class="lead">{guide.summary}</p>
+      <p class="small back-link">{guide.audience}</p>
+    </header>
+    <div class="prose">
+      <p class="editorial-label">Redakční průvodce pro prototyp · k metodickému ověření</p>
+      <ol class="guide-steps">
+        {guide.steps.map(([title, text]) => (
+          <li>
+            <h2>{title}</h2>
+            <p>{text}</p>
+          </li>
+        ))}
+      </ol>
+      <blockquote class="guide-question">{guide.question}</blockquote>
+      <div class="next-actions back-link">
+        <a class="button" href={searchUrl(guide.query)}>
+          Najít relevantní kritéria <Icon name="search" size={18} />
+        </a>
+        <a class="button secondary" href={withBase('ramec/')}>
+          Prozkoumat rámec <Icon name="arrow-right" size={18} />
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
